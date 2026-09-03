@@ -1,0 +1,66 @@
+---
+layout: default
+title: The walks
+permalink: /walks/
+description: All fifty walks in Mosey, each with its reason and its ring — the walk drawn as one line, radius for pace, thickness for the hill.
+---
+<style>
+  .walks-head { padding:28px 0 10px; max-width:66ch; }
+  .walks-head h1 { font-size:46px; line-height:1.08; margin:14px 0 14px; }
+  .walks-head p { color:var(--ink-2); margin:0; }
+  .place { padding-top:56px; }
+  .place > .kicker { padding-bottom:6px; border-bottom:1px solid var(--hair); }
+  .walk { position:relative; display:grid; place-items:center; min-height:560px; margin:8px 0; border-radius:14px; overflow:hidden; }
+  .walk .bg { position:absolute; inset:0; z-index:0; }
+  .walk canvas { position:absolute; width:520px; height:520px; left:50%; top:50%; transform:translate(-50%,-50%); z-index:1; }
+  .walk .text { position:relative; z-index:2; text-align:center; max-width:380px; padding:0 24px; text-shadow:0 2px 16px rgba(0,0,0,.5); }
+  .walk .text .kicker { margin-bottom:12px; }
+  .walk h2 { font-size:38px; line-height:1.06; margin:0 0 12px; }
+  .walk p { color:rgba(236,235,230,.82); font-size:15px; line-height:1.55; margin:0; }
+  .walk .goodbye { margin-top:16px; font-family:"New York", ui-serif, "Newsreader", Georgia, serif; font-style:italic; font-size:16px; color:rgba(236,235,230,.7); }
+  @media (max-width: 600px) { .walk { min-height:480px; } .walk canvas { width:440px; height:440px; } .walk h2 { font-size:30px; } .walk .text { max-width:300px; } }
+</style>
+<div class="walks-head">
+  <div class="kicker">The Round Book</div>
+  <h1>Fifty walks, each with a reason.</h1>
+  <p>Every walk is twenty-five minutes and drawn as one line: the ring runs clockwise from twelve, its radius is your pace, its thickness is the hill. Ten places and Anywhere, five walks each. The pad does the pace and the tilt; you do the walking.</p>
+</div>
+<div id="walks"></div>
+<script>
+(function(){
+  function go(){
+    if(!window.Mosey){ return setTimeout(go, 40); }
+    fetch('{{ site.baseurl }}/assets/data/rounds.json').then(r=>r.json()).then(function(data){
+      var root = document.getElementById('walks');
+      var byPlace = {}; var order = [];
+      data.rounds.forEach(function(r){ if(!byPlace[r.place]){ byPlace[r.place]=[]; order.push(r.place);} byPlace[r.place].push(r); });
+      var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      var rings = [];
+      order.forEach(function(place){
+        var sec = document.createElement('section'); sec.className='place';
+        sec.innerHTML = '<div class="kicker">'+place+'</div>';
+        byPlace[place].forEach(function(r){
+          var c = r.colors, rgb = function(v){ return 'rgb('+v.map(function(x){return Math.round(x*255)}).join(',')+')'; };
+          var el = document.createElement('article'); el.className='walk'; el.id = r.id;
+          el.innerHTML = '<div class="bg" style="background:radial-gradient(ellipse at 30% 20%, '+rgb(c[0])+' 0%, '+rgb(c[1])+' 45%, '+rgb(c[2])+' 100%)"></div>'
+            + '<canvas width="1040" height="1040" aria-hidden="true"></canvas>'
+            + '<div class="text"><div class="kicker">'+(r.kicker || 'Anywhere')+'</div><h2>'+r.title+'</h2><p>'+r.subtitle+'</p><div class="goodbye">'+r.goodbye+'</div></div>';
+          sec.appendChild(el);
+          var ring = new Mosey.Ring(el.querySelector('canvas'), r, { duration: data.duration, loopSeconds: 90, dpr: 2 });
+          ring.draw();
+          rings.push({ el: el, ring: ring });
+        });
+        root.appendChild(sec);
+      });
+      if (reduce) return;
+      var io = new IntersectionObserver(function(entries){
+        entries.forEach(function(e){ var x = rings.find(function(q){ return q.el===e.target; }); if(!x) return; if(e.isIntersecting) x.ring.start(); else x.ring.stop(); });
+      }, { rootMargin: '120px' });
+      rings.forEach(function(x){ io.observe(x.el); });
+      window.addEventListener('resize', function(){ rings.forEach(function(x){ x.ring.resize(); x.ring.draw(); }); });
+      if (location.hash) { var t = document.getElementById(location.hash.slice(1)); if (t) t.scrollIntoView(); }
+    });
+  }
+  go();
+})();
+</script>
