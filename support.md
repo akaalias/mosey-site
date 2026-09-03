@@ -3,7 +3,7 @@ layout: default
 title: Support
 permalink: /support/
 ---
-<div class="prose" style="padding-top:28px">
+<div class="prose" style="padding-top:28px" markdown="1">
 <div class="kicker">Mosey · Support</div>
 <h1 style="font-size:46px;line-height:1.08;margin:14px 0 24px">Here to help.</h1>
 

@@ -3,7 +3,7 @@ layout: default
 title: Privacy
 permalink: /privacy/
 ---
-<div class="prose" style="padding-top:28px">
+<div class="prose" style="padding-top:28px" markdown="1">
 <div class="kicker">Mosey · Privacy policy · 3 September 2026</div>
 <h1 style="font-size:46px;line-height:1.08;margin:14px 0 24px">Mosey collects nothing.</h1>
 

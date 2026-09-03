@@ -4,7 +4,7 @@ title: Terms of use
 permalink: /terms/
 description: "The terms for using Mosey: safety on a motorized walking pad, no medical advice, no warranty, limits of liability, and the trademarks of pad makers Mosey is not affiliated with."
 ---
-<div class="prose" style="padding-top:28px">
+<div class="prose" style="padding-top:28px" markdown="1">
 <div class="kicker">Mosey · Terms of use · 3 September 2026</div>
 <h1 style="font-size:46px;line-height:1.08;margin:14px 0 24px">Please read this before your first walk.</h1>
 
