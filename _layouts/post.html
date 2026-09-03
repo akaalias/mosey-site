@@ -1,0 +1,9 @@
+---
+layout: default
+---
+<article class="prose" style="padding-top:28px">
+  <div class="kicker">{{ page.date | date: "%-d %B %Y" }}{% if page.place %} · {{ page.place }}{% endif %}</div>
+  <h1 style="font-size:46px;line-height:1.08;margin:14px 0 24px">{{ page.title }}</h1>
+  {{ content }}
+  <p style="margin-top:40px"><a href="{{ site.baseurl }}/blog/">← All posts</a></p>
+</article>

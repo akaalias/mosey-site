@@ -1,0 +1,10 @@
+title: Mosey
+description: Walks that start themselves. Mosey drives your walking pad from your Mac.
+url: https://akaalias.github.io
+baseurl: /mosey-site
+markdown: kramdown
+permalink: /blog/:title/
+exclude: [README.md]
+defaults:
+  - scope: { path: "", type: posts }
+    values: { layout: post }

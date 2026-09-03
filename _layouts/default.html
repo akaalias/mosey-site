@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% if page.title %}{{ page.title }} · Mosey{% else %}Mosey — Walks that start themselves{% endif %}</title>
+<meta name="description" content="{{ page.description | default: site.description }}">
+<meta property="og:title" content="{{ page.title | default: 'Mosey — Walks that start themselves' }}">
+<meta property="og:description" content="{{ page.description | default: site.description }}">
+<meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/assets/img/briefing.jpg">
+<link rel="icon" href="{{ site.baseurl }}/assets/img/icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;1,6..72,300;1,6..72,400&display=swap">
+<style>
+  :root { --ground:#0f1117; --ground-2:#151823; --ink:#ecebe6; --ink-2:#b9bbc3; --muted:#858894; --hair:rgba(236,235,230,.14); --accent:#c8905a; --accent-soft:rgba(200,144,90,.14); }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--ground); color:var(--ink); font-family:-apple-system,"SF Pro Text","Helvetica Neue",Helvetica,Arial,sans-serif; font-size:17px; line-height:1.6; -webkit-font-smoothing:antialiased; }
+  a { color:var(--accent); text-decoration:none; border-bottom:1px solid var(--hair); }
+  a:hover, a:focus-visible { border-bottom-color:var(--accent); outline:none; }
+  .serif, h1, h2, h3 { font-family:"New York", ui-serif, "Newsreader", Georgia, serif; font-weight:300; margin:0; text-wrap:balance; }
+  .kicker { font-size:11px; font-weight:600; letter-spacing:.32em; text-transform:uppercase; color:var(--muted); }
+  nav { max-width:1040px; margin:0 auto; padding:22px 24px; display:flex; align-items:center; gap:28px; }
+  nav .brand { display:flex; align-items:center; gap:12px; border:0; color:var(--ink); font-family:"New York", ui-serif, "Newsreader", Georgia, serif; font-size:22px; }
+  nav .brand img { width:28px; height:28px; border-radius:7px; }
+  nav .links { margin-left:auto; display:flex; gap:22px; font-size:14px; }
+  nav .links a { border:0; color:var(--ink-2); }
+  nav .links a:hover { color:var(--ink); }
+  main { max-width:1040px; margin:0 auto; padding:0 24px 96px; }
+  .prose { max-width:66ch; }
+  .prose p { margin:0 0 16px; color:var(--ink-2); }
+  .prose h2 { font-size:30px; margin:40px 0 12px; }
+  .prose h3 { font-size:22px; font-weight:400; margin:28px 0 8px; }
+  .prose ul { color:var(--ink-2); padding-left:1.2em; }
+  .prose li { margin-bottom:6px; }
+  .prose img { max-width:100%; border-radius:8px; }
+  .btn { display:inline-block; padding:11px 26px; border-radius:999px; border:1px solid rgba(236,235,230,.55); background:rgba(236,235,230,.14); color:var(--ink); font-size:14px; font-weight:500; }
+  .btn:hover { background:rgba(236,235,230,.24); border-color:rgba(236,235,230,.8); }
+  .btn.quiet { background:none; border-color:transparent; color:var(--ink-2); }
+  footer { max-width:1040px; margin:0 auto; padding:28px 24px 48px; border-top:1px solid var(--hair); display:flex; flex-wrap:wrap; gap:18px 28px; font-size:13px; color:var(--muted); }
+  footer a { color:var(--ink-2); border:0; }
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
+</style>
+</head>
+<body>
+<nav>
+  <a class="brand" href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/assets/img/icon.png" alt="">Mosey</a>
+  <div class="links">
+    <a href="{{ site.baseurl }}/blog/">Blog</a>
+    <a href="{{ site.baseurl }}/support/">Support</a>
+  </div>
+</nav>
+<main>
+{{ content }}
+</main>
+<footer>
+  <span>© 2026 Alexis Rondeau</span>
+  <a href="{{ site.baseurl }}/support/">Support</a>
+  <a href="{{ site.baseurl }}/privacy/">Privacy</a>
+  <a href="{{ site.baseurl }}/blog/">Blog</a>
+  <span>Made in Berlin, at 2.0 km/h.</span>
+</footer>
+</body>
+</html>

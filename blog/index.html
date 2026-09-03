@@ -1,0 +1,15 @@
+---
+layout: default
+title: Blog
+---
+<div class="prose" style="padding-top:28px">
+  <div class="kicker">The lab book, in public</div>
+  <h1 style="font-size:46px;line-height:1.08;margin:14px 0 30px">Notes from building Mosey</h1>
+  {% for post in site.posts %}
+  <article style="padding:18px 0;border-top:1px solid var(--hair)">
+    <div class="kicker">{{ post.date | date: "%-d %B %Y" }}</div>
+    <h2 style="font-size:28px;margin:8px 0 6px"><a href="{{ site.baseurl }}{{ post.url }}" style="border:0;color:var(--ink)">{{ post.title }}</a></h2>
+    <p style="margin:0">{{ post.excerpt | strip_html | truncate: 180 }}</p>
+  </article>
+  {% endfor %}
+</div>
