@@ -13,7 +13,7 @@ I live in a flat in Berlin with chairs in it. I am not going to remove the conve
 
 That's what a walking pad that starts itself is. It's the house without conveniences, run in reverse. You don't decide to walk, any more than the shepherd decides. The belt starts moving under the desk, the way the sheep start moving up the hill, and you go with it for twenty-five minutes because it's easier than not going.
 
-Buettner's every-twenty-minutes became Mosey's rhythm almost exactly: twenty-five minutes walking, twenty-five resting, around and around until you say enough. The rest is as long as the walk on purpose. Nobody in Ikaria walks continuously. They walk to the café, and sit at the café, and walk home.
+Buettner's every-twenty-minutes became Mosey's rhythm almost exactly: twenty-five minutes walking, twenty-five resting, around and around, for as long as you like. The rest is as long as the walk on purpose. Nobody in Ikaria walks continuously. They walk to the café, and sit at the café, and walk home.
 
 ## Two more ideas from the same book
 

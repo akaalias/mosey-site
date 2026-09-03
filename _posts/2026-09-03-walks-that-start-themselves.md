@@ -5,7 +5,7 @@ description: Why Mosey exists — a walking pad, a laptop, and the discovery tha
 ---
 I bought a walking pad the way everyone does: with a plan. The plan was to walk while I worked. What actually happened is that the pad became a place to stack things.
 
-The problem isn't motivation. It's that a walk has a start, and a start is a decision, and by the third meeting of the morning I have no decisions left. So I wrote a small Mac app that makes the decision for me. You press one button when the day begins. The pad eases up to two kilometres an hour, walks you for twenty-five minutes, eases down, and rests for twenty-five. Then it starts again. It keeps going until you tell it you've had enough.
+The problem isn't motivation. It's that a walk has a start, and a start is a decision, and by the third meeting of the morning I have no decisions left. So I wrote a small Mac app that makes the decision for me. You press one button when the day begins. The pad eases up to two kilometres an hour, walks you for twenty-five minutes, eases down, and rests for twenty-five. Then it starts again. It keeps going for as long as you like.
 
 That's the whole idea. The name is Mosey, because the pace is a mosey, and because nobody has ever felt pressured by the word.
 
