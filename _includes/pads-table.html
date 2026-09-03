@@ -87,7 +87,9 @@
     count.textContent = short && !t ? n+' pads that work' : n+' of '+rows.length+' pads'; empty.classList.toggle('hidden',n>0);
   }
   q.addEventListener('input',apply); apply();
+  // The Pads page takes a search term from the URL hash (the homepage
+  // form deep-links there); the homepage's own anchors are not terms.
   var h=location.hash.replace('#','');
-  if(h){ q.value=decodeURIComponent(h); apply(); }
+  if(h && !short){ q.value=decodeURIComponent(h); apply(); }
 })();
 </script>
