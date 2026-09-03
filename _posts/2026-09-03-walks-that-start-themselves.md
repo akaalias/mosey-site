@@ -23,6 +23,6 @@ It replaced a countdown, a speed readout, and a progress bar. It reads better th
 
 ## What's next
 
-Mosey is going to the Mac App Store. The Nudge and three walks will be free; the whole book is one purchase. If you have a walking pad that speaks Bluetooth FTMS and a Mac, it should just work. If you don't have a pad, the app ships with a demo one, so you can see whether this is your kind of walking before you buy anything.
+Mosey is going to the Mac App Store, and the first version is free — all of it. If you have a walking pad that speaks Bluetooth FTMS and a Mac, it should just work. If you don't have a pad, the app ships with a demo one, so you can see whether this is your kind of walking before you buy anything.
 
 I'll write here as it happens.
