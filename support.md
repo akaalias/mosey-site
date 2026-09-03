@@ -21,4 +21,6 @@ FTMS pads wake at 1.0 km/h and sometimes ignore the first pace command. Mosey re
 
 ## Get in touch
 Email [alexis.rondeau@gmail.com](mailto:alexis.rondeau@gmail.com). Please include your macOS version and the name of your pad.
+
+<p style="margin-top:36px"><a href="{{ site.baseurl }}/privacy/">Privacy policy</a> · <a href="{{ site.baseurl }}/terms/">Terms of use</a></p>
 </div>

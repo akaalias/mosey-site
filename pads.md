@@ -26,6 +26,9 @@ description: Every walking pad and treadmill we know the Bluetooth protocol of �
 </tbody></table></div>
 <p style="max-width:66ch"><strong>How to check yours in one minute:</strong> turn the pad on, open your phone's Bluetooth settings or the app the box told you to install, and read the device name. <code>FS-…</code>, <code>JJ-BT…</code>, <code>KS-HD/AP/NG-…</code> or a Zwift badge means Mosey will find it. <code>PITPAT-…</code>, <code>RM-…</code> or an older <code>KS-…</code> means it won't. Or just install Mosey: if the pad speaks the standard it appears in the list during setup, and if it doesn't, nothing breaks.</p>
 
+<h2 style="margin-top:44px">A word on names</h2>
+<p style="max-width:66ch">Mosey is independent. It is not affiliated with, endorsed by or connected to any of the makers named on this page; their product names are their trademarks and appear here only to say which devices speak the standard. Compatibility is our best knowledge and can change with a firmware update. And a walking pad is a motorized machine: the <a href="{{ site.baseurl }}/terms/">terms</a> say how to use Mosey with one safely.</p>
+
 <h2 style="margin-top:44px">Your pad isn't here?</h2>
 <p style="max-width:66ch">Install Mosey and look: if your pad speaks the standard it simply appears in the list during setup. If it doesn't, nothing breaks — and <a href="mailto:alexis.rondeau@gmail.com?subject=My%20walking%20pad">an email with the model name</a> gets it onto this page, whichever way it turns out. Evidence for this list comes from the <a href="https://github.com/cagnulein/qdomyos-zwift">QDomyos-Zwift</a> device drivers, the walkingpad-controller and ph4-walkingpad projects, manufacturers' own Zwift and Kinomap pages, and our own pad.</p>
 </div>
