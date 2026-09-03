@@ -4,99 +4,13 @@ title: Which pads work
 permalink: /pads/
 description: Every walking pad and treadmill we know the Bluetooth protocol of — verified, should work, won't work — and a search box for yours.
 ---
-<style>
-  .padsearch { display:flex; gap:12px; align-items:center; margin:22px 0 10px; }
-  .padsearch input { flex:1; max-width:420px; padding:11px 16px; border-radius:999px; border:1px solid rgba(236,235,230,.35); background:rgba(0,0,0,.35); color:var(--ink); font-size:15px; outline:none; }
-  .padsearch input:focus { border-color:var(--accent); }
-  .padsearch .count { font-size:13px; color:var(--muted); }
-  .legend { display:flex; flex-wrap:wrap; gap:14px 22px; font-size:13px; color:var(--ink-2); margin:6px 0 18px; }
-  .dot { display:inline-block; width:8px; height:8px; border-radius:50%; margin-right:8px; vertical-align:middle; }
-  .ok { background:#7fb77e; } .likely { background:#c8905a; } .no { background:#8a4a4a; } .unk { background:#5a5d68; }
-  .table-wrap { overflow-x:auto; }
-  table { border-collapse:collapse; width:100%; font-size:14.5px; }
-  th, td { text-align:left; vertical-align:top; padding:12px 14px 12px 0; border-bottom:1px solid var(--hair); }
-  th { font-size:11px; font-weight:600; letter-spacing:.22em; text-transform:uppercase; color:var(--muted); }
-  td.model { white-space:nowrap; font-family:"New York", ui-serif, "Newsreader", Georgia, serif; font-size:18px; font-weight:300; }
-  td.status { white-space:nowrap; }
-  td.why { color:var(--ink-2); max-width:52ch; }
-  tr.hidden { display:none; }
-  .empty { padding:24px 0; color:var(--ink-2); }
-</style>
+
 <div class="prose" style="max-width:none;padding-top:28px">
 <div class="kicker">Which pads work</div>
 <h1 style="font-size:46px;line-height:1.08;margin:14px 0 18px;max-width:22ch">If your pad speaks Bluetooth FTMS, it works. Here's who does.</h1>
 <p style="max-width:66ch">Mosey contains no pad-specific code. It looks for the standard <em>Fitness Machine Service</em> that many pads broadcast, reads speed and incline from it, and drives the belt through it. So the question is never "does Mosey support my pad" but "does my pad speak the standard". Two rules of thumb: a listing that says <strong>Zwift</strong> or <strong>Kinomap</strong> compatible almost certainly does; one that says "works with our app only" almost certainly doesn't. Pads without incline walk the same rounds flat.</p>
 
-<div class="padsearch">
-  <input id="q" type="search" placeholder="Search your pad — brand or model" aria-label="Search pads" autocomplete="off">
-  <span class="count" id="count"></span>
-</div>
-<div class="legend">
-  <span><i class="dot ok"></i>Verified on real hardware</span>
-  <span><i class="dot likely"></i>Should work — FTMS documented</span>
-  <span><i class="dot no"></i>Won't work — proprietary protocol</span>
-  <span><i class="dot unk"></i>Unknown — tell us</span>
-</div>
-
-<div class="table-wrap">
-<table id="pads">
-<thead><tr><th>Pad</th><th>Status</th><th>Why we think so</th><th>Incline</th></tr></thead>
-<tbody>
-<tr><td class="model">Sportstech sPad500</td><td class="status"><i class="dot ok"></i>Verified</td><td class="why">The pad Mosey was built on. Speed, incline, start, stop and pace all confirmed live. Its FitShow module exposes standard FTMS alongside the vendor protocol.</td><td>0–5 %</td></tr>
-<tr><td class="model">Sportstech sWalk</td><td class="status"><i class="dot likely"></i>Should work</td><td class="why">FTMS confirmed by Sportstech's own Zwift list and QZ users. Some reports of a flaky link; the protocol is right.</td><td>—</td></tr>
-<tr><td class="model">Sportstech sWalk Plus</td><td class="status"><i class="dot likely"></i>Should work</td><td class="why">Same family and module as the sWalk.</td><td>—</td></tr>
-<tr><td class="model">Sportstech F37s</td><td class="status"><i class="dot likely"></i>Should work</td><td class="why">FTMS per Sportstech's Zwift list. A full-size treadmill.</td><td>yes</td></tr>
-<tr><td class="model">KingSmith WalkingPad Z1</td><td class="status"><i class="dot likely"></i>Should work</td><td class="why">Routed to the generic FTMS driver in QZ. Some firmware gates control behind a vendor unlock; readings work regardless.</td><td>—</td></tr>
-<tr><td class="model">KingSmith WalkingPad R3 Hybrid+</td><td class="status"><i class="dot likely"></i>Should work</td><td class="why">FTMS confirmed in QZ's device table.</td><td>—</td></tr>
-<tr><td class="model">KingSmith WalkingPad X218</td><td class="status"><i class="dot likely"></i>Should work</td><td class="why">FTMS confirmed in QZ's device table.</td><td>—</td></tr>
-<tr><td class="model">KingSmith WalkingPad A1</td><td class="status"><i class="dot no"></i>Won't work</td><td class="why">Proprietary KingSmith protocol, no FTMS. Reverse-engineered by the ph4-walkingpad project; Mosey speaks only the standard.</td><td>—</td></tr>
-<tr><td class="model">KingSmith WalkingPad A1 Pro</td><td class="status"><i class="dot no"></i>Won't work</td><td class="why">Proprietary, no FTMS.</td><td>—</td></tr>
-<tr><td class="model">KingSmith WalkingPad C1</td><td class="status"><i class="dot no"></i>Won't work</td><td class="why">Proprietary, no FTMS.</td><td>—</td></tr>
-<tr><td class="model">KingSmith WalkingPad C2</td><td class="status"><i class="dot no"></i>Won't work</td><td class="why">Proprietary, no FTMS.</td><td>—</td></tr>
-<tr><td class="model">KingSmith WalkingPad R1 / R1 Pro</td><td class="status"><i class="dot no"></i>Won't work</td><td class="why">Proprietary, no FTMS.</td><td>—</td></tr>
-<tr><td class="model">KingSmith WalkingPad R2</td><td class="status"><i class="dot no"></i>Won't work</td><td class="why">A second, different KingSmith protocol. No FTMS.</td><td>—</td></tr>
-<tr><td class="model">KingSmith WalkingPad X21</td><td class="status"><i class="dot no"></i>Won't work</td><td class="why">Same second protocol as the R2. No FTMS.</td><td>—</td></tr>
-<tr><td class="model">KingSmith K12 Pro / MXG / G1C</td><td class="status"><i class="dot no"></i>Won't work</td><td class="why">KingSmith's second protocol. The brand runs at least three incompatible Bluetooth stacks; only Z1, R3 and X218 speak the standard.</td><td>—</td></tr>
-<tr><td class="model">Urevo SpaceWalk 3S (URTM024)</td><td class="status"><i class="dot likely"></i>Should work</td><td class="why">FTMS confirmed in QZ's source.</td><td>—</td></tr>
-<tr><td class="model">Urevo SpaceWalk E1L</td><td class="status"><i class="dot no"></i>Won't work</td><td class="why">Proprietary — unlike its sibling. The treadspan project needed a hardware bridge imitating the vendor app.</td><td>—</td></tr>
-<tr><td class="model">Urevo SpaceWalk E4W</td><td class="status"><i class="dot unk"></i>Unknown</td><td class="why">Sold with the UREVO SmartCoach app; no FTMS evidence either way yet.</td><td>—</td></tr>
-<tr><td class="model">Mobvoi Home Treadmill / Pro / Plus</td><td class="status"><i class="dot likely"></i>Should work</td><td class="why">Mobvoi advertises Zwift and Kinomap, which are FTMS-only; QZ confirms FTMS.</td><td>—</td></tr>
-<tr><td class="model">Toputure TP6</td><td class="status"><i class="dot likely"></i>Should work</td><td class="why">Explicitly flagged FTMS in QZ.</td><td>—</td></tr>
-<tr><td class="model">WELLFIT walking pads and TM treadmills</td><td class="status"><i class="dot likely"></i>Should work</td><td class="why">WELLFIT states its machines support FitShow, Zwift, Kinomap "and other apps that support the FTMS protocol".</td><td>some models</td></tr>
-<tr><td class="model">FYSIQ walking pad</td><td class="status"><i class="dot likely"></i>Should work</td><td class="why">The listing states the FTMS Bluetooth protocol outright.</td><td>—</td></tr>
-<tr><td class="model">LifeSmart TM series</td><td class="status"><i class="dot likely"></i>Should work</td><td class="why">FTMS confirmed in QZ. Full-size treadmills.</td><td>yes</td></tr>
-<tr><td class="model">THERUN T15</td><td class="status"><i class="dot likely"></i>Should work</td><td class="why">FTMS confirmed in QZ.</td><td>yes</td></tr>
-<tr><td class="model">Egofit Walker Pro / Plus (M1T)</td><td class="status"><i class="dot likely"></i>Should work</td><td class="why">Uses the FitShow app, and FitShow modules expose standard FTMS beside the vendor protocol — the same pattern as the sPad500. Not yet verified by us.</td><td>fixed 5 %</td></tr>
-<tr><td class="model">Any pad sold with the "FitShow" app (FS-… names)</td><td class="status"><i class="dot likely"></i>Should work</td><td class="why">The FitShow module answers both its own protocol and FTMS. Common across the budget tier.</td><td>varies</td></tr>
-<tr><td class="model">Bluefin Fitness Task 2.0</td><td class="status"><i class="dot likely"></i>Should work</td><td class="why">Advertises Kinomap, which is FTMS-only. Unverified.</td><td>—</td></tr>
-<tr><td class="model">DeerRun (all models, PitPat app)</td><td class="status"><i class="dot no"></i>Won't work</td><td class="why">The PitPat protocol is proprietary with an unlock handshake and no FTMS fallback.</td><td>—</td></tr>
-<tr><td class="model">Superun (PitPat app)</td><td class="status"><i class="dot no"></i>Won't work</td><td class="why">Same PitPat module as DeerRun.</td><td>—</td></tr>
-<tr><td class="model">Sperax RM01 / RM-02 / RM-P series</td><td class="status"><i class="dot no"></i>Won't work</td><td class="why">Proprietary (Sperax Fitness app), no FTMS. Firmware varies across batches; we've seen no FTMS unit.</td><td>—</td></tr>
-<tr><td class="model">LifeSpan treadmill desks</td><td class="status"><i class="dot no"></i>Won't work</td><td class="why">Proprietary serial protocol.</td><td>—</td></tr>
-<tr><td class="model">Goplus / Gymax walking pads</td><td class="status"><i class="dot unk"></i>Unknown</td><td class="why">Sold with the Gymax app; protocol undocumented.</td><td>—</td></tr>
-<tr><td class="model">Lichico / YRUN (Besyfit app)</td><td class="status"><i class="dot unk"></i>Unknown</td><td class="why">Protocol undocumented.</td><td>some models</td></tr>
-<tr><td class="model">Citysports ZX1 and others</td><td class="status"><i class="dot unk"></i>Unknown</td><td class="why">OEM-rebadged; the Bluetooth module can differ batch to batch.</td><td>—</td></tr>
-<tr><td class="model">KESSER walking pads</td><td class="status"><i class="dot unk"></i>Unknown</td><td class="why">OEM-rebadged; undocumented.</td><td>—</td></tr>
-<tr><td class="model">Redliro walking pads</td><td class="status"><i class="dot unk"></i>Unknown</td><td class="why">Undocumented.</td><td>—</td></tr>
-<tr><td class="model">Walkolution</td><td class="status"><i class="dot no"></i>Won't work</td><td class="why">Manual, motor-less pads — there is no belt to drive.</td><td>—</td></tr>
-</tbody>
-</table>
-</div>
-<p class="empty hidden" id="empty">No match. If it says Zwift or Kinomap on the box it very likely works — and either way we'd like to know: <a href="mailto:alexis.rondeau@gmail.com?subject=My%20walking%20pad">tell us your pad</a>.</p>
-
+{% include pads-table.html %}
 <h2 style="margin-top:44px">Your pad isn't here?</h2>
 <p style="max-width:66ch">Install Mosey and look: if your pad speaks the standard it simply appears in the list during setup. If it doesn't, nothing breaks — and <a href="mailto:alexis.rondeau@gmail.com?subject=My%20walking%20pad">an email with the model name</a> gets it onto this page, whichever way it turns out. Evidence for this list comes from the <a href="https://github.com/cagnulein/qdomyos-zwift">QDomyos-Zwift</a> device drivers, the walkingpad-controller and ph4-walkingpad projects, manufacturers' own Zwift and Kinomap pages, and our own pad.</p>
 </div>
-<script>
-(function(){
-  var q=document.getElementById('q'), rows=Array.prototype.slice.call(document.querySelectorAll('#pads tbody tr')), count=document.getElementById('count'), empty=document.getElementById('empty');
-  function apply(){
-    var t=q.value.trim().toLowerCase(), n=0;
-    rows.forEach(function(r){ var hit=!t||r.textContent.toLowerCase().indexOf(t)>=0; r.classList.toggle('hidden',!hit); if(hit)n++; });
-    count.textContent=n+' of '+rows.length+' pads'; empty.classList.toggle('hidden',n>0);
-  }
-  q.addEventListener('input',apply); apply();
-  var h=location.hash.replace('#','');
-  if(h){ q.value=decodeURIComponent(h); apply(); }
-})();
-</script>

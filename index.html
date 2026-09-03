@@ -67,16 +67,13 @@ description: Mosey drives your walking pad from your Mac. The Nudge walks twenty
   <div class="kicker">Which pads</div>
   <h2 class="serif" style="font-size:40px;margin:12px 0 4px">Any pad that speaks Bluetooth FTMS.</h2>
   <p style="color:var(--ink-2);max-width:60ch;margin:8px 0 0">Mosey has no pad-specific code: it looks for the standard Fitness Machine Service and drives whatever answers. Verified on the Sportstech sPad500; documented on KingSmith's Z1, R3 and X218, Urevo's SpaceWalk 3S, Mobvoi, WELLFIT and every pad that ships with the FitShow app. KingSmith's older models, DeerRun and Sperax run their own protocols and won't.</p>
-  <form class="padsearch" action="{{ site.baseurl }}/pads/" method="get" onsubmit="location.href='{{ site.baseurl }}/pads/#'+encodeURIComponent(this.q.value);return false" style="display:flex;gap:12px;align-items:center;margin:22px 0 0;flex-wrap:wrap">
-    <input name="q" type="search" placeholder="Search your pad — brand or model" aria-label="Search pads" style="flex:1;max-width:420px;padding:11px 16px;border-radius:999px;border:1px solid rgba(236,235,230,.35);background:rgba(0,0,0,.35);color:var(--ink);font-size:15px;outline:none">
-    <button class="btn" type="submit">Check my pad</button>
-    <a class="btn quiet" href="{{ site.baseurl }}/pads/">See the full list →</a>
-  </form>
   <div class="row">
     <div class="cell"><b>Verified</b><span>Sportstech sPad500 — speed and incline, 0–5 %, tested every day.</span></div>
     <div class="cell"><b>Should work</b><span>Twenty-odd pads with FTMS documented by Zwift, Kinomap or the QZ project.</span></div>
     <div class="cell"><b>No pad yet?</b><span>Mosey ships a demo pad so you can see every screen before you buy one.</span></div>
   </div>
+  {% include pads-table.html %}
+  <p style="color:var(--ink-2);max-width:60ch;margin:18px 0 0">Not here? If the box says Zwift or Kinomap it very likely works. <a href="mailto:alexis.rondeau@gmail.com?subject=My%20walking%20pad">Tell us your pad</a> and it goes on the list either way.</p>
 </section>
 
 <section class="price">
