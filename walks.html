@@ -52,16 +52,23 @@ description: All fifty walks in Mosey, each with its reason and its ring — the
       });
       // Size the canvases only once they are in the document (a canvas
       // measured before layout is 1×1 and stretches into a blur).
+      // A still of each ring first — cheap, and it is what a reader
+      // scrolling past sees; the live version only for the ones in view.
       rings.forEach(function(x){
-        x.ring = new Mosey.Ring(x.el.querySelector('canvas'), x.round, { duration: data.duration, loopSeconds: 90, dpr: 2 });
+        x.ring = new Mosey.Ring(x.el.querySelector('canvas'), x.round, { duration: data.duration, loopSeconds: 90, dpr: 2, still: true });
         x.ring.draw();
       });
       if (reduce) return;
       var io = new IntersectionObserver(function(entries){
-        entries.forEach(function(e){ var x = rings.find(function(q){ return q.el===e.target; }); if(!x) return; if(e.isIntersecting) x.ring.start(); else x.ring.stop(); });
+        entries.forEach(function(e){
+          var x = rings.find(function(q){ return q.el===e.target; }); if(!x) return;
+          if (e.isIntersecting) { x.ring.opts.still = false; x.ring.start(); }
+          else { x.ring.stop(); }
+        });
       }, { rootMargin: '120px' });
       rings.forEach(function(x){ io.observe(x.el); });
       window.addEventListener('resize', function(){ rings.forEach(function(x){ x.ring.resize(); x.ring.draw(); }); });
+      if (window.ResizeObserver) { var ro = new ResizeObserver(function(){ rings.forEach(function(x){ x.ring.resize(); x.ring.draw(); }); }); ro.observe(root); }
       if (location.hash) { var t = document.getElementById(location.hash.slice(1)); if (t) t.scrollIntoView(); }
     });
   }
