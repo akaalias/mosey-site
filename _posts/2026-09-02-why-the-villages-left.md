@@ -3,6 +3,8 @@ title: Why the villages left
 place: Berlin
 description: Mosey's walks used to be set in the Blue Zones themselves — four villages, seen through the eyes of their oldest residents. Here's why that was wrong, and what survived.
 ---
+> *Updated 4 September 2026: the rhythm described here has since been corrected. The finding says get up every twenty minutes; it never says for how long. Mosey now stands by for twenty minutes and walks you three to twenty, each walk its own length — fifty-two of them.*
+
 For most of August, every walk in Mosey took place in a Blue Zone. There was a Sardinian village with a passeggiata at dusk. There was an Okinawan coast road in the morning, a garden lane where someone's grandmother looked up from her vegetables. Fifteen walks, then twenty, across two invented towns with real DNA, and each one framed from inside a long life: the ninety-year-old who has watered those balcony plants every evening for forty years.
 
 I loved it. I also stopped using it in about a week, which is the only review that counts.

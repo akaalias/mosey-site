@@ -3,6 +3,8 @@ title: Move naturally
 place: Sardinia, Okinawa, Ikaria, Nicoya, Loma Linda
 description: What the Blue Zones research says about movement, and the one idea from it that became Mosey's engine — a convenience that creates movement instead of removing it.
 ---
+> *Updated 4 September 2026: the rhythm described here has since been corrected. The finding says get up every twenty minutes; it never says for how long. Mosey now stands by for twenty minutes and walks you three to twenty, each walk its own length — fifty-two of them.*
+
 When I started reading about the Blue Zones, the five places where people live measurably longer, I expected a diet chapter and a jogging chapter. There's a diet chapter. There is no jogging chapter.
 
 The longest-lived people in the world don't exercise. Dan Buettner's phrase for what they do instead is *move naturally*: they are nudged into moving about every twenty minutes, by gardening, by kneading bread, by houses without conveniences, by going everywhere on foot. Movement isn't scheduled; it's engineered into the day. The Sardinian shepherd walks eight kilometres because that's where the sheep are. The Okinawan grandmother gets up off the floor thirty times a day because there are no chairs.

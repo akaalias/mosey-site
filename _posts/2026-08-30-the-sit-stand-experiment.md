@@ -3,6 +3,8 @@ title: The sit-stand experiment
 place: Berlin
 description: The random thought in June that led, a month later, to a walking pad — and the one thing it taught me that the standing-desk years never did.
 ---
+> *Updated 4 September 2026: the rhythm described here has since been corrected. The finding says get up every twenty minutes; it never says for how long. Mosey now stands by for twenty minutes and walks you three to twenty, each walk its own length — fifty-two of them.*
+
 On the first of June I had a completely random thought: *alternate between sitting and standing, at most twenty-five minutes standing per round.* Only during working hours, nine to three. No app, no goal, no streak. The emphasis was on the switching, not on the standing.
 
 I'd done the standing-desk thing a few years earlier, the way everyone did it: stand for most of the day, white-knuckle it, feel virtuous. After three months I was incredibly stiff and my ring said nothing had changed. Not fitness, not weight, not sleep. Nothing.

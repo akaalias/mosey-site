@@ -3,6 +3,8 @@ title: Walks that start themselves
 place: Berlin
 description: Why Mosey exists — a walking pad, a laptop, and the discovery that the only walk you take is the one that starts without you.
 ---
+> *Updated 4 September 2026: the rhythm described here has since been corrected. The finding says get up every twenty minutes; it never says for how long. Mosey now stands by for twenty minutes and walks you three to twenty, each walk its own length — fifty-two of them.*
+
 I bought a walking pad the way everyone does: with a plan. The plan was to walk while I worked. What actually happened is that the pad became a place to stack things.
 
 The problem isn't motivation. It's that a walk has a start, and a start is a decision, and by the third meeting of the morning I have no decisions left. So I wrote a small Mac app that makes the decision for me. You press one button when the day begins. The pad eases up to two kilometres an hour, walks you for twenty-five minutes, eases down, and rests for twenty-five. Then it starts again. It keeps going for as long as you like.
