@@ -4,13 +4,13 @@ title: Privacy
 permalink: /privacy/
 ---
 <div class="prose" style="padding-top:28px" markdown="1">
-<div class="kicker">Mosey · Privacy policy · 3 September 2026</div>
+<div class="kicker">Mosey · Privacy policy · 16 September 2026</div>
 <h1 style="font-size:46px;line-height:1.08;margin:14px 0 24px">Mosey collects nothing.</h1>
 
 Mosey runs entirely on your Mac. It has no account, no analytics, no advertising, and no servers of its own. Nothing you do in Mosey leaves your computer.
 
 ## Bluetooth
-Mosey uses Bluetooth only to talk to the walking pad you chose during setup: to read its speed, incline and distance, and to start, stop and pace the belt. The pad's identifier is stored on your Mac so Mosey can find the same pad again. It is never transmitted anywhere.
+Mosey uses Bluetooth only to talk to the walking pad you chose during setup: to read its speed, incline, distance and — on pads that count footfalls — its step count, which is how Mosey knows someone is on the belt; and to start, stop and pace the belt. The step count is read once a second and used on the spot; it is not stored. The pad's identifier is stored on your Mac so Mosey can find the same pad again. It is never transmitted anywhere.
 
 ## What is stored on your Mac
 Your first name, if you gave one; the identifier of your pad; whether you finished setup; and whether you chose the demo pad. All of it stays in your Mac's application preferences and is removed when you delete the app.

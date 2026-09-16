@@ -23,7 +23,7 @@ description: All fifty walks in Mosey, each with its reason and its ring — the
 <div class="walks-head">
   <div class="kicker">The Round Book</div>
   <h1>Fifty-two walks, three to twenty minutes, each with a reason.</h1>
-  <p>Every walk has its own length — the mailbox is three minutes, the trailhead is twenty — and is drawn as one line: the ring runs clockwise from twelve, its radius is your pace, its thickness is the hill, its minutes sit in the middle. Ten places and Anywhere. The pad does the pace and the tilt; you do the walking.</p>
+  <p>Every walk has its own length — the mailbox is three minutes, the trailhead is twenty — and is drawn as one line: the ring runs clockwise from twelve, its radius is your pace, its thickness is the hill, its minutes sit in the middle. Ten places and Anywhere, listed here the way the app's contents page lists them: by how much time you have. The belt holds the door at a crawl until you've stepped on; from there the pad does the pace and the tilt, and you do the walking.</p>
 </div>
 <div id="walks"></div>
 <script>
@@ -32,19 +32,22 @@ description: All fifty walks in Mosey, each with its reason and its ring — the
     if(!window.Mosey){ return setTimeout(go, 40); }
     fetch('{{ site.baseurl }}/assets/data/rounds.json').then(r=>r.json()).then(function(data){
       var root = document.getElementById('walks');
-      var byPlace = {}; var order = [];
-      data.rounds.forEach(function(r){ if(!byPlace[r.place]){ byPlace[r.place]=[]; order.push(r.place);} byPlace[r.place].push(r); });
+      // The chapters are the book's bands (three to five minutes, six to
+      // ten, …); the place stays on each walk's own kicker.
+      var bands = data.bands || [{ title: 'All the strolls', min: 0, max: 999 }];
       var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
       var rings = [];
-      order.forEach(function(place){
+      bands.forEach(function(band){
+        var inBand = data.rounds.filter(function(r){ return r.minutes >= band.min && r.minutes <= band.max; });
+        if (!inBand.length) return;
         var sec = document.createElement('section'); sec.className='place';
-        sec.innerHTML = '<div class="kicker">'+place+'</div>';
-        byPlace[place].forEach(function(r){
+        sec.innerHTML = '<div class="kicker">'+band.title+'</div>';
+        inBand.forEach(function(r){
           var c = r.colors, rgb = function(v){ return 'rgb('+v.map(function(x){return Math.round(x*255)}).join(',')+')'; };
           var el = document.createElement('article'); el.className='walk'; el.id = r.id;
           el.innerHTML = '<div class="bg" style="background:radial-gradient(ellipse at 30% 20%, '+rgb(c[0])+' 0%, '+rgb(c[1])+' 45%, '+rgb(c[2])+' 100%)"></div>'
             + '<canvas width="1040" height="1040" aria-hidden="true"></canvas>'
-            + '<div class="text"><div class="kicker">'+(r.kicker || 'Anywhere')+'</div><h2>'+r.title+'</h2><p>'+r.subtitle+'</p><div class="goodbye">'+r.goodbye+'</div></div>';
+            + '<div class="text"><div class="kicker">'+(r.kicker || 'Anywhere')+' · '+r.minutes+' min</div><h2>'+r.title+'</h2><p>'+r.subtitle+'</p><div class="goodbye">'+r.goodbye+'</div></div>';
           sec.appendChild(el);
           rings.push({ el: el, round: r });
         });
@@ -55,7 +58,7 @@ description: All fifty walks in Mosey, each with its reason and its ring — the
       // A still of each ring first — cheap, and it is what a reader
       // scrolling past sees; the live version only for the ones in view.
       rings.forEach(function(x){
-        x.ring = new Mosey.Ring(x.el.querySelector('canvas'), x.round, { duration: data.duration, loopSeconds: 90, dpr: 2, still: true });
+        x.ring = new Mosey.Ring(x.el.querySelector('canvas'), x.round, { duration: x.round.duration || data.duration, loopSeconds: 90, dpr: 2, still: true });
         x.ring.draw();
       });
       if (reduce) return;

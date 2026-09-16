@@ -72,7 +72,8 @@
       this.canvas = canvas;
       this.ctx = canvas.getContext('2d');
       this.opts = Object.assign({ duration: 1500, fraction: 0, loopSeconds: 0, still: false, walker: true, dpr: Math.min(2, global.devicePixelRatio || 1) }, opts || {});
-      this.data = prepare(round, this.opts.duration);
+      // The v3 book: every round carries its own duration; the option is the fallback.
+      this.data = prepare(round, round.duration || this.opts.duration);
       this.t0 = performance.now() / 1000 + (round.id ? round.id.length * 1.7 : 0);
       this.running = false;
       this._frame = this._frame.bind(this);

@@ -11,6 +11,7 @@ description: "The longest-lived people are nudged into moving every twenty minut
   a.fn { font-size:11px; vertical-align:super; margin-left:3px; border:0; color:var(--accent); }
   .source { font-size:13px; color:var(--muted); max-width:66ch; margin:40px 0 0; padding-top:14px; border-top:1px solid var(--hair); }
   .hero .cta { display:flex; gap:14px; align-items:center; flex-wrap:wrap; }
+  .hero .cta .free { font-size:13px; color:var(--muted); }
   .hero .ring { position:relative; aspect-ratio:1; }
   .hero .ring canvas { width:100%; height:100%; display:block; }
   .shot { margin:24px 0 0; border-radius:10px; overflow:hidden; border:1px solid var(--hair); box-shadow:0 30px 80px rgba(0,0,0,.45); }
@@ -39,32 +40,37 @@ description: "The longest-lived people are nudged into moving every twenty minut
     <p class="lede">The world's longest-lived people don't exercise. In the Blue Zones they are nudged into moving about every twenty minutes, because movement is built into their days, not scheduled.<a class="fn" href="#source-1" aria-label="Source">1</a></p>
     <p class="lede">Mosey builds that nudge into your workday. Your walking pad starts on its own — an invitation to a walk that has already begun.</p>
     <div class="cta">
-      <a class="btn" href="{{ site.baseurl }}/blog/">Coming to the Mac App Store</a>
+      {% if site.store_url %}
+      <a class="btn" href="{{ site.store_url }}">Download on the Mac App Store</a>
+      <span class="free">Free. No account, nothing to unlock.</span>
+      {% else %}
+      <a class="btn" href="#store">Coming to the Mac App Store</a>
+      {% endif %}
       <a class="btn quiet" href="{{ site.baseurl }}/blog/walks-that-start-themselves/">Read why →</a>
     </div>
   </div>
   <div class="ring"><canvas id="hero-ring" width="640" height="640" role="img" aria-label="The ring: a walk drawn as a single brushed loop, its minutes around, lit as far as you've walked, with a breathing dot where you are."></canvas></div>
 </section>
-<div class="shot"><img src="{{ site.baseurl }}/assets/img/briefing.jpg" alt="Mosey's Round Book: the walk called Two Hills Over, its story inside its own ring, and a Begin the round button."></div>
+<div class="shot"><img src="{{ site.baseurl }}/assets/img/nudge.jpg" alt="The Nudge: the day's rhythm drawn as one braided ring of six strolls and their standbys, and a Begin the day button."></div>
 
 <section class="section">
   <div class="text">
     <div class="kicker">The Nudge</div>
     <h2>Twenty minutes at the desk, then a walk. No pressure, ever.</h2>
-    <p>You don't schedule a walk. You arm a rhythm. The pad eases up to pace by itself, takes you somewhere for three minutes or twenty, eases down, and stands by for twenty — then picks another walk and goes again.</p>
-    <p>Step off mid-walk and nothing is wrong; the rest just started early. Nothing counts down at you, nothing turns red, nothing keeps a streak.</p>
+    <p>You don't schedule a walk. You arm a rhythm. Every twenty minutes the belt starts and holds the door at a crawl; step on when you're ready, and the moment the pad feels your steps the walk takes its own pace and its own hills. Three minutes or twenty, then it eases down, stands by for twenty, and picks the next one.</p>
+    <p>The day opens short — the mailbox, the corner shop — and every walk you join makes the next ones a little longer. Skip one and nothing is lost. Step off mid-walk and nothing is wrong; the rest just started early. Nothing counts down at you, nothing turns red, nothing keeps a streak.</p>
   </div>
-  <div class="shot"><img src="{{ site.baseurl }}/assets/img/walk.jpg" alt="A walk in progress: the story of The Local inside the ring, pace and climb top right, sixteen minutes to go bottom right."></div>
+  <div class="shot"><img src="{{ site.baseurl }}/assets/img/walk.jpg" alt="A walk in progress: The Lock inside its ring, two dots on the line — the guide and you — pace and climb top right, seven minutes to go bottom right."></div>
 </section>
 
 <section class="section flip">
   <div class="text">
     <div class="kicker">The Round Book</div>
-    <h2>Fifty walks with a reason.</h2>
-    <p>Not workouts. The river after the laptop shuts. The long way from the station because the shortcut is exactly the problem with it. The call that's too good for the couch. Ten cities and Anywhere, five walks each.</p>
-    <p>Every walk choreographs pace <em>and</em> climb — the pad tilts where the story climbs. The ring draws it: radius is your pace, thickness is the hill, light is how far you've come.</p>
+    <h2>Fifty-two walks with a reason.</h2>
+    <p>Not workouts. The mailbox at three minutes. The coffee run up the hill at five. The lock on the canal at lunch. The trailhead twenty minutes from the office. Ten places and Anywhere, three to twenty minutes each — the length is the first thing you see.</p>
+    <p>Every walk choreographs pace <em>and</em> climb — the pad tilts where the story climbs. The ring draws it: radius is your pace, thickness is the hill, light is how far you've come. Two dots walk it: the guide, and you.</p>
   </div>
-  <div class="shot"><img src="{{ site.baseurl }}/assets/img/index.jpg" alt="The index: fifteen rings, one per walk, grouped by city, each a different shape."></div>
+  <div class="shot"><img src="{{ site.baseurl }}/assets/img/index.jpg" alt="The contents page: all fifty-two strolls by length, each with its ring, its place and its minutes."></div>
 </section>
 
 <section class="pads">
@@ -72,22 +78,26 @@ description: "The longest-lived people are nudged into moving every twenty minut
   <h2 class="serif" style="font-size:40px;margin:12px 0 4px">Any pad that speaks Bluetooth FTMS.</h2>
   <p style="color:var(--ink-2);max-width:60ch;margin:8px 0 0">Mosey has no pad-specific code: it looks for the standard Fitness Machine Service and drives whatever answers. Verified on the Sportstech sPad500; documented on KingSmith's Z1, R3 and X218, Urevo's SpaceWalk 3S, Mobvoi, WELLFIT and every pad that ships with the FitShow app. KingSmith's older models, DeerRun and Sperax run their own protocols and won't.</p>
   <div class="row">
-    <div class="cell"><b>Verified</b><span>Sportstech sPad500 — speed and incline, all five levels, tested every day.</span></div>
-    <div class="cell"><b>Should work</b><span>Twenty-odd pads with FTMS documented by Zwift, Kinomap or the QZ project.</span></div>
+    <div class="cell"><b>Verified</b><span>Sportstech sPad500 — speed, incline, and the pad's own step count, which is how Mosey knows you're on the belt. Walked every day.</span></div>
+    <div class="cell"><b>Should work</b><span>Twenty-odd pads with FTMS documented by Zwift, Kinomap or the QZ project. Without a step count the walk starts at once, as it did before.</span></div>
     <div class="cell"><b>No pad yet?</b><span>Mosey ships a demo pad so you can see every screen before you buy one.</span></div>
   </div>
   {% include pads-table.html short=1 %}
   <p style="color:var(--ink-2);max-width:60ch;margin:18px 0 0">These are the pads that work. Type any name to search the full list, including the ones that won't — or <a href="{{ site.baseurl }}/pads/">read the whole page</a>, with how to tell what's inside a pad sold under another name.</p>
 </section>
 
-<section class="price">
+<section class="price" id="store">
   <div>
     <div class="kicker">Price</div>
-    <div class="tier"><span class="kicker">Free</span><b>All of it.</b><p>The Nudge, all fifty walks, the index and the menu bar. No account, no subscription, nothing to unlock. If a paid book of new walks ever comes, this one stays free.</p></div>
+    <div class="tier"><span class="kicker">Free</span><b>All of it.</b><p>The Nudge, all fifty-two walks, the index and the menu bar. No account, no subscription, nothing to unlock. If a paid book of new walks ever comes, this one stays free.</p></div>
   </div>
   <div>
     <div class="kicker">&nbsp;</div>
-    <div class="tier"><span class="kicker">Coming</span><b>Mac App Store</b><p>Mosey 1.2 is in review. The link lands here the day it's out.</p></div>
+    {% if site.store_url %}
+    <div class="tier"><span class="kicker">Out now</span><b>Mac App Store</b><p>Mosey 1.2 is on the store. <a href="{{ site.store_url }}">Download it</a> — macOS 15 or later, any Bluetooth FTMS pad, or the demo pad to look around first.</p></div>
+    {% else %}
+    <div class="tier"><span class="kicker">Coming</span><b>Mac App Store</b><p>Mosey 1.2 has passed App Review. The link lands here the day it's out.</p></div>
+    {% endif %}
   </div>
 </section>
 
@@ -98,9 +108,9 @@ description: "The longest-lived people are nudged into moving every twenty minut
   function go(){
     if(!window.Mosey){ return setTimeout(go, 40); }
     fetch('{{ site.baseurl }}/assets/data/rounds.json').then(r=>r.json()).then(function(data){
-      var pick = data.rounds.find(function(r){ return r.id==='the-local'; }) || data.rounds[0];
+      var pick = data.rounds.find(function(r){ return r.id==='the-trailhead'; }) || data.rounds[0];
       var c = document.getElementById('hero-ring');
-      var ring = new Mosey.Ring(c, pick, { duration: data.duration, loopSeconds: 150 });
+      var ring = new Mosey.Ring(c, pick, { duration: pick.duration || data.duration, loopSeconds: 150 });
       window.addEventListener('resize', function(){ ring.resize(); });
       var field = new Mosey.Field(document.getElementById('field'), pick.colors);
       var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;

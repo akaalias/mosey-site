@@ -1,5 +1,8 @@
 title: Mosey
 description: Walks that start themselves. Mosey drives your walking pad from your Mac.
+# The Mac App Store link. Empty until Mosey is released; fill it in and the
+# homepage's button and store tile switch over (apps.apple.com/app/id6808256037).
+store_url: ""
 url: https://akaalias.github.io
 baseurl: /mosey-site
 markdown: kramdown

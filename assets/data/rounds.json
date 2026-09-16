@@ -1,1 +1,3691 @@
-{"duration":1500,"rounds":[{"beats":[{"t":0,"speed":2,"incline":0},{"t":180,"speed":3,"incline":1},{"t":360,"speed":3.2,"incline":0},{"t":540,"speed":3.3,"incline":1},{"t":720,"speed":3.4,"incline":0},{"t":900,"speed":3.2,"incline":2},{"t":1020,"speed":3.3,"incline":0},{"t":1200,"speed":3,"incline":1},{"t":1380,"speed":2.4,"incline":0}],"colors":[[0.13,0.2,0.3],[0.26,0.15,0.11],[0.06,0.09,0.13],[0.34,0.22,0.1]],"goodbye":"The city can have you back now.","id":"the-river-at-dusk","kicker":"New York \u00b7 after work","place":"New York","subtitle":"The laptop is shut and the river is doing that thing it does at this hour \u2014 going copper, then pewter. Down to the greenway with everyone else who bailed on the gym, past the piers, into the wind that always has an opinion.","title":"The River at Dusk"},{"beats":[{"t":0,"speed":2,"incline":0},{"t":120,"speed":3.4,"incline":1},{"t":300,"speed":3.5,"incline":0},{"t":420,"speed":3.6,"incline":1},{"t":600,"speed":3.4,"incline":2},{"t":720,"speed":2.6,"incline":0},{"t":960,"speed":3,"incline":1},{"t":1140,"speed":3.3,"incline":2},{"t":1260,"speed":3,"incline":0},{"t":1400,"speed":2.4,"incline":0}],"colors":[[0.15,0.22,0.3],[0.18,0.15,0.28],[0.08,0.1,0.14],[0.24,0.28,0.38]],"goodbye":"In the door as it opens up. Elite timing.","id":"before-the-rain","kicker":"New York \u00b7 storm coming","place":"New York","subtitle":"The radar says forty minutes and the fridge says you have nothing for dinner. Quick, then \u2014 over the footbridge, hit the greenmarket before the stalls start packing, one pause under the scaffolding to let the first fat drops miss you.","title":"Before the Rain"},{"beats":[{"t":0,"speed":2,"incline":0},{"t":120,"speed":3.2,"incline":1},{"t":300,"speed":3.4,"incline":0},{"t":480,"speed":3.3,"incline":2},{"t":660,"speed":3.2,"incline":3},{"t":840,"speed":3.4,"incline":1},{"t":960,"speed":3.5,"incline":0},{"t":1140,"speed":3.2,"incline":1},{"t":1290,"speed":3,"incline":0},{"t":1420,"speed":2.3,"incline":0}],"colors":[[0.14,0.17,0.28],[0.18,0.2,0.24],[0.07,0.08,0.12],[0.35,0.18,0.08]],"goodbye":"Beat the train. Obviously.","id":"the-f-train-is-down","kicker":"New York \u00b7 rush hour","place":"New York","subtitle":"The app said twelve minutes, then twenty, then gave up entirely. Fine \u2014 over the bridge under your own power, past everyone still staring at the countdown clock, faster than the shuttle bus and considerably smugger.","title":"The F Train Is Down"},{"beats":[{"t":0,"speed":2,"incline":0},{"t":150,"speed":2.9,"incline":1},{"t":330,"speed":3.1,"incline":0},{"t":510,"speed":3,"incline":2},{"t":690,"speed":3.2,"incline":1},{"t":870,"speed":3.3,"incline":0},{"t":1050,"speed":3,"incline":2},{"t":1200,"speed":2.8,"incline":0},{"t":1380,"speed":2.2,"incline":0}],"colors":[[0.14,0.26,0.16],[0.1,0.2,0.24],[0.06,0.11,0.08],[0.34,0.26,0.12]],"goodbye":"Nine a.m. can do its worst.","id":"the-park-before-nine","kicker":"New York \u00b7 early","place":"New York","subtitle":"For one hour the park belongs to the runners, the dogs, and you. In through the gate, up the drive with the hill everyone pretends isn't one, coffee at the end of it as a legally binding promise.","title":"The Park Before Nine"},{"beats":[{"t":0,"speed":2,"incline":0},{"t":210,"speed":2.7,"incline":0},{"t":390,"speed":2.9,"incline":1},{"t":570,"speed":3,"incline":0},{"t":720,"speed":2.8,"incline":2},{"t":900,"speed":3,"incline":1},{"t":1080,"speed":2.8,"incline":0},{"t":1230,"speed":2.6,"incline":1},{"t":1400,"speed":2.1,"incline":0}],"colors":[[0.32,0.21,0.1],[0.24,0.13,0.12],[0.11,0.08,0.08],[0.14,0.18,0.32]],"goodbye":"Okay. NOW home.","id":"one-more-block","kicker":"New York \u00b7 evening","place":"New York","subtitle":"You told yourself around the block. Then the next corner had better light, and the avenue was doing its sodium-amber thing, and the day still hadn't fully let go of your shoulders. One more block. Maybe two.","title":"One More Block"},{"beats":[{"t":0,"speed":2,"incline":1},{"t":180,"speed":2.8,"incline":2},{"t":360,"speed":2.6,"incline":3},{"t":480,"speed":2.7,"incline":2},{"t":540,"speed":2.4,"incline":4},{"t":720,"speed":2.2,"incline":1},{"t":840,"speed":2.6,"incline":0},{"t":1020,"speed":2.4,"incline":1},{"t":1200,"speed":2.8,"incline":0},{"t":1380,"speed":2.2,"incline":0}],"colors":[[0.2,0.24,0.3],[0.15,0.17,0.26],[0.08,0.1,0.13],[0.33,0.24,0.12]],"goodbye":"Worth both hills. It always is.","id":"two-hills-over","kicker":"San Francisco \u00b7 dinner time","place":"San Francisco","subtitle":"They said 'come by around seven, it's a ten-minute walk.' It is two hills, and this city's ten-minute walks are load-bearing lies. Wine in your backpack, fog rolling over the ridge, calves filing a formal complaint.","title":"Two Hills Over"},{"beats":[{"t":0,"speed":2,"incline":1},{"t":180,"speed":2.5,"incline":2},{"t":360,"speed":2.3,"incline":3},{"t":540,"speed":2.2,"incline":4},{"t":720,"speed":2.4,"incline":2},{"t":870,"speed":2.6,"incline":3},{"t":990,"speed":2.9,"incline":0},{"t":1170,"speed":2.7,"incline":1},{"t":1350,"speed":2.2,"incline":0}],"colors":[[0.23,0.25,0.28],[0.16,0.2,0.28],[0.09,0.1,0.12],[0.36,0.28,0.12]],"goodbye":"Two climates, one walk. Classic.","id":"out-of-the-fog","kicker":"San Francisco \u00b7 midday","place":"San Francisco","subtitle":"The avenues are gray to the horizon, but the hill behind the house has a rumor of blue on it. Climb until the ceiling thins, then breaks \u2014 and there it is, the other city, the one that's been sunny the whole time.","title":"Out of the Fog"},{"beats":[{"t":0,"speed":2,"incline":0},{"t":120,"speed":2.2,"incline":5},{"t":270,"speed":3,"incline":0},{"t":420,"speed":2.1,"incline":5},{"t":570,"speed":2.9,"incline":0},{"t":720,"speed":2.2,"incline":4},{"t":870,"speed":3,"incline":0},{"t":1020,"speed":2.3,"incline":4},{"t":1170,"speed":2.9,"incline":1},{"t":1380,"speed":2.2,"incline":0}],"colors":[[0.16,0.26,0.15],[0.12,0.2,0.22],[0.07,0.11,0.08],[0.34,0.2,0.08]],"goodbye":"Quads: aware. Ego: intact.","id":"the-secret-stairs","kicker":"San Francisco \u00b7 weekend","place":"San Francisco","subtitle":"Between two ordinary streets there's a flight of stairs with someone's nasturtiums spilling over it, and at the top of it, another one. The city hides an entire vertical neighborhood for anyone willing to breathe hard.","title":"The Secret Stairs"},{"beats":[{"t":0,"speed":2,"incline":0},{"t":150,"speed":2.8,"incline":1},{"t":330,"speed":2.7,"incline":0},{"t":480,"speed":2.6,"incline":2},{"t":660,"speed":2.2,"incline":0},{"t":900,"speed":2.5,"incline":1},{"t":1080,"speed":2.8,"incline":0},{"t":1260,"speed":2.5,"incline":1},{"t":1420,"speed":2.1,"incline":0}],"colors":[[0.12,0.22,0.3],[0.1,0.26,0.24],[0.06,0.1,0.12],[0.34,0.24,0.1]],"goodbye":"The peaches were the plan all along.","id":"ferry-building-saturday","kicker":"San Francisco \u00b7 Saturday morning","place":"San Francisco","subtitle":"You need exactly nothing, which is why you're going. Along the Embarcadero with the bridge hanging in the haze, into the crowd of samples and small decisions, out the other side with peaches you didn't plan on.","title":"Ferry Building Saturday"},{"beats":[{"t":0,"speed":2,"incline":0},{"t":150,"speed":2.9,"incline":0},{"t":300,"speed":2.2,"incline":4},{"t":450,"speed":3,"incline":0},{"t":600,"speed":2.2,"incline":4},{"t":750,"speed":3,"incline":0},{"t":900,"speed":2.3,"incline":3},{"t":1050,"speed":3.1,"incline":0},{"t":1200,"speed":2.4,"incline":2},{"t":1380,"speed":2.2,"incline":0}],"colors":[[0.12,0.24,0.2],[0.1,0.19,0.3],[0.05,0.1,0.11],[0.32,0.18,0.18]],"goodbye":"The ocean will take it from here.","id":"lands-end","kicker":"San Francisco \u00b7 late afternoon","place":"San Francisco","subtitle":"Twenty minutes from your apartment the city just\u2026 ends, and it's all cypress and cliff and the Pacific being dramatic. The trail rolls along the edge, the bridge appears twice, and your phone stays in your pocket.","title":"Lands End"},{"beats":[{"t":0,"speed":2,"incline":2},{"t":180,"speed":2.2,"incline":3},{"t":420,"speed":2.2,"incline":4},{"t":540,"speed":2.1,"incline":3},{"t":660,"speed":2,"incline":5},{"t":780,"speed":1.7,"incline":1},{"t":900,"speed":2.8,"incline":0},{"t":1140,"speed":2.5,"incline":1},{"t":1260,"speed":2.4,"incline":0},{"t":1380,"speed":2.2,"incline":0}],"colors":[[0.16,0.2,0.16],[0.24,0.21,0.1],[0.06,0.09,0.08],[0.32,0.13,0.1]],"goodbye":"Lighter on the way down. That was the point.","id":"the-shrine-steps","kicker":"Tokyo \u00b7 before work","place":"Tokyo","subtitle":"The stone steps start at the torii and don't negotiate. Up through the trees with the crows and the early joggers, coins in your pocket, whatever's been sitting on your chest all week ready to be set down at the top.","title":"The Shrine Steps"},{"beats":[{"t":0,"speed":2,"incline":1},{"t":180,"speed":3.2,"incline":0},{"t":360,"speed":2.4,"incline":0},{"t":480,"speed":3,"incline":1},{"t":600,"speed":2.8,"incline":2},{"t":720,"speed":2.2,"incline":0},{"t":840,"speed":3.2,"incline":1},{"t":1020,"speed":2.6,"incline":3},{"t":1140,"speed":3,"incline":1},{"t":1320,"speed":2,"incline":0}],"colors":[[0.3,0.2,0.1],[0.24,0.13,0.13],[0.11,0.08,0.07],[0.14,0.2,0.32]],"goodbye":"Home, eventually. As intended.","id":"the-long-way-from-the-station","kicker":"Tokyo \u00b7 after the last meeting","place":"Tokyo","subtitle":"The shortcut takes four minutes, which is exactly the problem with it. Through the backstreets instead \u2014 the yakitori smoke, the cat that owns the parking lot, the stepped alley up past the tiny bar that seats five.","title":"The Long Way from the Station"},{"beats":[{"t":0,"speed":2,"incline":0},{"t":240,"speed":2.4,"incline":1},{"t":420,"speed":2.6,"incline":0},{"t":600,"speed":2.7,"incline":1},{"t":780,"speed":2.5,"incline":0},{"t":840,"speed":2.3,"incline":0},{"t":960,"speed":2.6,"incline":1},{"t":1140,"speed":2.8,"incline":0},{"t":1320,"speed":2.4,"incline":0},{"t":1440,"speed":2,"incline":0}],"colors":[[0.13,0.14,0.28],[0.1,0.18,0.26],[0.06,0.07,0.13],[0.26,0.3,0.34]],"goodbye":"Still jet-lagged. Better at it now.","id":"jet-lag","kicker":"Tokyo \u00b7 4 a.m.","place":"Tokyo","subtitle":"Your body is certain it's yesterday afternoon. Nothing to be done but walk it \u2014 the intersection with no one in it, the vending machines humming their blue light, the first trains still an hour away and the whole city holding its breath.","title":"Jet Lag"},{"beats":[{"t":0,"speed":2,"incline":0},{"t":120,"speed":3.2,"incline":1},{"t":300,"speed":3.4,"incline":0},{"t":480,"speed":3.2,"incline":2},{"t":630,"speed":3,"incline":3},{"t":720,"speed":2.4,"incline":0},{"t":900,"speed":3.2,"incline":1},{"t":1080,"speed":3.4,"incline":0},{"t":1260,"speed":2.8,"incline":1},{"t":1400,"speed":2.2,"incline":0}],"colors":[[0.3,0.13,0.11],[0.28,0.2,0.08],[0.12,0.07,0.06],[0.3,0.3,0.3]],"goodbye":"Ninth seat. Photo finish.","id":"the-ramen-line","kicker":"Tokyo \u00b7 11:40 a.m.","place":"Tokyo","subtitle":"The place seats nine and the line starts forming at noon sharp, so at 11:40 you are already moving. Up the hill fast, ticket machine, the shuffle forward \u2014 twenty minutes of walking for a bowl worth forty.","title":"The Ramen Line"},{"beats":[{"t":0,"speed":2,"incline":0},{"t":180,"speed":2.8,"incline":1},{"t":360,"speed":3,"incline":0},{"t":540,"speed":2.9,"incline":1},{"t":690,"speed":3.1,"incline":0},{"t":870,"speed":3,"incline":2},{"t":1020,"speed":3.2,"incline":0},{"t":1200,"speed":2.8,"incline":1},{"t":1380,"speed":2.3,"incline":0}],"colors":[[0.1,0.24,0.24],[0.13,0.17,0.3],[0.05,0.1,0.11],[0.33,0.22,0.1]],"goodbye":"The river keeps going. You're allowed to stop.","id":"along-the-kanda","kicker":"Tokyo \u00b7 evening","place":"Tokyo","subtitle":"The river runs below street level like a secret, and the path follows it under the train lines. Every few minutes a bridge, every bridge a decision to keep going \u2014 past the izakaya glow and the office workers walking off their own days.","title":"Along the Kanda"},{"beats":[{"t":0,"speed":2,"incline":0},{"t":210,"speed":2.7,"incline":0},{"t":420,"speed":2.9,"incline":1},{"t":570,"speed":3,"incline":0},{"t":750,"speed":2.8,"incline":0},{"t":930,"speed":3,"incline":1},{"t":1080,"speed":2.9,"incline":0},{"t":1260,"speed":2.6,"incline":1},{"t":1420,"speed":2.1,"incline":0}],"colors":[[0.16,0.26,0.14],[0.12,0.22,0.22],[0.07,0.11,0.08],[0.3,0.18,0.12]],"goodbye":"Sunday, executed correctly.","id":"the-canal","kicker":"Berlin \u00b7 Sunday","place":"Berlin","subtitle":"The Landwehrkanal moves at exactly the speed of a Sunday, and so does everyone along it. Under the lindens, over the bridge to the shady side, past the swans who have seen it all. The week can wait its turn.","title":"The Canal"},{"beats":[{"t":0,"speed":2,"incline":0},{"t":180,"speed":3,"incline":1},{"t":420,"speed":3.3,"incline":0},{"t":600,"speed":3.4,"incline":1},{"t":840,"speed":3.2,"incline":0},{"t":1020,"speed":3.4,"incline":1},{"t":1200,"speed":3,"incline":0},{"t":1400,"speed":2.3,"incline":0}],"colors":[[0.18,0.24,0.32],[0.2,0.22,0.24],[0.08,0.1,0.13],[0.32,0.12,0.12]],"goodbye":"Cleared for landing.","id":"tempelhofer-feld","kicker":"Berlin \u00b7 big sky","place":"Berlin","subtitle":"They kept the runways and gave them to everyone. Kites, skaters, community gardens in old freight containers \u2014 and a horizon you can actually see. Walk the tarmac where the planes used to lift, into a headwind with no buildings to break it.","title":"Tempelhofer Feld"},{"beats":[{"t":0,"speed":2,"incline":0},{"t":180,"speed":2.6,"incline":1},{"t":360,"speed":2.3,"incline":0},{"t":540,"speed":2.5,"incline":1},{"t":690,"speed":2.2,"incline":0},{"t":870,"speed":2.6,"incline":2},{"t":1020,"speed":2.4,"incline":1},{"t":1200,"speed":2.7,"incline":0},{"t":1380,"speed":2.2,"incline":0}],"colors":[[0.3,0.24,0.12],[0.24,0.16,0.1],[0.11,0.09,0.06],[0.12,0.26,0.26]],"goodbye":"One record. It found you.","id":"mauerpark-sunday","kicker":"Berlin \u00b7 Sunday afternoon","place":"Berlin","subtitle":"You came for nothing in particular, which the flea market respects. Drift the stalls, flip through someone's entire record collection, climb the hill above the amphitheater where a stranger is absolutely destroying a power ballad.","title":"Mauerpark Sunday"},{"beats":[{"t":0,"speed":2,"incline":0},{"t":240,"speed":2.8,"incline":1},{"t":420,"speed":3,"incline":0},{"t":600,"speed":3.2,"incline":1},{"t":780,"speed":3,"incline":0},{"t":960,"speed":2.8,"incline":2},{"t":1110,"speed":2.9,"incline":0},{"t":1290,"speed":2.6,"incline":1},{"t":1440,"speed":2.1,"incline":0}],"colors":[[0.12,0.14,0.28],[0.18,0.12,0.26],[0.06,0.07,0.12],[0.28,0.12,0.24]],"goodbye":"The day is officially over. Verified.","id":"the-late-shift","kicker":"Berlin \u00b7 past ten","place":"Berlin","subtitle":"The release shipped, or it didn't; either way the laptop is closed. Walk it off through the warm dark \u2014 sp\u00e4ti light, the U-Bahn rumbling somewhere under your feet, the bridge over the tracks where the city glitters like it's showing off.","title":"The Late Shift"},{"beats":[{"t":0,"speed":2,"incline":1},{"t":180,"speed":2.4,"incline":3},{"t":330,"speed":3,"incline":0},{"t":480,"speed":2.2,"incline":4},{"t":630,"speed":3,"incline":1},{"t":780,"speed":2.3,"incline":4},{"t":930,"speed":2.8,"incline":0},{"t":1080,"speed":3.1,"incline":0},{"t":1230,"speed":2.6,"incline":2},{"t":1380,"speed":2.2,"incline":0}],"colors":[[0.13,0.22,0.13],[0.18,0.18,0.14],[0.06,0.1,0.07],[0.28,0.3,0.32]],"goodbye":"The domes keep listening. To nothing.","id":"teufelsberg","kicker":"Berlin \u00b7 the Grunewald","place":"Berlin","subtitle":"A hill made of the old city's rubble, grown over with forest, crowned with the ruined listening station's white domes. The climb is real, the history is heavier, and the view goes all the way to the TV tower.","title":"Teufelsberg"},{"beats":[{"t":0,"speed":2,"incline":1},{"t":150,"speed":2.4,"incline":3},{"t":300,"speed":3,"incline":0},{"t":450,"speed":2.2,"incline":4},{"t":600,"speed":3,"incline":0},{"t":750,"speed":2.2,"incline":5},{"t":900,"speed":3.1,"incline":1},{"t":1050,"speed":2.3,"incline":3},{"t":1200,"speed":3,"incline":0},{"t":1380,"speed":2.2,"incline":0}],"colors":[[0.28,0.16,0.1],[0.13,0.21,0.13],[0.1,0.08,0.06],[0.34,0.24,0.1]],"goodbye":"The inbox survived without you.","id":"switchbacks","kicker":"Colorado \u00b7 the trailhead","place":"Colorado","subtitle":"The lot is half full of Subarus and the trail starts climbing before you've locked the car. Two switchbacks to quiet the head, a third to quiet the legs, and the ridge line up top holding the morning's first warm light.","title":"Switchbacks"},{"beats":[{"t":0,"speed":2,"incline":1},{"t":180,"speed":2.4,"incline":2},{"t":360,"speed":2.2,"incline":3},{"t":540,"speed":2,"incline":4},{"t":630,"speed":2.1,"incline":3},{"t":690,"speed":1.8,"incline":5},{"t":780,"speed":1.7,"incline":0},{"t":900,"speed":2.6,"incline":0},{"t":1140,"speed":2.8,"incline":1},{"t":1260,"speed":2.7,"incline":0},{"t":1320,"speed":2.2,"incline":0}],"colors":[[0.18,0.16,0.3],[0.3,0.16,0.1],[0.1,0.08,0.12],[0.36,0.28,0.12]],"goodbye":"You saw the day arrive. It saw you.","id":"first-light","kicker":"Colorado \u00b7 before sunrise","place":"Colorado","subtitle":"Alarm at five-forty, no snooze, up the ridge trail half by feel with a headlamp you probably didn't need. The last pitch is steep enough to shut the brain up \u2014 then the top, the stillness, and the sun clearing the plains like it rehearsed.","title":"First Light"},{"beats":[{"t":0,"speed":2,"incline":1},{"t":150,"speed":2.3,"incline":3},{"t":300,"speed":2.9,"incline":0},{"t":450,"speed":2.3,"incline":3},{"t":600,"speed":2.9,"incline":0},{"t":750,"speed":2.4,"incline":3},{"t":900,"speed":2.9,"incline":1},{"t":1050,"speed":2.3,"incline":2},{"t":1200,"speed":3,"incline":0},{"t":1400,"speed":2.1,"incline":0}],"colors":[[0.33,0.25,0.08],[0.26,0.17,0.08],[0.12,0.09,0.05],[0.16,0.24,0.34]],"goodbye":"You made the week count.","id":"the-aspen-loop","kicker":"Colorado \u00b7 late September","place":"Colorado","subtitle":"One week a year the grove turns entirely to light, and this is that week. The loop climbs through the white trunks, the leaves doing their applause thing in the wind, and everyone on the trail is grinning about the same secret.","title":"The Aspen Loop"},{"beats":[{"t":0,"speed":2,"incline":1},{"t":180,"speed":2.2,"incline":3},{"t":330,"speed":2.7,"incline":0},{"t":480,"speed":2.1,"incline":4},{"t":630,"speed":2.6,"incline":0},{"t":780,"speed":2.1,"incline":4},{"t":930,"speed":2,"incline":0},{"t":1050,"speed":2.7,"incline":0},{"t":1230,"speed":2.4,"incline":2},{"t":1380,"speed":2.1,"incline":0}],"colors":[[0.15,0.21,0.32],[0.18,0.2,0.22],[0.07,0.09,0.13],[0.3,0.32,0.34]],"goodbye":"Sea level will feel like cheating.","id":"ten-thousand-feet","kicker":"Colorado \u00b7 high country","place":"Colorado","subtitle":"Up here the air keeps its distance and every grade gets a promotion. Walk it anyway \u2014 slower, honester \u2014 to the overlook bench that has the entire valley memorized. The bench is earned. Sitting on it is mandatory.","title":"Ten Thousand Feet"},{"beats":[{"t":0,"speed":2,"incline":0},{"t":180,"speed":2.8,"incline":0},{"t":360,"speed":3,"incline":1},{"t":570,"speed":3.1,"incline":0},{"t":750,"speed":2.9,"incline":2},{"t":930,"speed":3.1,"incline":1},{"t":1110,"speed":3.2,"incline":0},{"t":1290,"speed":2.7,"incline":0},{"t":1430,"speed":2.2,"incline":0}],"colors":[[0.12,0.25,0.18],[0.1,0.21,0.26],[0.06,0.11,0.09],[0.3,0.15,0.1]],"goodbye":"The one-thirty can have what's left.","id":"the-creek-path","kicker":"Colorado \u00b7 lunch hour","place":"Colorado","subtitle":"The path follows the creek right through the middle of town, and the creek doesn't know about your one-thirty. Cottonwoods, the flume, a kayaker doing laps in the play wave \u2014 the mountains keeping an eye on all of it.","title":"The Creek Path"},{"beats":[{"t":0,"speed":2,"incline":0},{"t":180,"speed":3,"incline":1},{"t":420,"speed":3.2,"incline":0},{"t":600,"speed":3,"incline":2},{"t":780,"speed":3.2,"incline":1},{"t":960,"speed":3.4,"incline":0},{"t":1140,"speed":3,"incline":1},{"t":1320,"speed":2.4,"incline":0}],"colors":[[0.1,0.22,0.3],[0.16,0.14,0.3],[0.04,0.09,0.13],[0.34,0.2,0.08]],"goodbye":"Salt air, mountains, done.","id":"the-seawall","kicker":"Vancouver \u00b7 evening","place":"Vancouver","subtitle":"The mountains hold the last light, the freighters sit out in the bay like patient dogs, and the seawall carries everyone \u2014 runners, roller skaters, you \u2014 around the park's long curve while the sky sorts itself out.","title":"The Seawall"},{"beats":[{"t":0,"speed":2,"incline":1},{"t":180,"speed":2.4,"incline":2},{"t":360,"speed":2.2,"incline":3},{"t":540,"speed":2.3,"incline":4},{"t":720,"speed":2.1,"incline":5},{"t":840,"speed":1.8,"incline":0},{"t":960,"speed":2.6,"incline":0},{"t":1140,"speed":2.8,"incline":1},{"t":1320,"speed":2.3,"incline":0}],"colors":[[0.3,0.14,0.08],[0.24,0.19,0.09],[0.11,0.07,0.05],[0.28,0.26,0.16]],"goodbye":"La ville, d'en haut. Worth it.","id":"mont-royal","kicker":"Montr\u00e9al \u00b7 the mountain","place":"Montr\u00e9al","subtitle":"The city keeps an actual mountain in its living room. The gravel path switchbacks up under the maples, joggers in both directions, and at the top the lookout hands you the whole city \u2014 the river, the bridges, your neighborhood somewhere in it.","title":"Mont Royal"},{"beats":[{"t":0,"speed":2,"incline":0},{"t":150,"speed":2.9,"incline":0},{"t":300,"speed":2.2,"incline":3},{"t":450,"speed":3,"incline":0},{"t":600,"speed":2.2,"incline":4},{"t":750,"speed":3,"incline":0},{"t":900,"speed":2.3,"incline":3},{"t":1050,"speed":3,"incline":0},{"t":1200,"speed":2.3,"incline":2},{"t":1380,"speed":2.2,"incline":0}],"colors":[[0.11,0.22,0.14],[0.14,0.18,0.1],[0.05,0.1,0.07],[0.26,0.3,0.3]],"goodbye":"Back at street level. Softer now.","id":"the-ravine","kicker":"Toronto \u00b7 below the streets","place":"Toronto","subtitle":"Forty steps down from the sidewalk the city just switches off \u2014 creek, cottonwoods, a heron with a lot of patience. The ravine runs for kilometers under everyone's feet, and the climb back out is the toll it charges.","title":"The Ravine"},{"beats":[{"t":0,"speed":2,"incline":0},{"t":240,"speed":2.5,"incline":0},{"t":420,"speed":2.7,"incline":1},{"t":630,"speed":2.6,"incline":0},{"t":810,"speed":2.8,"incline":1},{"t":990,"speed":2.6,"incline":2},{"t":1140,"speed":2.5,"incline":1},{"t":1320,"speed":2.3,"incline":0},{"t":1440,"speed":2,"incline":0}],"colors":[[0.22,0.26,0.34],[0.16,0.2,0.3],[0.09,0.11,0.15],[0.34,0.26,0.14]],"goodbye":"Cheeks: frozen. Worth it: entirely.","id":"first-snow","kicker":"Canada \u00b7 the first real one","place":"Canada","subtitle":"It started during dinner and it's actually sticking. Boots on before the plows ruin it \u2014 the streetlights full of falling static, the park's small hill gone white, your own footprints the first ones on the path.","title":"First Snow"},{"beats":[{"t":0,"speed":2,"incline":0},{"t":240,"speed":2.6,"incline":1},{"t":480,"speed":2.8,"incline":0},{"t":690,"speed":2.7,"incline":1},{"t":900,"speed":2.9,"incline":0},{"t":1110,"speed":2.7,"incline":1},{"t":1290,"speed":2.4,"incline":0},{"t":1430,"speed":2,"incline":0}],"colors":[[0.16,0.19,0.3],[0.22,0.16,0.24],[0.08,0.09,0.13],[0.33,0.22,0.11]],"goodbye":"Family: walked. Leftovers: earned.","id":"boxing-day","kicker":"Canada \u00b7 December 26","place":"Canada","subtitle":"Too much of everything yesterday, so today the entire household gets walked like a dog. Around the block, past the rink, the family spreading into pairs and their conversations \u2014 the annual proof that fresh air fixes most of it.","title":"Boxing Day"},{"beats":[{"t":0,"speed":2,"incline":0},{"t":240,"speed":2.6,"incline":1},{"t":540,"speed":2.8,"incline":2},{"t":780,"speed":2.6,"incline":1},{"t":1020,"speed":2.8,"incline":0},{"t":1200,"speed":2.4,"incline":1},{"t":1400,"speed":2,"incline":0}],"colors":[[0.14,0.23,0.16],[0.12,0.18,0.24],[0.06,0.1,0.08],[0.33,0.19,0.08]],"goodbye":"Sunday, fulfilled. See you next week.","id":"sondagstur","kicker":"Norway \u00b7 Sunday","place":"Norway","subtitle":"The whole country is out in it \u2014 families, dogs, someone's grandmother setting an alarming pace. One long easy grade through the trees, a thermos at the halfway point, and the shared national understanding that this is simply what Sunday is.","title":"S\u00f8ndagstur"},{"beats":[{"t":0,"speed":2,"incline":0},{"t":150,"speed":3,"incline":1},{"t":330,"speed":3.2,"incline":0},{"t":510,"speed":3.1,"incline":2},{"t":690,"speed":3.3,"incline":1},{"t":870,"speed":3.4,"incline":0},{"t":1050,"speed":3.1,"incline":2},{"t":1200,"speed":3.2,"incline":0},{"t":1420,"speed":2.3,"incline":0}],"colors":[[0.17,0.22,0.28],[0.13,0.17,0.24],[0.07,0.1,0.12],[0.34,0.28,0.08]],"goodbye":"The theory holds. Good jacket.","id":"no-bad-weather","kicker":"Norway \u00b7 sideways rain","place":"Norway","subtitle":"The rain is horizontal and the locals are unbothered, so you will be unbothered too. Shell zipped to the chin, hood cinched, out along the ridge path where the weather is loudest \u2014 smug, waterproof, fully alive.","title":"No Bad Weather"},{"beats":[{"t":0,"speed":2,"incline":0},{"t":180,"speed":2.8,"incline":1},{"t":390,"speed":3,"incline":0},{"t":570,"speed":2.9,"incline":2},{"t":750,"speed":3.1,"incline":0},{"t":930,"speed":3,"incline":1},{"t":1110,"speed":3.2,"incline":0},{"t":1290,"speed":2.7,"incline":1},{"t":1430,"speed":2.2,"incline":0}],"colors":[[0.1,0.22,0.26],[0.14,0.19,0.3],[0.05,0.1,0.12],[0.31,0.11,0.09]],"goodbye":"The fjord will hold your place.","id":"the-fjord-path","kicker":"Norway \u00b7 along the water","place":"Norway","subtitle":"The fjord holds the sky like it's being careful with it. The path rolls along the shoreline, over the headland, past the red boathouses \u2014 and the ferry crosses mid-frame exactly when the view needed it to.","title":"The Fjord Path"},{"beats":[{"t":0,"speed":2,"incline":1},{"t":180,"speed":2.8,"incline":2},{"t":420,"speed":2.6,"incline":3},{"t":660,"speed":2.4,"incline":4},{"t":840,"speed":2.6,"incline":2},{"t":960,"speed":2,"incline":0},{"t":1140,"speed":2.9,"incline":0},{"t":1320,"speed":2.6,"incline":1},{"t":1440,"speed":2.2,"incline":0}],"colors":[[0.16,0.22,0.12],[0.22,0.18,0.1],[0.08,0.1,0.06],[0.33,0.16,0.07]],"goodbye":"Stove lit. Weekend begins.","id":"up-to-the-hytte","kicker":"Norway \u00b7 Friday, finally","place":"Norway","subtitle":"The car only goes so far; the last stretch to the cabin is a track through the birches that climbs like it means it. Pack on, phone already useless, the week dropping off you somewhere around the second steep bit.","title":"Up to the Hytte"},{"beats":[{"t":0,"speed":2,"incline":0},{"t":120,"speed":3.2,"incline":1},{"t":300,"speed":3.4,"incline":0},{"t":480,"speed":3.2,"incline":2},{"t":660,"speed":3.4,"incline":1},{"t":840,"speed":3.5,"incline":0},{"t":1020,"speed":3.2,"incline":0},{"t":1200,"speed":3,"incline":1},{"t":1360,"speed":2.4,"incline":0}],"colors":[[0.24,0.27,0.32],[0.18,0.23,0.28],[0.1,0.12,0.14],[0.12,0.2,0.14]],"goodbye":"Back by one. Sharper than you left.","id":"lunsj","kicker":"Norway \u00b7 lunch hour","place":"Norway","subtitle":"The calendar block says 'lunsj' and everyone respects it, because everyone has their own. Out the door before someone can schedule something, up the hill behind the office at a pace that means business, back with your head rinsed clean.","title":"Lunsj"},{"beats":[{"t":0,"speed":2,"incline":0},{"t":120,"speed":2.8,"incline":1},{"t":360,"speed":2.7,"incline":2},{"t":600,"speed":2.6,"incline":3},{"t":840,"speed":3,"incline":1},{"t":1020,"speed":2.6,"incline":0},{"t":1200,"speed":2.8,"incline":2},{"t":1320,"speed":2.4,"incline":1},{"t":1440,"speed":2,"incline":0}],"colors":[[0.29,0.19,0.11],[0.23,0.13,0.1],[0.11,0.08,0.06],[0.35,0.27,0.14]],"goodbye":"Kanelbulle: had. Balance: restored.","id":"fika-at-three","kicker":"Sweden \u00b7 3 p.m.","place":"Sweden","subtitle":"Fika is not coffee; fika is the agreement that the day stops at three. The walk over is half the ritual \u2014 through the courtyard, up the rise past the water tower, arriving with cold cheeks to a warm window seat and someone glad to see you.","title":"Fika at Three"},{"beats":[{"t":0,"speed":2,"incline":0},{"t":150,"speed":3,"incline":0},{"t":360,"speed":3.2,"incline":1},{"t":540,"speed":3.3,"incline":0},{"t":720,"speed":3.1,"incline":2},{"t":900,"speed":3.3,"incline":1},{"t":1080,"speed":3,"incline":0},{"t":1260,"speed":2.7,"incline":1},{"t":1420,"speed":2.2,"incline":0}],"colors":[[0.32,0.25,0.12],[0.26,0.18,0.12],[0.11,0.1,0.08],[0.14,0.19,0.33]],"goodbye":"Light: collected. Winter: survivable.","id":"the-winter-light","kicker":"Sweden \u00b7 the bright hours","place":"Sweden","subtitle":"The sun clears the rooftops at ten and starts packing up by two, so when it's out, you go \u2014 no negotiating. Along the water where the light lies down flat and gold, walking fast enough to keep warm, slow enough to bank it all.","title":"The Winter Light"},{"beats":[{"t":0,"speed":2,"incline":1},{"t":180,"speed":2.7,"incline":2},{"t":360,"speed":2.4,"incline":3},{"t":540,"speed":2.6,"incline":1},{"t":660,"speed":1.8,"incline":0},{"t":960,"speed":2,"incline":0},{"t":1080,"speed":2.8,"incline":1},{"t":1290,"speed":2.5,"incline":0},{"t":1430,"speed":2.1,"incline":0}],"colors":[[0.13,0.21,0.12],[0.17,0.17,0.09],[0.06,0.1,0.06],[0.35,0.25,0.08]],"goodbye":"The spot stays secret. Yours now.","id":"chanterelles","kicker":"Sweden \u00b7 the forest","place":"Sweden","subtitle":"Someone at work mentioned a spot, vaguely, the way people do when they'll never tell you the real one. Up into the mossy pines anyway \u2014 the slow, head-down hunt, the first gold flash under the spruce, the bag filling one small victory at a time.","title":"Chanterelles"},{"beats":[{"t":0,"speed":2,"incline":0},{"t":210,"speed":2.7,"incline":1},{"t":420,"speed":2.9,"incline":0},{"t":630,"speed":2.8,"incline":1},{"t":840,"speed":3,"incline":2},{"t":1020,"speed":2.8,"incline":1},{"t":1200,"speed":2.9,"incline":0},{"t":1380,"speed":2.3,"incline":0}],"colors":[[0.14,0.24,0.14],[0.11,0.2,0.28],[0.06,0.11,0.09],[0.32,0.26,0.12]],"goodbye":"The island stays. That's the deal.","id":"djurgarden","kicker":"Stockholm \u00b7 the island","place":"Stockholm","subtitle":"Over the bridge and the city hands you an island \u2014 royal oaks, gravel paths, water glinting on both sides. Half of Stockholm is out here doing the same slow lap, and nobody is in a hurry to finish it.","title":"Djurg\u00e5rden"},{"beats":[{"t":0,"speed":2,"incline":0},{"t":150,"speed":2.8,"incline":1},{"t":330,"speed":2.6,"incline":2},{"t":510,"speed":2.8,"incline":1},{"t":690,"speed":2.6,"incline":3},{"t":870,"speed":3,"incline":1},{"t":1080,"speed":2.8,"incline":2},{"t":1260,"speed":2.4,"incline":1},{"t":1400,"speed":2.1,"incline":0}],"colors":[[0.16,0.27,0.13],[0.2,0.16,0.1],[0.08,0.11,0.06],[0.32,0.12,0.1]],"goodbye":"The tomatoes noticed you came.","id":"the-allotment","kicker":"Sweden \u00b7 after work","place":"Sweden","subtitle":"The kolonilott is four hundred square meters of dirt that answers only to you. Out past the painted sheds, up the rows the hill insists on, water the tomatoes, judge the neighbor's dahlias, walk home smelling faintly of soil and superiority.","title":"The Allotment"},{"beats":[{"t":0,"speed":2,"incline":0},{"t":150,"speed":2.8,"incline":0},{"t":300,"speed":2.2,"incline":3},{"t":450,"speed":2.9,"incline":0},{"t":600,"speed":2.2,"incline":2},{"t":750,"speed":3,"incline":0},{"t":900,"speed":2.3,"incline":3},{"t":1050,"speed":2.9,"incline":0},{"t":1200,"speed":2.4,"incline":2},{"t":1380,"speed":2.2,"incline":0}],"colors":[[0.15,0.25,0.15],[0.18,0.22,0.26],[0.07,0.11,0.08],[0.24,0.18,0.3]],"goodbye":"The city, from above it all.","id":"parliament-hill","kicker":"London \u00b7 the Heath","place":"London","subtitle":"The Heath pretends to be countryside and mostly gets away with it. Up the kite hill with the dogs and the determined prams, and at the top \u2014 the whole skyline at once, St Paul's to the towers, doing its trick of looking painted on.","title":"Parliament Hill"},{"beats":[{"t":0,"speed":2,"incline":0},{"t":180,"speed":2.9,"incline":0},{"t":360,"speed":3.1,"incline":1},{"t":540,"speed":3.2,"incline":0},{"t":720,"speed":3,"incline":1},{"t":900,"speed":3.2,"incline":2},{"t":1050,"speed":3,"incline":0},{"t":1230,"speed":2.8,"incline":1},{"t":1400,"speed":2.2,"incline":0}],"colors":[[0.18,0.21,0.26],[0.14,0.16,0.24],[0.08,0.09,0.12],[0.34,0.23,0.1]],"goodbye":"The river's seen worse days than yours.","id":"the-thames-path","kicker":"London \u00b7 after work","place":"London","subtitle":"The tide is out and the river smells like history. Up onto the bridge with the commuter current, along the south bank as the crowds thin, the second bridge carrying you home while the water goes pewter under the lamps.","title":"The Thames Path"},{"beats":[{"t":0,"speed":2,"incline":0},{"t":120,"speed":3,"incline":1},{"t":300,"speed":3.2,"incline":0},{"t":480,"speed":3,"incline":2},{"t":660,"speed":3.2,"incline":1},{"t":840,"speed":3.3,"incline":0},{"t":1020,"speed":3,"incline":1},{"t":1200,"speed":2.8,"incline":0},{"t":1380,"speed":2.3,"incline":0}],"colors":[[0.15,0.24,0.14],[0.18,0.22,0.24],[0.07,0.11,0.07],[0.3,0.14,0.14]],"goodbye":"Mutiny complete. Back to it.","id":"the-park-at-lunch","kicker":"London \u00b7 lunch hour","place":"London","subtitle":"The emails will keep; they always keep. Out past the sandwich queue and into the park's long diagonal, plane trees overhead, deckchairs full of people having the same quiet mutiny you are.","title":"The Park at Lunch"},{"beats":[{"t":0,"speed":2,"incline":0},{"t":180,"speed":2.9,"incline":1},{"t":390,"speed":3.1,"incline":0},{"t":570,"speed":3,"incline":2},{"t":720,"speed":3.1,"incline":1},{"t":870,"speed":2.2,"incline":0},{"t":990,"speed":2.5,"incline":0},{"t":1140,"speed":2.8,"incline":1},{"t":1320,"speed":2.4,"incline":0},{"t":1430,"speed":2.1,"incline":0}],"colors":[[0.3,0.2,0.09],[0.22,0.12,0.1],[0.12,0.08,0.05],[0.34,0.28,0.16]],"goodbye":"Second place. A moral victory.","id":"the-local","kicker":"London \u00b7 quiz night","place":"London","subtitle":"The nearest pub is fine, which is the problem \u2014 the good one is two neighborhoods over, up past the church, and the walk is part of the membership fee. They're already at the table by the window, saving your seat and mispronouncing your specialist subject.","title":"The Local"},{"beats":[{"t":0,"speed":2,"incline":0},{"t":210,"speed":2.6,"incline":1},{"t":420,"speed":2.8,"incline":0},{"t":600,"speed":2.9,"incline":2},{"t":780,"speed":2.7,"incline":1},{"t":960,"speed":2.9,"incline":0},{"t":1140,"speed":2.6,"incline":1},{"t":1320,"speed":2.4,"incline":0},{"t":1440,"speed":2,"incline":0}],"colors":[[0.22,0.16,0.3],[0.14,0.18,0.28],[0.09,0.08,0.13],[0.33,0.2,0.12]],"goodbye":"Not your dog. Still your joy.","id":"the-common-at-dusk","kicker":"London \u00b7 dog o'clock","place":"London","subtitle":"At this hour the common belongs to the dogs and whoever they brought with them. The light goes violet behind the old oaks, somebody's spaniel is having the best day of its life again, and the loop walks you as much as you walk it.","title":"The Common at Dusk"},{"beats":[{"t":0,"speed":2,"incline":0},{"t":240,"speed":2.6,"incline":0},{"t":480,"speed":2.8,"incline":1},{"t":720,"speed":2.6,"incline":0},{"t":900,"speed":2.8,"incline":2},{"t":1080,"speed":2.6,"incline":1},{"t":1260,"speed":2.7,"incline":0},{"t":1420,"speed":2.1,"incline":0}],"colors":[[0.2,0.19,0.28],[0.15,0.18,0.26],[0.09,0.09,0.12],[0.33,0.23,0.12]],"goodbye":"\"Okay \u2014 no, YOU hang up.\" Walked and warmed.","id":"the-call","kicker":"","place":"Anywhere","subtitle":"Some calls are too good for the couch. Headphones in, dial as the door closes behind you \u2014 laps of the neighborhood while the story gets going, and you take the hill without noticing because the other voice is mid-sentence.","title":"The Call"},{"beats":[{"t":0,"speed":2,"incline":0},{"t":210,"speed":2.8,"incline":1},{"t":450,"speed":2.6,"incline":2},{"t":630,"speed":2.3,"incline":0},{"t":870,"speed":2.2,"incline":0},{"t":1020,"speed":2.7,"incline":1},{"t":1230,"speed":2.9,"incline":0},{"t":1380,"speed":2.4,"incline":1},{"t":1460,"speed":2.1,"incline":0}],"colors":[[0.28,0.2,0.2],[0.2,0.16,0.28],[0.1,0.08,0.09],[0.16,0.22,0.14]],"goodbye":"They'll say they're fine again next week. Go anyway.","id":"looking-in","kicker":"","place":"Anywhere","subtitle":"They said they're fine, which is how you know to go. The long blocks over with nothing in your hands but the visit itself \u2014 they'll say you needn't have come, then talk for an hour, and the walk home will feel like it mattered. Because it did.","title":"Looking In"},{"beats":[{"t":0,"speed":2,"incline":0},{"t":240,"speed":2.8,"incline":1},{"t":480,"speed":2.7,"incline":2},{"t":660,"speed":2.9,"incline":1},{"t":900,"speed":3,"incline":0},{"t":1140,"speed":2.7,"incline":1},{"t":1290,"speed":2.4,"incline":0},{"t":1430,"speed":2,"incline":0}],"colors":[[0.26,0.28,0.16],[0.24,0.16,0.1],[0.1,0.11,0.07],[0.3,0.24,0.16]],"goodbye":"It was gone in eleven minutes. Glory.","id":"the-potluck","kicker":"","place":"Anywhere","subtitle":"You said you'd bring the good one, so now the casserole rides level the whole way or it doesn't ride at all. Steady down the long sidewalk, past two other foil-covered pilgrims headed the same direction \u2014 arriving warm is the entire assignment.","title":"The Potluck"},{"beats":[{"t":0,"speed":2,"incline":0},{"t":240,"speed":2.5,"incline":0},{"t":480,"speed":2.7,"incline":1},{"t":750,"speed":2.6,"incline":2},{"t":960,"speed":2.7,"incline":1},{"t":1170,"speed":2.5,"incline":0},{"t":1320,"speed":2.3,"incline":1},{"t":1440,"speed":2,"incline":0}],"colors":[[0.18,0.24,0.18],[0.14,0.19,0.2],[0.08,0.11,0.09],[0.15,0.19,0.3]],"goodbye":"Nothing happened. You missed nothing. Perfect.","id":"off-screen","kicker":"","place":"Anywhere","subtitle":"The phone stays in the drawer, and for the first three blocks that feels like a missing limb. Then it doesn't. The long easy way around, nothing to check, nothing checking on you \u2014 just the neighborhood, rendering in full detail for once.","title":"Off Screen"},{"beats":[{"t":0,"speed":2,"incline":0},{"t":300,"speed":2.4,"incline":1},{"t":480,"speed":2.5,"incline":2},{"t":540,"speed":2.6,"incline":1},{"t":660,"speed":2.2,"incline":0},{"t":840,"speed":2.9,"incline":1},{"t":1080,"speed":2.7,"incline":2},{"t":1260,"speed":2.5,"incline":1},{"t":1420,"speed":2.2,"incline":0}],"colors":[[0.24,0.27,0.33],[0.28,0.24,0.14],[0.09,0.1,0.13],[0.14,0.24,0.14]],"goodbye":"The wave, returned at the corner.","id":"the-drop-off","kicker":"","place":"Anywhere","subtitle":"A small hand in yours and a story with no ending, all the way up the rise. At the gate, the ritual wave. The way back is yours alone \u2014 which is exactly enough time for the park loop and the first uninterrupted thought of the day.","title":"The Drop-Off"}]}
+{
+  "bands" : [
+    {
+      "max" : 5,
+      "min" : 3,
+      "title" : "Three to five minutes"
+    },
+    {
+      "max" : 10,
+      "min" : 6,
+      "title" : "Six to ten minutes"
+    },
+    {
+      "max" : 15,
+      "min" : 11,
+      "title" : "Eleven to fifteen minutes"
+    },
+    {
+      "max" : 20,
+      "min" : 16,
+      "title" : "Sixteen to twenty minutes"
+    }
+  ],
+  "count" : 52,
+  "duration" : 1200,
+  "rounds" : [
+    {
+      "beats" : [
+        {
+          "incline" : 0,
+          "speed" : 2,
+          "t" : 0
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.6000000000000001,
+          "t" : 30
+        },
+        {
+          "incline" : 1,
+          "speed" : 2.7999999999999998,
+          "t" : 80
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.2999999999999998,
+          "t" : 140
+        }
+      ],
+      "colors" : [
+        [
+          0.16,
+          0.23999999999999999,
+          0.16
+        ],
+        [
+          0.13,
+          0.19,
+          0.28000000000000003
+        ],
+        [
+          0.070000000000000007,
+          0.10000000000000001,
+          0.080000000000000002
+        ],
+        [
+          0.34000000000000002,
+          0.22,
+          0.10000000000000001
+        ]
+      ],
+      "duration" : 180,
+      "goodbye" : "Two bills, one catalog. Worth the trip.",
+      "id" : "the-mailbox",
+      "kicker" : "Anywhere",
+      "minutes" : 3,
+      "place" : "Anywhere",
+      "subtitle" : "Down the steps and out to the end of the drive, because the mail won't walk itself in. A look at the sky while you're there, a word to the neighbor's cat, and back with two bills and a seed catalog that is, frankly, the reason you went.",
+      "title" : "The Mailbox"
+    },
+    {
+      "beats" : [
+        {
+          "incline" : 0,
+          "speed" : 2,
+          "t" : 0
+        },
+        {
+          "incline" : 0,
+          "speed" : 3,
+          "t" : 30
+        },
+        {
+          "incline" : 0,
+          "speed" : 3.2000000000000002,
+          "t" : 100
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.3999999999999999,
+          "t" : 145
+        }
+      ],
+      "colors" : [
+        [
+          0.26000000000000001,
+          0.20000000000000001,
+          0.14000000000000001
+        ],
+        [
+          0.16,
+          0.17999999999999999,
+          0.26000000000000001
+        ],
+        [
+          0.10000000000000001,
+          0.089999999999999997,
+          0.089999999999999997
+        ],
+        [
+          0.28000000000000003,
+          0.32000000000000001,
+          0.34000000000000002
+        ]
+      ],
+      "duration" : 180,
+      "goodbye" : "Milk acquired. Tea saved.",
+      "id" : "the-corner-shop",
+      "kicker" : "London · out of milk",
+      "minutes" : 3,
+      "place" : "London",
+      "subtitle" : "You're out of milk, which is the excuse you were waiting for. Round the corner past the launderette's warm breath, the shop's bell, two words with the owner about the weather that isn't doing anything, and back before the kettle has even thought about cooling.",
+      "title" : "The Corner Shop"
+    },
+    {
+      "beats" : [
+        {
+          "incline" : 2,
+          "speed" : 2,
+          "t" : 0
+        },
+        {
+          "incline" : 3,
+          "speed" : 2.2000000000000002,
+          "t" : 40
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.8999999999999999,
+          "t" : 100
+        },
+        {
+          "incline" : 3,
+          "speed" : 2.2000000000000002,
+          "t" : 140
+        },
+        {
+          "incline" : 1,
+          "speed" : 2.2999999999999998,
+          "t" : 200
+        }
+      ],
+      "colors" : [
+        [
+          0.20000000000000001,
+          0.20999999999999999,
+          0.23999999999999999
+        ],
+        [
+          0.16,
+          0.20000000000000001,
+          0.29999999999999999
+        ],
+        [
+          0.080000000000000002,
+          0.089999999999999997,
+          0.11
+        ],
+        [
+          0.34000000000000002,
+          0.34000000000000002,
+          0.29999999999999999
+        ]
+      ],
+      "duration" : 240,
+      "goodbye" : "Four up, four down. Present now.",
+      "id" : "the-stairwell",
+      "kicker" : "New York · between calls",
+      "minutes" : 4,
+      "place" : "New York",
+      "subtitle" : "The elevator is a fine invention and you are ignoring it. Four flights up the echoing stairwell — the door that sticks on three, the landing window with the water towers in it — and four back down, arriving at the next call with actual blood in your face.",
+      "title" : "The Stairwell"
+    },
+    {
+      "beats" : [
+        {
+          "incline" : 0,
+          "speed" : 2,
+          "t" : 0
+        },
+        {
+          "incline" : 1,
+          "speed" : 2.7999999999999998,
+          "t" : 30
+        },
+        {
+          "incline" : 0,
+          "speed" : 3,
+          "t" : 90
+        },
+        {
+          "incline" : 1,
+          "speed" : 2.7999999999999998,
+          "t" : 150
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.2999999999999998,
+          "t" : 205
+        }
+      ],
+      "colors" : [
+        [
+          0.29999999999999999,
+          0.20000000000000001,
+          0.12
+        ],
+        [
+          0.22,
+          0.14000000000000001,
+          0.14000000000000001
+        ],
+        [
+          0.11,
+          0.080000000000000002,
+          0.070000000000000007
+        ],
+        [
+          0.12,
+          0.28000000000000003,
+          0.16
+        ]
+      ],
+      "duration" : 240,
+      "goodbye" : "Every bottle, its clank. Absolved.",
+      "id" : "the-recycling",
+      "kicker" : "Berlin · Sunday evening",
+      "minutes" : 4,
+      "place" : "Berlin",
+      "subtitle" : "The bag of bottles has been by the door since Thursday, judging you. Down to the containers on the corner — green, brown, white, a clank for every bottle and a small satisfying violence in each — and back the long side of the block because the evening is doing something with the light.",
+      "title" : "The Recycling"
+    },
+    {
+      "beats" : [
+        {
+          "incline" : 0,
+          "speed" : 2,
+          "t" : 0
+        },
+        {
+          "incline" : 0,
+          "speed" : 3,
+          "t" : 30
+        },
+        {
+          "incline" : 1,
+          "speed" : 3.2000000000000002,
+          "t" : 100
+        },
+        {
+          "incline" : 0,
+          "speed" : 3,
+          "t" : 170
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.2999999999999998,
+          "t" : 210
+        }
+      ],
+      "colors" : [
+        [
+          0.17000000000000001,
+          0.19,
+          0.23999999999999999
+        ],
+        [
+          0.14000000000000001,
+          0.17999999999999999,
+          0.29999999999999999
+        ],
+        [
+          0.070000000000000007,
+          0.080000000000000002,
+          0.11
+        ],
+        [
+          0.34000000000000002,
+          0.26000000000000001,
+          0.12
+        ]
+      ],
+      "duration" : 240,
+      "goodbye" : "Notes read. Face rearranged.",
+      "id" : "between-meetings",
+      "kicker" : "Anywhere",
+      "minutes" : 4,
+      "place" : "Anywhere",
+      "subtitle" : "The next one starts on the quarter hour, which leaves exactly enough time to walk the block and come back as a person. Out the door without the phone, around the corner where the wind lives, past the café you're not stopping at, and in again with the notes actually read.",
+      "title" : "Between Meetings"
+    },
+    {
+      "beats" : [
+        {
+          "incline" : 1,
+          "speed" : 2,
+          "t" : 0
+        },
+        {
+          "incline" : 2,
+          "speed" : 2.6000000000000001,
+          "t" : 40
+        },
+        {
+          "incline" : 3,
+          "speed" : 2.3999999999999999,
+          "t" : 110
+        },
+        {
+          "incline" : 0,
+          "speed" : 3,
+          "t" : 170
+        },
+        {
+          "incline" : 1,
+          "speed" : 2.6000000000000001,
+          "t" : 230
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.2000000000000002,
+          "t" : 270
+        }
+      ],
+      "colors" : [
+        [
+          0.22,
+          0.23999999999999999,
+          0.28000000000000003
+        ],
+        [
+          0.26000000000000001,
+          0.17000000000000001,
+          0.10000000000000001
+        ],
+        [
+          0.089999999999999997,
+          0.10000000000000001,
+          0.12
+        ],
+        [
+          0.35999999999999999,
+          0.28000000000000003,
+          0.12
+        ]
+      ],
+      "duration" : 300,
+      "goodbye" : "Two cups, both level. Heroic.",
+      "id" : "the-coffee-run",
+      "kicker" : "San Francisco · mid-morning",
+      "minutes" : 5,
+      "place" : "San Francisco",
+      "subtitle" : "The office coffee exists and that's all that can be said for it. The good place is two blocks up, and up is the operative word — the hill that makes the cup cost a little more than the price. Two flat whites, the walk back down with them level, the day negotiable again.",
+      "title" : "The Coffee Run"
+    },
+    {
+      "beats" : [
+        {
+          "incline" : 0,
+          "speed" : 2,
+          "t" : 0
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.7999999999999998,
+          "t" : 40
+        },
+        {
+          "incline" : 0,
+          "speed" : 3,
+          "t" : 120
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.7000000000000002,
+          "t" : 200
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.2000000000000002,
+          "t" : 260
+        }
+      ],
+      "colors" : [
+        [
+          0.12,
+          0.13,
+          0.28000000000000003
+        ],
+        [
+          0.10000000000000001,
+          0.17999999999999999,
+          0.26000000000000001
+        ],
+        [
+          0.050000000000000003,
+          0.059999999999999998,
+          0.12
+        ],
+        [
+          0.29999999999999999,
+          0.32000000000000001,
+          0.35999999999999999
+        ]
+      ],
+      "duration" : 300,
+      "goodbye" : "Onigiri: tuna mayo. Correct.",
+      "id" : "the-konbini",
+      "kicker" : "Tokyo · past midnight",
+      "minutes" : 5,
+      "place" : "Tokyo",
+      "subtitle" : "The fridge has a lemon in it and nothing else, and the konbini three corners away is lit like a small sun. Down the sleeping street, the automatic door's chime, an onigiri chosen with real deliberation, and the walk back under a sky the color of a screen on standby.",
+      "title" : "The Konbini"
+    },
+    {
+      "beats" : [
+        {
+          "incline" : 0,
+          "speed" : 2,
+          "t" : 0
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.7000000000000002,
+          "t" : 40
+        },
+        {
+          "incline" : 1,
+          "speed" : 2.8999999999999999,
+          "t" : 110
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.7000000000000002,
+          "t" : 190
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.2000000000000002,
+          "t" : 250
+        }
+      ],
+      "colors" : [
+        [
+          0.14000000000000001,
+          0.16,
+          0.28000000000000003
+        ],
+        [
+          0.17999999999999999,
+          0.16,
+          0.23999999999999999
+        ],
+        [
+          0.070000000000000007,
+          0.080000000000000002,
+          0.12
+        ],
+        [
+          0.34000000000000002,
+          0.20000000000000001,
+          0.10000000000000001
+        ]
+      ],
+      "duration" : 300,
+      "goodbye" : "Bins out. Fox unbothered.",
+      "id" : "bins-out",
+      "kicker" : "London · Tuesday night",
+      "minutes" : 5,
+      "place" : "London",
+      "subtitle" : "The bins go out Tuesday, and the whole street knows it — the roll of wheels on paving from every drive at once. Yours to the kerb, then a lap of the block because the night is mild and a fox is doing the same round, more professionally.",
+      "title" : "Bins Out"
+    },
+    {
+      "beats" : [
+        {
+          "incline" : 0,
+          "speed" : 2,
+          "t" : 0
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.7999999999999998,
+          "t" : 40
+        },
+        {
+          "incline" : 1,
+          "speed" : 3,
+          "t" : 120
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.6000000000000001,
+          "t" : 200
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.8999999999999999,
+          "t" : 260
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.2999999999999998,
+          "t" : 320
+        }
+      ],
+      "colors" : [
+        [
+          0.14999999999999999,
+          0.25,
+          0.14999999999999999
+        ],
+        [
+          0.12,
+          0.20000000000000001,
+          0.26000000000000001
+        ],
+        [
+          0.070000000000000007,
+          0.11,
+          0.080000000000000002
+        ],
+        [
+          0.33000000000000002,
+          0.23999999999999999,
+          0.12
+        ]
+      ],
+      "duration" : 360,
+      "goodbye" : "Everybody's box, ticked.",
+      "id" : "the-dogs-short-one",
+      "kicker" : "Anywhere",
+      "minutes" : 6,
+      "place" : "Anywhere",
+      "subtitle" : "Not the big walk — the dog knows the difference and forgives you. The short loop: the lamppost with the news on it, the hedge with the other dog in it, the corner where a sit is required for reasons no one has explained, and home with everybody's box ticked.",
+      "title" : "The Dog's Short One"
+    },
+    {
+      "beats" : [
+        {
+          "incline" : 0,
+          "speed" : 2,
+          "t" : 0
+        },
+        {
+          "incline" : 0,
+          "speed" : 3,
+          "t" : 40
+        },
+        {
+          "incline" : 1,
+          "speed" : 3.2000000000000002,
+          "t" : 120
+        },
+        {
+          "incline" : 0,
+          "speed" : 3,
+          "t" : 220
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.6000000000000001,
+          "t" : 300
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.2000000000000002,
+          "t" : 330
+        }
+      ],
+      "colors" : [
+        [
+          0.14000000000000001,
+          0.17999999999999999,
+          0.29999999999999999
+        ],
+        [
+          0.28000000000000003,
+          0.20000000000000001,
+          0.10000000000000001
+        ],
+        [
+          0.070000000000000007,
+          0.080000000000000002,
+          0.13
+        ],
+        [
+          0.35999999999999999,
+          0.26000000000000001,
+          0.10000000000000001
+        ]
+      ],
+      "duration" : 360,
+      "goodbye" : "The pretend one was for you.",
+      "id" : "the-bakery",
+      "kicker" : "Berlin · early",
+      "minutes" : 6,
+      "place" : "Berlin",
+      "subtitle" : "Before the queue gets serious. Down the street with the shutters still half-drawn, the smell reaching you a whole block out, and the woman who already knows it's four Schrippen and one thing you'll pretend was for someone else. Home with the bag warm against your chest.",
+      "title" : "The Bakery"
+    },
+    {
+      "beats" : [
+        {
+          "incline" : 0,
+          "speed" : 2,
+          "t" : 0
+        },
+        {
+          "incline" : 1,
+          "speed" : 2.7000000000000002,
+          "t" : 40
+        },
+        {
+          "incline" : 2,
+          "speed" : 2.8999999999999999,
+          "t" : 120
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.6000000000000001,
+          "t" : 210
+        },
+        {
+          "incline" : 1,
+          "speed" : 2.8999999999999999,
+          "t" : 290
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.2000000000000002,
+          "t" : 330
+        }
+      ],
+      "colors" : [
+        [
+          0.29999999999999999,
+          0.17999999999999999,
+          0.22
+        ],
+        [
+          0.17999999999999999,
+          0.14000000000000001,
+          0.29999999999999999
+        ],
+        [
+          0.10000000000000001,
+          0.080000000000000002,
+          0.12
+        ],
+        [
+          0.34000000000000002,
+          0.23999999999999999,
+          0.12
+        ]
+      ],
+      "duration" : 360,
+      "goodbye" : "Pink, then violet. On time.",
+      "id" : "the-cul-de-sac",
+      "kicker" : "Colorado · evening",
+      "minutes" : 6,
+      "place" : "Colorado",
+      "subtitle" : "The loop of the neighborhood, the one you could walk blind. Past the house with the flag and the one with the trampoline, the dip where the deer cross, the rise at the end where the mountains sit — going pink now, then violet, on schedule.",
+      "title" : "The Cul-de-sac"
+    },
+    {
+      "beats" : [
+        {
+          "incline" : 0,
+          "speed" : 2,
+          "t" : 0
+        },
+        {
+          "incline" : 0,
+          "speed" : 3.1000000000000001,
+          "t" : 40
+        },
+        {
+          "incline" : 1,
+          "speed" : 3.2999999999999998,
+          "t" : 130
+        },
+        {
+          "incline" : 0,
+          "speed" : 3.1000000000000001,
+          "t" : 220
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.8999999999999999,
+          "t" : 300
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.2999999999999998,
+          "t" : 380
+        }
+      ],
+      "colors" : [
+        [
+          0.32000000000000001,
+          0.20999999999999999,
+          0.10000000000000001
+        ],
+        [
+          0.23999999999999999,
+          0.13,
+          0.12
+        ],
+        [
+          0.11,
+          0.080000000000000002,
+          0.080000000000000002
+        ],
+        [
+          0.14000000000000001,
+          0.29999999999999999,
+          0.29999999999999999
+        ]
+      ],
+      "duration" : 420,
+      "goodbye" : "The sandwich, correctly made.",
+      "id" : "the-bodega",
+      "kicker" : "New York · evening",
+      "minutes" : 7,
+      "place" : "New York",
+      "subtitle" : "Dinner is a sandwich and the sandwich is at the bodega, where the cat sleeps on the chips and the guy already knows the order. Down the avenue in the tail end of the day, past the stoop committee, the bell, the wait, and back up with the bag swinging.",
+      "title" : "The Bodega"
+    },
+    {
+      "beats" : [
+        {
+          "incline" : 0,
+          "speed" : 2,
+          "t" : 0
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.8999999999999999,
+          "t" : 40
+        },
+        {
+          "incline" : 1,
+          "speed" : 3.1000000000000001,
+          "t" : 120
+        },
+        {
+          "incline" : 0,
+          "speed" : 3,
+          "t" : 220
+        },
+        {
+          "incline" : 1,
+          "speed" : 3.1000000000000001,
+          "t" : 300
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.3999999999999999,
+          "t" : 370
+        }
+      ],
+      "colors" : [
+        [
+          0.17999999999999999,
+          0.23999999999999999,
+          0.32000000000000001
+        ],
+        [
+          0.16,
+          0.17999999999999999,
+          0.28000000000000003
+        ],
+        [
+          0.080000000000000002,
+          0.10000000000000001,
+          0.14000000000000001
+        ],
+        [
+          0.32000000000000001,
+          0.23999999999999999,
+          0.12
+        ]
+      ],
+      "duration" : 420,
+      "goodbye" : "Paper, under the arm. Organized.",
+      "id" : "the-kiosk",
+      "kicker" : "Sweden · morning",
+      "minutes" : 7,
+      "place" : "Sweden",
+      "subtitle" : "The paper could arrive by itself, but then you'd miss the walk to the kiosk — the frost still on the bike seats, the station coffee smell, the cashier's exact 'hej hej.' Back with the paper folded under your arm like someone in a film about being organized.",
+      "title" : "The Kiosk"
+    },
+    {
+      "beats" : [
+        {
+          "incline" : 0,
+          "speed" : 2,
+          "t" : 0
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.7000000000000002,
+          "t" : 40
+        },
+        {
+          "incline" : 1,
+          "speed" : 2.8999999999999999,
+          "t" : 120
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.7999999999999998,
+          "t" : 210
+        },
+        {
+          "incline" : 0,
+          "speed" : 3,
+          "t" : 300
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.2999999999999998,
+          "t" : 370
+        }
+      ],
+      "colors" : [
+        [
+          0.20000000000000001,
+          0.22,
+          0.26000000000000001
+        ],
+        [
+          0.14000000000000001,
+          0.20000000000000001,
+          0.28000000000000003
+        ],
+        [
+          0.080000000000000002,
+          0.089999999999999997,
+          0.11
+        ],
+        [
+          0.35999999999999999,
+          0.28000000000000003,
+          0.12
+        ]
+      ],
+      "duration" : 420,
+      "goodbye" : "One memo, mostly wind. The good part's in there.",
+      "id" : "the-voice-memo",
+      "kicker" : "Anywhere",
+      "minutes" : 7,
+      "place" : "Anywhere",
+      "subtitle" : "The idea won't come at the desk; it never does. Out the door with the phone held like a walkie-talkie, talking to yourself in full sentences, the one good thought arriving at the corner exactly as you knew it would. Seven minutes, one memo, mostly wind.",
+      "title" : "The Voice Memo"
+    },
+    {
+      "beats" : [
+        {
+          "incline" : 1,
+          "speed" : 2,
+          "t" : 0
+        },
+        {
+          "incline" : 2,
+          "speed" : 2.3999999999999999,
+          "t" : 40
+        },
+        {
+          "incline" : 3,
+          "speed" : 2.2000000000000002,
+          "t" : 130
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.8999999999999999,
+          "t" : 220
+        },
+        {
+          "incline" : 2,
+          "speed" : 2.6000000000000001,
+          "t" : 300
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.7000000000000002,
+          "t" : 380
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.2000000000000002,
+          "t" : 440
+        }
+      ],
+      "colors" : [
+        [
+          0.20000000000000001,
+          0.22,
+          0.26000000000000001
+        ],
+        [
+          0.16,
+          0.20000000000000001,
+          0.29999999999999999
+        ],
+        [
+          0.080000000000000002,
+          0.089999999999999997,
+          0.11
+        ],
+        [
+          0.34000000000000002,
+          0.12,
+          0.10000000000000001
+        ]
+      ],
+      "duration" : 480,
+      "goodbye" : "Can: opened at the bottom. Timing.",
+      "id" : "the-vending-machine",
+      "kicker" : "Tokyo · winter morning",
+      "minutes" : 8,
+      "place" : "Tokyo",
+      "subtitle" : "At the top of the hill there's a vending machine that does the hot cans, and that is reason enough to climb it. Up the stepped lane past the tiled roofs, the coins in your glove, the clunk, the can warming both hands — and the walk down while it's still too hot to open.",
+      "title" : "The Vending Machine"
+    },
+    {
+      "beats" : [
+        {
+          "incline" : 0,
+          "speed" : 2,
+          "t" : 0
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.7000000000000002,
+          "t" : 45
+        },
+        {
+          "incline" : 1,
+          "speed" : 2.8999999999999999,
+          "t" : 130
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.7999999999999998,
+          "t" : 230
+        },
+        {
+          "incline" : 1,
+          "speed" : 3,
+          "t" : 320
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.7000000000000002,
+          "t" : 400
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.2000000000000002,
+          "t" : 440
+        }
+      ],
+      "colors" : [
+        [
+          0.16,
+          0.22,
+          0.32000000000000001
+        ],
+        [
+          0.12,
+          0.20000000000000001,
+          0.28000000000000003
+        ],
+        [
+          0.070000000000000007,
+          0.089999999999999997,
+          0.14000000000000001
+        ],
+        [
+          0.29999999999999999,
+          0.17999999999999999,
+          0.10000000000000001
+        ]
+      ],
+      "duration" : 480,
+      "goodbye" : "Two laps. One hot chocolate. Even.",
+      "id" : "the-rink-loop",
+      "kicker" : "Canada · winter evening",
+      "minutes" : 8,
+      "place" : "Canada",
+      "subtitle" : "The outdoor rink is lit and full and you're not skating, you're walking the loop around it — the boards, the scrape of blades, someone's kid falling over with total commitment. Around twice in the cold, the hot chocolate hut a promise for the second lap.",
+      "title" : "The Rink Loop"
+    },
+    {
+      "beats" : [
+        {
+          "incline" : 0,
+          "speed" : 2,
+          "t" : 0
+        },
+        {
+          "incline" : 1,
+          "speed" : 3,
+          "t" : 40
+        },
+        {
+          "incline" : 0,
+          "speed" : 3.2000000000000002,
+          "t" : 130
+        },
+        {
+          "incline" : 1,
+          "speed" : 3,
+          "t" : 240
+        },
+        {
+          "incline" : 0,
+          "speed" : 3.2000000000000002,
+          "t" : 330
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.6000000000000001,
+          "t" : 410
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.2000000000000002,
+          "t" : 450
+        }
+      ],
+      "colors" : [
+        [
+          0.23999999999999999,
+          0.17999999999999999,
+          0.17999999999999999
+        ],
+        [
+          0.28000000000000003,
+          0.20000000000000001,
+          0.23999999999999999
+        ],
+        [
+          0.10000000000000001,
+          0.080000000000000002,
+          0.089999999999999997
+        ],
+        [
+          0.34000000000000002,
+          0.10000000000000001,
+          0.10000000000000001
+        ]
+      ],
+      "duration" : 480,
+      "goodbye" : "Posted. Last collection made.",
+      "id" : "the-postbox",
+      "kicker" : "London · afternoon",
+      "minutes" : 8,
+      "place" : "London",
+      "subtitle" : "An actual letter, with a stamp on it, which means the postbox at the far end of the road — the one with the last collection you can still make if you go now. Down past the terraces and the cherry that's always early, the clunk of the slot, and back the sunnier side.",
+      "title" : "The Postbox"
+    },
+    {
+      "beats" : [
+        {
+          "incline" : 1,
+          "speed" : 2,
+          "t" : 0
+        },
+        {
+          "incline" : 2,
+          "speed" : 2.5,
+          "t" : 40
+        },
+        {
+          "incline" : 3,
+          "speed" : 2.2000000000000002,
+          "t" : 120
+        },
+        {
+          "incline" : 1,
+          "speed" : 2.6000000000000001,
+          "t" : 210
+        },
+        {
+          "incline" : 0,
+          "speed" : 3.1000000000000001,
+          "t" : 260
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.8999999999999999,
+          "t" : 380
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.5,
+          "t" : 470
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.2000000000000002,
+          "t" : 510
+        }
+      ],
+      "colors" : [
+        [
+          0.28000000000000003,
+          0.22,
+          0.14000000000000001
+        ],
+        [
+          0.17999999999999999,
+          0.17999999999999999,
+          0.28000000000000003
+        ],
+        [
+          0.10000000000000001,
+          0.089999999999999997,
+          0.080000000000000002
+        ],
+        [
+          0.35999999999999999,
+          0.32000000000000001,
+          0.10000000000000001
+        ]
+      ],
+      "duration" : 540,
+      "goodbye" : "Two lemons. Fully earned.",
+      "id" : "up-for-lemons",
+      "kicker" : "San Francisco · dinner prep",
+      "minutes" : 9,
+      "place" : "San Francisco",
+      "subtitle" : "The recipe wants lemons and the store is at the top of the hill, which the recipe did not mention. Up the block that leans, past the cable slot humming under the street, the corner store's cat, and down again with two lemons and the sort of breathing you'd normally schedule.",
+      "title" : "Up for Lemons"
+    },
+    {
+      "beats" : [
+        {
+          "incline" : 0,
+          "speed" : 2,
+          "t" : 0
+        },
+        {
+          "incline" : 1,
+          "speed" : 3.1000000000000001,
+          "t" : 40
+        },
+        {
+          "incline" : 0,
+          "speed" : 3.2999999999999998,
+          "t" : 140
+        },
+        {
+          "incline" : 1,
+          "speed" : 3.2000000000000002,
+          "t" : 250
+        },
+        {
+          "incline" : 0,
+          "speed" : 3.3999999999999999,
+          "t" : 350
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.7999999999999998,
+          "t" : 450
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.2000000000000002,
+          "t" : 500
+        }
+      ],
+      "colors" : [
+        [
+          0.16,
+          0.22,
+          0.29999999999999999
+        ],
+        [
+          0.12,
+          0.23999999999999999,
+          0.26000000000000001
+        ],
+        [
+          0.070000000000000007,
+          0.10000000000000001,
+          0.13
+        ],
+        [
+          0.34000000000000002,
+          0.29999999999999999,
+          0.10000000000000001
+        ]
+      ],
+      "duration" : 540,
+      "goodbye" : "Bus met. Maths vindicated.",
+      "id" : "the-next-stop",
+      "kicker" : "Norway · morning",
+      "minutes" : 9,
+      "place" : "Norway",
+      "subtitle" : "The bus is eleven minutes away and the next stop is nine on foot, so the maths is done. Along the road with the frost in the ditch, the school kids on bikes in all weather, the fjord opening on the left like it's being cued — and the bus pulling in exactly as you arrive, as if that were the plan.",
+      "title" : "The Next Stop"
+    },
+    {
+      "beats" : [
+        {
+          "incline" : 0,
+          "speed" : 2,
+          "t" : 0
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.7999999999999998,
+          "t" : 45
+        },
+        {
+          "incline" : 1,
+          "speed" : 3,
+          "t" : 140
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.8999999999999999,
+          "t" : 250
+        },
+        {
+          "incline" : 1,
+          "speed" : 3,
+          "t" : 340
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.7000000000000002,
+          "t" : 430
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.2000000000000002,
+          "t" : 500
+        }
+      ],
+      "colors" : [
+        [
+          0.22,
+          0.17999999999999999,
+          0.14000000000000001
+        ],
+        [
+          0.14000000000000001,
+          0.20000000000000001,
+          0.26000000000000001
+        ],
+        [
+          0.089999999999999997,
+          0.080000000000000002,
+          0.080000000000000002
+        ],
+        [
+          0.12,
+          0.29999999999999999,
+          0.28000000000000003
+        ]
+      ],
+      "duration" : 540,
+      "goodbye" : "Neighborhood checked. All there.",
+      "id" : "the-kiez-loop",
+      "kicker" : "Berlin · evening",
+      "minutes" : 9,
+      "place" : "Berlin",
+      "subtitle" : "The block, the whole block, the way you'd show it to a visitor: the Späti with the bench, the playground going quiet, the courtyard with the chestnut, the corner where someone's always fixing a bike. Nothing to buy, no one to meet. Just the neighborhood, checked on.",
+      "title" : "The Kiez Loop"
+    },
+    {
+      "beats" : [
+        {
+          "incline" : 0,
+          "speed" : 2,
+          "t" : 0
+        },
+        {
+          "incline" : 1,
+          "speed" : 3.2000000000000002,
+          "t" : 40
+        },
+        {
+          "incline" : 0,
+          "speed" : 3.3999999999999999,
+          "t" : 140
+        },
+        {
+          "incline" : 1,
+          "speed" : 3.2999999999999998,
+          "t" : 260
+        },
+        {
+          "incline" : 0,
+          "speed" : 3.5,
+          "t" : 370
+        },
+        {
+          "incline" : 0,
+          "speed" : 3,
+          "t" : 470
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.2999999999999998,
+          "t" : 550
+        }
+      ],
+      "colors" : [
+        [
+          0.17999999999999999,
+          0.20000000000000001,
+          0.26000000000000001
+        ],
+        [
+          0.22,
+          0.17999999999999999,
+          0.14000000000000001
+        ],
+        [
+          0.080000000000000002,
+          0.089999999999999997,
+          0.11
+        ],
+        [
+          0.35999999999999999,
+          0.12,
+          0.10000000000000001
+        ]
+      ],
+      "duration" : 600,
+      "goodbye" : "The thing. As described.",
+      "id" : "two-avenues-over",
+      "kicker" : "New York · afternoon",
+      "minutes" : 10,
+      "place" : "New York",
+      "subtitle" : "The store that has the thing is two avenues over, and avenues are long. Crosstown with the wind funnelled between the buildings, the light that turns red the moment you reach it, the walk-signal shuffle — and the thing, when you get there, exactly as described. Rare.",
+      "title" : "Two Avenues Over"
+    },
+    {
+      "beats" : [
+        {
+          "incline" : 0,
+          "speed" : 2,
+          "t" : 0
+        },
+        {
+          "incline" : 1,
+          "speed" : 2.7999999999999998,
+          "t" : 45
+        },
+        {
+          "incline" : 0,
+          "speed" : 3,
+          "t" : 150
+        },
+        {
+          "incline" : 2,
+          "speed" : 2.8999999999999999,
+          "t" : 260
+        },
+        {
+          "incline" : 1,
+          "speed" : 3.1000000000000001,
+          "t" : 360
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.7999999999999998,
+          "t" : 460
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.2000000000000002,
+          "t" : 550
+        }
+      ],
+      "colors" : [
+        [
+          0.14999999999999999,
+          0.26000000000000001,
+          0.16
+        ],
+        [
+          0.12,
+          0.22,
+          0.23999999999999999
+        ],
+        [
+          0.070000000000000007,
+          0.11,
+          0.080000000000000002
+        ],
+        [
+          0.35999999999999999,
+          0.29999999999999999,
+          0.16
+        ]
+      ],
+      "duration" : 600,
+      "goodbye" : "Ten minutes at ditch speed. Recalibrated.",
+      "id" : "the-ditch-path",
+      "kicker" : "Colorado · lunch",
+      "minutes" : 10,
+      "place" : "Colorado",
+      "subtitle" : "Behind the houses the irrigation ditch runs its own straight line through town, and there's a path along it that nobody put on a map. Cottonwood fluff, a heron standing very still about its business, the mountains at the end of every cross street. Back in ten with the ditch's pace in your legs.",
+      "title" : "The Ditch Path"
+    },
+    {
+      "beats" : [
+        {
+          "incline" : 0,
+          "speed" : 2,
+          "t" : 0
+        },
+        {
+          "incline" : 0,
+          "speed" : 3.2999999999999998,
+          "t" : 40
+        },
+        {
+          "incline" : 1,
+          "speed" : 3.5,
+          "t" : 140
+        },
+        {
+          "incline" : 0,
+          "speed" : 3.1000000000000001,
+          "t" : 250
+        },
+        {
+          "incline" : 2,
+          "speed" : 3.2000000000000002,
+          "t" : 350
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.8999999999999999,
+          "t" : 450
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.2999999999999998,
+          "t" : 550
+        }
+      ],
+      "colors" : [
+        [
+          0.20000000000000001,
+          0.20000000000000001,
+          0.26000000000000001
+        ],
+        [
+          0.23999999999999999,
+          0.16,
+          0.14000000000000001
+        ],
+        [
+          0.089999999999999997,
+          0.089999999999999997,
+          0.11
+        ],
+        [
+          0.16,
+          0.26000000000000001,
+          0.35999999999999999
+        ]
+      ],
+      "duration" : 600,
+      "goodbye" : "Draft deleted. Everyone lives.",
+      "id" : "walking-it-off",
+      "kicker" : "Anywhere",
+      "minutes" : 10,
+      "place" : "Anywhere",
+      "subtitle" : "The email is drafted and the draft is a mistake. Out before the send button gets braver — around the block once for the anger, once for the sentence you'd actually say, and a third time for nothing, because by then the point has made itself. Home. Delete draft.",
+      "title" : "Walking It Off"
+    },
+    {
+      "beats" : [
+        {
+          "incline" : 0,
+          "speed" : 2,
+          "t" : 0
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.7999999999999998,
+          "t" : 45
+        },
+        {
+          "incline" : 1,
+          "speed" : 3,
+          "t" : 150
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.8999999999999999,
+          "t" : 270
+        },
+        {
+          "incline" : 1,
+          "speed" : 3.1000000000000001,
+          "t" : 390
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.7999999999999998,
+          "t" : 500
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.2999999999999998,
+          "t" : 600
+        }
+      ],
+      "colors" : [
+        [
+          0.28000000000000003,
+          0.17999999999999999,
+          0.12
+        ],
+        [
+          0.17999999999999999,
+          0.14000000000000001,
+          0.26000000000000001
+        ],
+        [
+          0.10000000000000001,
+          0.080000000000000002,
+          0.070000000000000007
+        ],
+        [
+          0.29999999999999999,
+          0.29999999999999999,
+          0.29999999999999999
+        ]
+      ],
+      "duration" : 660,
+      "goodbye" : "The water finishes it.",
+      "id" : "the-sento",
+      "kicker" : "Tokyo · evening",
+      "minutes" : 11,
+      "place" : "Tokyo",
+      "subtitle" : "Towel over the shoulder, coins in the pocket: the walk to the bathhouse is half the bath. Down the shopping street closing up, past the lantern, the ticking chimney coming into view — and you already warm from the walk, so the water only has to finish the job.",
+      "title" : "The Sento"
+    },
+    {
+      "beats" : [
+        {
+          "incline" : 0,
+          "speed" : 2,
+          "t" : 0
+        },
+        {
+          "incline" : 1,
+          "speed" : 2.8999999999999999,
+          "t" : 45
+        },
+        {
+          "incline" : 0,
+          "speed" : 3.1000000000000001,
+          "t" : 150
+        },
+        {
+          "incline" : 2,
+          "speed" : 3,
+          "t" : 280
+        },
+        {
+          "incline" : 1,
+          "speed" : 3.2000000000000002,
+          "t" : 400
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.7999999999999998,
+          "t" : 520
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.2000000000000002,
+          "t" : 610
+        }
+      ],
+      "colors" : [
+        [
+          0.14000000000000001,
+          0.23999999999999999,
+          0.23999999999999999
+        ],
+        [
+          0.16,
+          0.20000000000000001,
+          0.29999999999999999
+        ],
+        [
+          0.059999999999999998,
+          0.10000000000000001,
+          0.11
+        ],
+        [
+          0.34000000000000002,
+          0.26000000000000001,
+          0.12
+        ]
+      ],
+      "duration" : 660,
+      "goodbye" : "Turned at the bench. Better.",
+      "id" : "the-lake-path",
+      "kicker" : "Sweden · after work",
+      "minutes" : 11,
+      "place" : "Sweden",
+      "subtitle" : "The lake is at the edge of town, which in this town means eleven minutes. Along the path with the reeds, the jetty where someone's already swimming in a temperature that's a personal choice, the light lying flat on the water. Turn at the bench. Nothing decided, everything better.",
+      "title" : "The Lake Path"
+    },
+    {
+      "beats" : [
+        {
+          "incline" : 1,
+          "speed" : 2,
+          "t" : 0
+        },
+        {
+          "incline" : 0,
+          "speed" : 3.1000000000000001,
+          "t" : 40
+        },
+        {
+          "incline" : 0,
+          "speed" : 3.2999999999999998,
+          "t" : 150
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.6000000000000001,
+          "t" : 280
+        },
+        {
+          "incline" : 0,
+          "speed" : 3.2000000000000002,
+          "t" : 400
+        },
+        {
+          "incline" : 2,
+          "speed" : 2.7999999999999998,
+          "t" : 520
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.2999999999999998,
+          "t" : 610
+        }
+      ],
+      "colors" : [
+        [
+          0.14000000000000001,
+          0.23999999999999999,
+          0.20000000000000001
+        ],
+        [
+          0.17999999999999999,
+          0.17999999999999999,
+          0.16
+        ],
+        [
+          0.070000000000000007,
+          0.10000000000000001,
+          0.089999999999999997
+        ],
+        [
+          0.32000000000000001,
+          0.12,
+          0.10000000000000001
+        ]
+      ],
+      "duration" : 660,
+      "goodbye" : "Supervised a lock. Hour defended.",
+      "id" : "the-lock",
+      "kicker" : "London · lunch",
+      "minutes" : 11,
+      "place" : "London",
+      "subtitle" : "Down the steps to the towpath and the city drops away to canal speed — narrowboats, a moorhen, the smell of somebody's wood stove. Along to the lock, where a boat is going through and a small crowd has formed to supervise, and back up to street level with the hour defended.",
+      "title" : "The Lock"
+    },
+    {
+      "beats" : [
+        {
+          "incline" : 1,
+          "speed" : 2,
+          "t" : 0
+        },
+        {
+          "incline" : 2,
+          "speed" : 2.6000000000000001,
+          "t" : 50
+        },
+        {
+          "incline" : 3,
+          "speed" : 2.2999999999999998,
+          "t" : 160
+        },
+        {
+          "incline" : 2,
+          "speed" : 2.1000000000000001,
+          "t" : 280
+        },
+        {
+          "incline" : 0,
+          "speed" : 3,
+          "t" : 340
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.8999999999999999,
+          "t" : 460
+        },
+        {
+          "incline" : 1,
+          "speed" : 2.5,
+          "t" : 580
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.2000000000000002,
+          "t" : 690
+        }
+      ],
+      "colors" : [
+        [
+          0.16,
+          0.26000000000000001,
+          0.16
+        ],
+        [
+          0.20000000000000001,
+          0.22,
+          0.28000000000000003
+        ],
+        [
+          0.070000000000000007,
+          0.11,
+          0.080000000000000002
+        ],
+        [
+          0.35999999999999999,
+          0.29999999999999999,
+          0.14000000000000001
+        ]
+      ],
+      "duration" : 720,
+      "goodbye" : "The whole city. Twelve minutes.",
+      "id" : "dolores-corner",
+      "kicker" : "San Francisco · Sunday",
+      "minutes" : 12,
+      "place" : "San Francisco",
+      "subtitle" : "Up to the top corner of the park where the whole city lays itself out for you — the palms, the downtown towers, the fog holding its line at Twin Peaks. The climb is the price of the view and everyone on the slope has paid it. Stand a minute. Then down the long side.",
+      "title" : "Dolores Corner"
+    },
+    {
+      "beats" : [
+        {
+          "incline" : 0,
+          "speed" : 2,
+          "t" : 0
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.8999999999999999,
+          "t" : 50
+        },
+        {
+          "incline" : 1,
+          "speed" : 3.1000000000000001,
+          "t" : 160
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.6000000000000001,
+          "t" : 290
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.5,
+          "t" : 420
+        },
+        {
+          "incline" : 1,
+          "speed" : 3,
+          "t" : 520
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.6000000000000001,
+          "t" : 640
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.2000000000000002,
+          "t" : 690
+        }
+      ],
+      "colors" : [
+        [
+          0.23999999999999999,
+          0.20000000000000001,
+          0.14000000000000001
+        ],
+        [
+          0.14000000000000001,
+          0.22,
+          0.23999999999999999
+        ],
+        [
+          0.10000000000000001,
+          0.089999999999999997,
+          0.080000000000000002
+        ],
+        [
+          0.35999999999999999,
+          0.29999999999999999,
+          0.10000000000000001
+        ]
+      ],
+      "duration" : 720,
+      "goodbye" : "Sourdough: got there by 9:52.",
+      "id" : "the-farmers-market",
+      "kicker" : "Canada · Saturday",
+      "minutes" : 12,
+      "place" : "Canada",
+      "subtitle" : "The market is at the far end of the main street and so is everyone you know. Down past the hardware store and the good bench, into the stalls — the corn person, the honey person, the guy with the sourdough that sells out by ten — and back with more than the list and less than you wanted.",
+      "title" : "The Farmers' Market"
+    },
+    {
+      "beats" : [
+        {
+          "incline" : 0,
+          "speed" : 2,
+          "t" : 0
+        },
+        {
+          "incline" : 1,
+          "speed" : 3.2000000000000002,
+          "t" : 45
+        },
+        {
+          "incline" : 0,
+          "speed" : 3.3999999999999999,
+          "t" : 160
+        },
+        {
+          "incline" : 1,
+          "speed" : 3.2999999999999998,
+          "t" : 300
+        },
+        {
+          "incline" : 0,
+          "speed" : 3.5,
+          "t" : 430
+        },
+        {
+          "incline" : 0,
+          "speed" : 3.1000000000000001,
+          "t" : 560
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.2999999999999998,
+          "t" : 660
+        }
+      ],
+      "colors" : [
+        [
+          0.23999999999999999,
+          0.16,
+          0.14000000000000001
+        ],
+        [
+          0.16,
+          0.17999999999999999,
+          0.23999999999999999
+        ],
+        [
+          0.089999999999999997,
+          0.080000000000000002,
+          0.089999999999999997
+        ],
+        [
+          0.12,
+          0.29999999999999999,
+          0.20000000000000001
+        ]
+      ],
+      "duration" : 720,
+      "goodbye" : "Arrived with the train. Naturally.",
+      "id" : "two-s-bahn-stops",
+      "kicker" : "Berlin · after work",
+      "minutes" : 12,
+      "place" : "Berlin",
+      "subtitle" : "The train is 'delayed', which in this city is a mood, so you walk it — two stops along the tracks with the viaduct arches beside you, the bike shops and the Turkish bakery, the wind that lives under every bridge. You arrive as the train does. Naturally.",
+      "title" : "Two S-Bahn Stops"
+    },
+    {
+      "beats" : [
+        {
+          "incline" : 0,
+          "speed" : 2,
+          "t" : 0
+        },
+        {
+          "incline" : 1,
+          "speed" : 3.1000000000000001,
+          "t" : 50
+        },
+        {
+          "incline" : 0,
+          "speed" : 3.2999999999999998,
+          "t" : 170
+        },
+        {
+          "incline" : 0,
+          "speed" : 3.3999999999999999,
+          "t" : 310
+        },
+        {
+          "incline" : 1,
+          "speed" : 2.7000000000000002,
+          "t" : 440
+        },
+        {
+          "incline" : 0,
+          "speed" : 3.2999999999999998,
+          "t" : 520
+        },
+        {
+          "incline" : 0,
+          "speed" : 3.1000000000000001,
+          "t" : 650
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.6000000000000001,
+          "t" : 710
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.2000000000000002,
+          "t" : 750
+        }
+      ],
+      "colors" : [
+        [
+          0.16,
+          0.22,
+          0.29999999999999999
+        ],
+        [
+          0.20000000000000001,
+          0.17999999999999999,
+          0.20000000000000001
+        ],
+        [
+          0.070000000000000007,
+          0.089999999999999997,
+          0.13
+        ],
+        [
+          0.32000000000000001,
+          0.34000000000000002,
+          0.34000000000000002
+        ]
+      ],
+      "duration" : 780,
+      "goodbye" : "The afternoon has a shape now.",
+      "id" : "the-pier-and-back",
+      "kicker" : "New York · lunch",
+      "minutes" : 13,
+      "place" : "New York",
+      "subtitle" : "Down to the river because the office air has stopped being air. Across the highway on the light, out along the pier to the end where the wind is loudest and the ferries turn, one look at Jersey minding its own business, and back with the afternoon's shape decided.",
+      "title" : "The Pier and Back"
+    },
+    {
+      "beats" : [
+        {
+          "incline" : 0,
+          "speed" : 2,
+          "t" : 0
+        },
+        {
+          "incline" : 1,
+          "speed" : 2.8999999999999999,
+          "t" : 50
+        },
+        {
+          "incline" : 0,
+          "speed" : 3.1000000000000001,
+          "t" : 170
+        },
+        {
+          "incline" : 1,
+          "speed" : 3,
+          "t" : 310
+        },
+        {
+          "incline" : 0,
+          "speed" : 3.2000000000000002,
+          "t" : 440
+        },
+        {
+          "incline" : 1,
+          "speed" : 2.8999999999999999,
+          "t" : 580
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.6000000000000001,
+          "t" : 700
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.2000000000000002,
+          "t" : 750
+        }
+      ],
+      "colors" : [
+        [
+          0.28000000000000003,
+          0.20000000000000001,
+          0.12
+        ],
+        [
+          0.12,
+          0.20000000000000001,
+          0.29999999999999999
+        ],
+        [
+          0.10000000000000001,
+          0.080000000000000002,
+          0.070000000000000007
+        ],
+        [
+          0.34000000000000002,
+          0.12,
+          0.10000000000000001
+        ]
+      ],
+      "duration" : 780,
+      "goodbye" : "The postcard, lived in.",
+      "id" : "the-brygge",
+      "kicker" : "Norway · evening",
+      "minutes" : 13,
+      "place" : "Norway",
+      "subtitle" : "Along the wharf with the old warehouses gone gold in the low sun, the fishing boats tied up and ticking, someone hosing down a deck. The path follows the water to the point and turns you round — the town on the way back looking like the postcard of itself it's slightly embarrassed to be.",
+      "title" : "The Brygge"
+    },
+    {
+      "beats" : [
+        {
+          "incline" : 0,
+          "speed" : 2,
+          "t" : 0
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.7000000000000002,
+          "t" : 60
+        },
+        {
+          "incline" : 1,
+          "speed" : 2.8999999999999999,
+          "t" : 180
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.7000000000000002,
+          "t" : 320
+        },
+        {
+          "incline" : 2,
+          "speed" : 2.8999999999999999,
+          "t" : 460
+        },
+        {
+          "incline" : 1,
+          "speed" : 2.7000000000000002,
+          "t" : 600
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.2999999999999998,
+          "t" : 720
+        }
+      ],
+      "colors" : [
+        [
+          0.20000000000000001,
+          0.22,
+          0.20000000000000001
+        ],
+        [
+          0.14000000000000001,
+          0.17999999999999999,
+          0.28000000000000003
+        ],
+        [
+          0.080000000000000002,
+          0.089999999999999997,
+          0.089999999999999997
+        ],
+        [
+          0.34000000000000002,
+          0.23999999999999999,
+          0.12
+        ]
+      ],
+      "duration" : 780,
+      "goodbye" : "\"Talk next week.\" Same time, same loop.",
+      "id" : "the-sunday-call",
+      "kicker" : "Anywhere",
+      "minutes" : 13,
+      "place" : "Anywhere",
+      "subtitle" : "The weekly call, and you take it walking because sitting still for it makes you thirteen again. Around the neighborhood with one earbud in, the news from home — the neighbor's hedge, the cousin's new thing — and the pace settling to the rhythm of somebody else's stories. They know you're walking. They approve.",
+      "title" : "The Sunday Call"
+    },
+    {
+      "beats" : [
+        {
+          "incline" : 0,
+          "speed" : 2,
+          "t" : 0
+        },
+        {
+          "incline" : 1,
+          "speed" : 3.2000000000000002,
+          "t" : 50
+        },
+        {
+          "incline" : 0,
+          "speed" : 3.3999999999999999,
+          "t" : 170
+        },
+        {
+          "incline" : 0,
+          "speed" : 3.2999999999999998,
+          "t" : 320
+        },
+        {
+          "incline" : 1,
+          "speed" : 3.5,
+          "t" : 460
+        },
+        {
+          "incline" : 0,
+          "speed" : 3.2000000000000002,
+          "t" : 610
+        },
+        {
+          "incline" : 2,
+          "speed" : 2.7000000000000002,
+          "t" : 740
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.2000000000000002,
+          "t" : 810
+        }
+      ],
+      "colors" : [
+        [
+          0.26000000000000001,
+          0.17999999999999999,
+          0.12
+        ],
+        [
+          0.16,
+          0.16,
+          0.28000000000000003
+        ],
+        [
+          0.10000000000000001,
+          0.080000000000000002,
+          0.070000000000000007
+        ],
+        [
+          0.29999999999999999,
+          0.32000000000000001,
+          0.34000000000000002
+        ]
+      ],
+      "duration" : 840,
+      "goodbye" : "One stop, walked. As meant.",
+      "id" : "between-stations",
+      "kicker" : "Tokyo · after work",
+      "minutes" : 14,
+      "place" : "Tokyo",
+      "subtitle" : "One stop on the loop line is fourteen minutes on foot, and the train is full of everyone's day. Under the tracks with the yakitori smoke, along the backstreets that run parallel like a secret, past the tiny shrine wedged between two buildings — and up onto the platform at the next station as if you'd meant it.",
+      "title" : "Between Stations"
+    },
+    {
+      "beats" : [
+        {
+          "incline" : 1,
+          "speed" : 2,
+          "t" : 0
+        },
+        {
+          "incline" : 2,
+          "speed" : 2.5,
+          "t" : 50
+        },
+        {
+          "incline" : 3,
+          "speed" : 2.2000000000000002,
+          "t" : 170
+        },
+        {
+          "incline" : 3,
+          "speed" : 2,
+          "t" : 300
+        },
+        {
+          "incline" : 1,
+          "speed" : 2.3999999999999999,
+          "t" : 400
+        },
+        {
+          "incline" : 0,
+          "speed" : 3,
+          "t" : 460
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.8999999999999999,
+          "t" : 600
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.5,
+          "t" : 740
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.2000000000000002,
+          "t" : 810
+        }
+      ],
+      "colors" : [
+        [
+          0.17999999999999999,
+          0.20000000000000001,
+          0.29999999999999999
+        ],
+        [
+          0.26000000000000001,
+          0.17999999999999999,
+          0.14000000000000001
+        ],
+        [
+          0.080000000000000002,
+          0.089999999999999997,
+          0.13
+        ],
+        [
+          0.35999999999999999,
+          0.23999999999999999,
+          0.10000000000000001
+        ]
+      ],
+      "duration" : 840,
+      "goodbye" : "The valley, checked on.",
+      "id" : "the-overlook",
+      "kicker" : "Colorado · after work",
+      "minutes" : 14,
+      "place" : "Colorado",
+      "subtitle" : "The short trail behind the neighborhood climbs to a bench that has the whole valley in front of it and the mountains behind. Steep enough to stop the day's thoughts, short enough that you're at the top before you've argued about it. Stand in the wind. Then the easy way down.",
+      "title" : "The Overlook"
+    },
+    {
+      "beats" : [
+        {
+          "incline" : 0,
+          "speed" : 2,
+          "t" : 0
+        },
+        {
+          "incline" : 0,
+          "speed" : 3,
+          "t" : 50
+        },
+        {
+          "incline" : 1,
+          "speed" : 3.2000000000000002,
+          "t" : 170
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.6000000000000001,
+          "t" : 320
+        },
+        {
+          "incline" : 1,
+          "speed" : 3.2999999999999998,
+          "t" : 400
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.7000000000000002,
+          "t" : 560
+        },
+        {
+          "incline" : 2,
+          "speed" : 3.2000000000000002,
+          "t" : 640
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.7000000000000002,
+          "t" : 760
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.2000000000000002,
+          "t" : 810
+        }
+      ],
+      "colors" : [
+        [
+          0.14000000000000001,
+          0.23999999999999999,
+          0.16
+        ],
+        [
+          0.17999999999999999,
+          0.20000000000000001,
+          0.23999999999999999
+        ],
+        [
+          0.070000000000000007,
+          0.10000000000000001,
+          0.080000000000000002
+        ],
+        [
+          0.34000000000000002,
+          0.26000000000000001,
+          0.12
+        ]
+      ],
+      "duration" : 840,
+      "goodbye" : "Stopped for two dogs. Still made it.",
+      "id" : "across-the-common",
+      "kicker" : "London · morning",
+      "minutes" : 14,
+      "place" : "London",
+      "subtitle" : "The far gate is fourteen minutes if you take the diagonal and don't stop for dogs, which you will. Across the grass still wet, the pond with the heron doing its statue act, the café's queue already forming — and out the other side into the day, which feels, briefly, optional.",
+      "title" : "Across the Common"
+    },
+    {
+      "beats" : [
+        {
+          "incline" : 0,
+          "speed" : 2,
+          "t" : 0
+        },
+        {
+          "incline" : 1,
+          "speed" : 3.1000000000000001,
+          "t" : 50
+        },
+        {
+          "incline" : 0,
+          "speed" : 3.2999999999999998,
+          "t" : 180
+        },
+        {
+          "incline" : 0,
+          "speed" : 3.3999999999999999,
+          "t" : 340
+        },
+        {
+          "incline" : 1,
+          "speed" : 3.2000000000000002,
+          "t" : 500
+        },
+        {
+          "incline" : 0,
+          "speed" : 3.3999999999999999,
+          "t" : 650
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.7999999999999998,
+          "t" : 800
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.2000000000000002,
+          "t" : 870
+        }
+      ],
+      "colors" : [
+        [
+          0.12,
+          0.22,
+          0.29999999999999999
+        ],
+        [
+          0.20000000000000001,
+          0.22,
+          0.26000000000000001
+        ],
+        [
+          0.059999999999999998,
+          0.10000000000000001,
+          0.12
+        ],
+        [
+          0.35999999999999999,
+          0.32000000000000001,
+          0.20000000000000001
+        ]
+      ],
+      "duration" : 900,
+      "goodbye" : "The city was kind. Note it.",
+      "id" : "the-embarcadero",
+      "kicker" : "San Francisco · morning",
+      "minutes" : 15,
+      "place" : "San Francisco",
+      "subtitle" : "Along the water with the bridge coming and going in the haze, the ferry crowd streaming in, the old piers with their numbers, the sea lions somewhere off to the left making their views known. Flat, bright, and salted — fifteen minutes of the city being kind to you.",
+      "title" : "The Embarcadero"
+    },
+    {
+      "beats" : [
+        {
+          "incline" : 0,
+          "speed" : 2,
+          "t" : 0
+        },
+        {
+          "incline" : 1,
+          "speed" : 2.7000000000000002,
+          "t" : 60
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.8999999999999999,
+          "t" : 200
+        },
+        {
+          "incline" : 2,
+          "speed" : 2.7999999999999998,
+          "t" : 360
+        },
+        {
+          "incline" : 1,
+          "speed" : 3,
+          "t" : 520
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.7999999999999998,
+          "t" : 680
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.5,
+          "t" : 820
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.2000000000000002,
+          "t" : 870
+        }
+      ],
+      "colors" : [
+        [
+          0.17999999999999999,
+          0.23999999999999999,
+          0.17999999999999999
+        ],
+        [
+          0.16,
+          0.20000000000000001,
+          0.28000000000000003
+        ],
+        [
+          0.080000000000000002,
+          0.10000000000000001,
+          0.089999999999999997
+        ],
+        [
+          0.34000000000000002,
+          0.12,
+          0.12
+        ]
+      ],
+      "duration" : 900,
+      "goodbye" : "Sunday, done properly.",
+      "id" : "sondagspromenad",
+      "kicker" : "Sweden · Sunday",
+      "minutes" : 15,
+      "place" : "Sweden",
+      "subtitle" : "The Sunday walk is not a plan, it's a condition. Out along the gravel path with half the town — prams, grandparents, a dog in a jumper — through the birches to the water and back, at the pace of people who have nowhere to be and are doing it properly.",
+      "title" : "Söndagspromenad"
+    },
+    {
+      "beats" : [
+        {
+          "incline" : 0,
+          "speed" : 2,
+          "t" : 0
+        },
+        {
+          "incline" : 0,
+          "speed" : 3,
+          "t" : 50
+        },
+        {
+          "incline" : 1,
+          "speed" : 3.2000000000000002,
+          "t" : 180
+        },
+        {
+          "incline" : 2,
+          "speed" : 3.1000000000000001,
+          "t" : 340
+        },
+        {
+          "incline" : 1,
+          "speed" : 3.2999999999999998,
+          "t" : 500
+        },
+        {
+          "incline" : 0,
+          "speed" : 3,
+          "t" : 660
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.6000000000000001,
+          "t" : 800
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.2000000000000002,
+          "t" : 870
+        }
+      ],
+      "colors" : [
+        [
+          0.20000000000000001,
+          0.20999999999999999,
+          0.23999999999999999
+        ],
+        [
+          0.14000000000000001,
+          0.20000000000000001,
+          0.28000000000000003
+        ],
+        [
+          0.080000000000000002,
+          0.089999999999999997,
+          0.11
+        ],
+        [
+          0.35999999999999999,
+          0.28000000000000003,
+          0.12
+        ]
+      ],
+      "duration" : 900,
+      "goodbye" : "Second half: arranged.",
+      "id" : "the-lunch-loop",
+      "kicker" : "Anywhere",
+      "minutes" : 15,
+      "place" : "Anywhere",
+      "subtitle" : "Lunch eaten at the desk doesn't count as lunch; the loop does. Out the back way, past the place with the good bread, up the small rise where the wind finds you, around the square where the pigeons run the show, and back in with the second half of the day arranged.",
+      "title" : "The Lunch Loop"
+    },
+    {
+      "beats" : [
+        {
+          "incline" : 0,
+          "speed" : 2,
+          "t" : 0
+        },
+        {
+          "incline" : 1,
+          "speed" : 3,
+          "t" : 50
+        },
+        {
+          "incline" : 2,
+          "speed" : 3.2000000000000002,
+          "t" : 190
+        },
+        {
+          "incline" : 3,
+          "speed" : 3.1000000000000001,
+          "t" : 350
+        },
+        {
+          "incline" : 0,
+          "speed" : 3.3999999999999999,
+          "t" : 500
+        },
+        {
+          "incline" : 1,
+          "speed" : 3.2999999999999998,
+          "t" : 650
+        },
+        {
+          "incline" : 0,
+          "speed" : 3,
+          "t" : 800
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.3999999999999999,
+          "t" : 900
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.2000000000000002,
+          "t" : 930
+        }
+      ],
+      "colors" : [
+        [
+          0.16,
+          0.20000000000000001,
+          0.29999999999999999
+        ],
+        [
+          0.20000000000000001,
+          0.20000000000000001,
+          0.22
+        ],
+        [
+          0.070000000000000007,
+          0.089999999999999997,
+          0.13
+        ],
+        [
+          0.34000000000000002,
+          0.22,
+          0.10000000000000001
+        ]
+      ],
+      "duration" : 960,
+      "goodbye" : "Crossed. Verified by borough.",
+      "id" : "the-bridge",
+      "kicker" : "New York · after work",
+      "minutes" : 16,
+      "place" : "New York",
+      "subtitle" : "Up the ramp with the tourists and the cyclists ringing at them, the boards under your feet, the cables opening overhead like the inside of a harp. The crown, the wind, the whole harbor at once — and down the other side into a borough that thinks it's the real one.",
+      "title" : "The Bridge"
+    },
+    {
+      "beats" : [
+        {
+          "incline" : 0,
+          "speed" : 2,
+          "t" : 0
+        },
+        {
+          "incline" : 1,
+          "speed" : 2.7999999999999998,
+          "t" : 60
+        },
+        {
+          "incline" : 2,
+          "speed" : 2.3999999999999999,
+          "t" : 200
+        },
+        {
+          "incline" : 3,
+          "speed" : 2.2000000000000002,
+          "t" : 350
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.8999999999999999,
+          "t" : 470
+        },
+        {
+          "incline" : 0,
+          "speed" : 3.1000000000000001,
+          "t" : 560
+        },
+        {
+          "incline" : 1,
+          "speed" : 3,
+          "t" : 700
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.6000000000000001,
+          "t" : 840
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.2000000000000002,
+          "t" : 920
+        }
+      ],
+      "colors" : [
+        [
+          0.14000000000000001,
+          0.23999999999999999,
+          0.14000000000000001
+        ],
+        [
+          0.17999999999999999,
+          0.17999999999999999,
+          0.16
+        ],
+        [
+          0.059999999999999998,
+          0.10000000000000001,
+          0.070000000000000007
+        ],
+        [
+          0.34000000000000002,
+          0.14000000000000001,
+          0.17999999999999999
+        ]
+      ],
+      "duration" : 960,
+      "goodbye" : "Rubble, then roses. History walked.",
+      "id" : "the-volkspark",
+      "kicker" : "Berlin · lunch",
+      "minutes" : 16,
+      "place" : "Berlin",
+      "subtitle" : "The park has a hill the city built out of the war's rubble and grew over with trees until it was just a hill. Up the paths under the beeches, the flak tower's stone at the top with the view over the rooftops, and down the other side through the rose garden where the retirees have the benches under control.",
+      "title" : "The Volkspark"
+    },
+    {
+      "beats" : [
+        {
+          "incline" : 0,
+          "speed" : 2,
+          "t" : 0
+        },
+        {
+          "incline" : 1,
+          "speed" : 3.1000000000000001,
+          "t" : 60
+        },
+        {
+          "incline" : 0,
+          "speed" : 3.2999999999999998,
+          "t" : 200
+        },
+        {
+          "incline" : 3,
+          "speed" : 2.8999999999999999,
+          "t" : 360
+        },
+        {
+          "incline" : 1,
+          "speed" : 3.2000000000000002,
+          "t" : 520
+        },
+        {
+          "incline" : 0,
+          "speed" : 3.2999999999999998,
+          "t" : 680
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.7999999999999998,
+          "t" : 840
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.2000000000000002,
+          "t" : 920
+        }
+      ],
+      "colors" : [
+        [
+          0.26000000000000001,
+          0.17999999999999999,
+          0.14000000000000001
+        ],
+        [
+          0.14000000000000001,
+          0.22,
+          0.28000000000000003
+        ],
+        [
+          0.10000000000000001,
+          0.080000000000000002,
+          0.080000000000000002
+        ],
+        [
+          0.35999999999999999,
+          0.32000000000000001,
+          0.20000000000000001
+        ]
+      ],
+      "duration" : 960,
+      "goodbye" : "The tram passed you twice. Fine.",
+      "id" : "the-tram-line-home",
+      "kicker" : "Norway · after work",
+      "minutes" : 16,
+      "place" : "Norway",
+      "subtitle" : "The tram would take nine minutes and you'd learn nothing. Under its wires instead — the old wooden houses in their colors, the bakery you'll go into next time, the hill the tram grinds up and you take at your own pace — arriving with the whole neighborhood's evening in your pockets.",
+      "title" : "The Tram Line Home"
+    },
+    {
+      "beats" : [
+        {
+          "incline" : 0,
+          "speed" : 2,
+          "t" : 0
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.7999999999999998,
+          "t" : 60
+        },
+        {
+          "incline" : 1,
+          "speed" : 3,
+          "t" : 200
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.7000000000000002,
+          "t" : 380
+        },
+        {
+          "incline" : 1,
+          "speed" : 2.8999999999999999,
+          "t" : 560
+        },
+        {
+          "incline" : 0,
+          "speed" : 3,
+          "t" : 740
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.6000000000000001,
+          "t" : 900
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.2000000000000002,
+          "t" : 980
+        }
+      ],
+      "colors" : [
+        [
+          0.32000000000000001,
+          0.26000000000000001,
+          0.10000000000000001
+        ],
+        [
+          0.26000000000000001,
+          0.17999999999999999,
+          0.080000000000000002
+        ],
+        [
+          0.12,
+          0.10000000000000001,
+          0.059999999999999998
+        ],
+        [
+          0.17999999999999999,
+          0.23999999999999999,
+          0.35999999999999999
+        ]
+      ],
+      "duration" : 1020,
+      "goodbye" : "The fortnight, witnessed.",
+      "id" : "the-ginkgo-avenue",
+      "kicker" : "Tokyo · November",
+      "minutes" : 17,
+      "place" : "Tokyo",
+      "subtitle" : "For two weeks the avenue is gold — the ginkgos on both sides, the leaves down on the pavement like coins, everyone with a phone out and no one apologizing for it. Walk the whole length and back, slowly, because this is the fortnight and the rest of the year is just waiting for it.",
+      "title" : "The Ginkgo Avenue"
+    },
+    {
+      "beats" : [
+        {
+          "incline" : 0,
+          "speed" : 2,
+          "t" : 0
+        },
+        {
+          "incline" : 1,
+          "speed" : 3,
+          "t" : 60
+        },
+        {
+          "incline" : 0,
+          "speed" : 3.2000000000000002,
+          "t" : 220
+        },
+        {
+          "incline" : 1,
+          "speed" : 3.1000000000000001,
+          "t" : 400
+        },
+        {
+          "incline" : 0,
+          "speed" : 3.2999999999999998,
+          "t" : 580
+        },
+        {
+          "incline" : 2,
+          "speed" : 3,
+          "t" : 760
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.6000000000000001,
+          "t" : 920
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.2000000000000002,
+          "t" : 990
+        }
+      ],
+      "colors" : [
+        [
+          0.12,
+          0.22,
+          0.29999999999999999
+        ],
+        [
+          0.16,
+          0.20000000000000001,
+          0.26000000000000001
+        ],
+        [
+          0.059999999999999998,
+          0.089999999999999997,
+          0.12
+        ],
+        [
+          0.29999999999999999,
+          0.12,
+          0.29999999999999999
+        ]
+      ],
+      "duration" : 1020,
+      "goodbye" : "Wind switched sides. So did you.",
+      "id" : "the-lakeshore",
+      "kicker" : "Toronto · evening",
+      "minutes" : 17,
+      "place" : "Toronto",
+      "subtitle" : "The lake is an ocean that forgot to be salt, and the path along it goes on further than you'll ever need. Out past the marina and the beach volleyball, the freighter on the horizon not moving, the tower doing its light show behind you — and back with the wind switching sides.",
+      "title" : "The Lakeshore"
+    },
+    {
+      "beats" : [
+        {
+          "incline" : 0,
+          "speed" : 2,
+          "t" : 0
+        },
+        {
+          "incline" : 1,
+          "speed" : 2.7999999999999998,
+          "t" : 60
+        },
+        {
+          "incline" : 2,
+          "speed" : 2.3999999999999999,
+          "t" : 200
+        },
+        {
+          "incline" : 3,
+          "speed" : 2.2000000000000002,
+          "t" : 360
+        },
+        {
+          "incline" : 1,
+          "speed" : 2.2999999999999998,
+          "t" : 480
+        },
+        {
+          "incline" : 0,
+          "speed" : 3,
+          "t" : 540
+        },
+        {
+          "incline" : 0,
+          "speed" : 3.1000000000000001,
+          "t" : 700
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.7000000000000002,
+          "t" : 860
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.2000000000000002,
+          "t" : 990
+        }
+      ],
+      "colors" : [
+        [
+          0.22,
+          0.17999999999999999,
+          0.29999999999999999
+        ],
+        [
+          0.28000000000000003,
+          0.17999999999999999,
+          0.16
+        ],
+        [
+          0.089999999999999997,
+          0.080000000000000002,
+          0.13
+        ],
+        [
+          0.34000000000000002,
+          0.28000000000000003,
+          0.23999999999999999
+        ]
+      ],
+      "duration" : 1020,
+      "goodbye" : "The skyline, read aloud.",
+      "id" : "primrose-hill",
+      "kicker" : "London · evening",
+      "minutes" : 17,
+      "place" : "London",
+      "subtitle" : "The hill is small and knows it, which is why the whole city fits on top of it. Up the path past the dog walkers and the couple having the conversation, to the summit where the skyline is spelled out in a low stone rail — St Paul's, the Eye, the towers — and down into the streets that are all pastel and money.",
+      "title" : "Primrose Hill"
+    },
+    {
+      "beats" : [
+        {
+          "incline" : 1,
+          "speed" : 2,
+          "t" : 0
+        },
+        {
+          "incline" : 2,
+          "speed" : 2.6000000000000001,
+          "t" : 60
+        },
+        {
+          "incline" : 3,
+          "speed" : 2.2999999999999998,
+          "t" : 220
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.8999999999999999,
+          "t" : 400
+        },
+        {
+          "incline" : 2,
+          "speed" : 2.3999999999999999,
+          "t" : 580
+        },
+        {
+          "incline" : 0,
+          "speed" : 3,
+          "t" : 760
+        },
+        {
+          "incline" : 1,
+          "speed" : 2.6000000000000001,
+          "t" : 920
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.2000000000000002,
+          "t" : 1040
+        }
+      ],
+      "colors" : [
+        [
+          0.16,
+          0.22,
+          0.20000000000000001
+        ],
+        [
+          0.20000000000000001,
+          0.22,
+          0.26000000000000001
+        ],
+        [
+          0.070000000000000007,
+          0.10000000000000001,
+          0.089999999999999997
+        ],
+        [
+          0.35999999999999999,
+          0.12,
+          0.080000000000000002
+        ]
+      ],
+      "duration" : 1080,
+      "goodbye" : "The bridge, three times. Counted.",
+      "id" : "the-presidio",
+      "kicker" : "San Francisco · Saturday",
+      "minutes" : 18,
+      "place" : "San Francisco",
+      "subtitle" : "The old army post is a forest now, with a trail that ducks in and out of the eucalyptus and keeps handing you the bridge — there, gone, there again. Up through the cypress with the fog moving through it like smoke, a battery to stand on, and down past the bluff where the wind is a fact.",
+      "title" : "The Presidio"
+    },
+    {
+      "beats" : [
+        {
+          "incline" : 0,
+          "speed" : 2,
+          "t" : 0
+        },
+        {
+          "incline" : 1,
+          "speed" : 2.8999999999999999,
+          "t" : 60
+        },
+        {
+          "incline" : 0,
+          "speed" : 3.1000000000000001,
+          "t" : 240
+        },
+        {
+          "incline" : 2,
+          "speed" : 3,
+          "t" : 420
+        },
+        {
+          "incline" : 1,
+          "speed" : 3.2000000000000002,
+          "t" : 600
+        },
+        {
+          "incline" : 0,
+          "speed" : 3.1000000000000001,
+          "t" : 780
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.7000000000000002,
+          "t" : 960
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.2000000000000002,
+          "t" : 1040
+        }
+      ],
+      "colors" : [
+        [
+          0.16,
+          0.22,
+          0.29999999999999999
+        ],
+        [
+          0.22,
+          0.17999999999999999,
+          0.23999999999999999
+        ],
+        [
+          0.070000000000000007,
+          0.089999999999999997,
+          0.13
+        ],
+        [
+          0.35999999999999999,
+          0.20000000000000001,
+          0.10000000000000001
+        ]
+      ],
+      "duration" : 1080,
+      "goodbye" : "Sunset walked into. Deliberate.",
+      "id" : "the-reservoir-loop",
+      "kicker" : "Colorado · evening",
+      "minutes" : 18,
+      "place" : "Colorado",
+      "subtitle" : "The reservoir lies flat and bright under the foothills, and the loop around it is the town's living room after dinner. Runners, a paddleboarder going nowhere, the family with the slow dog, the mountains taking their time going dark. All the way round, and the last bit into the sunset on purpose.",
+      "title" : "The Reservoir Loop"
+    },
+    {
+      "beats" : [
+        {
+          "incline" : 0,
+          "speed" : 2,
+          "t" : 0
+        },
+        {
+          "incline" : 1,
+          "speed" : 3,
+          "t" : 60
+        },
+        {
+          "incline" : 0,
+          "speed" : 3.2000000000000002,
+          "t" : 220
+        },
+        {
+          "incline" : 2,
+          "speed" : 2.3999999999999999,
+          "t" : 400
+        },
+        {
+          "incline" : 3,
+          "speed" : 2.2000000000000002,
+          "t" : 560
+        },
+        {
+          "incline" : 0,
+          "speed" : 3,
+          "t" : 680
+        },
+        {
+          "incline" : 0,
+          "speed" : 3.2000000000000002,
+          "t" : 860
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.7000000000000002,
+          "t" : 980
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.2000000000000002,
+          "t" : 1040
+        }
+      ],
+      "colors" : [
+        [
+          0.28000000000000003,
+          0.20000000000000001,
+          0.12
+        ],
+        [
+          0.14000000000000001,
+          0.17999999999999999,
+          0.29999999999999999
+        ],
+        [
+          0.10000000000000001,
+          0.080000000000000002,
+          0.070000000000000007
+        ],
+        [
+          0.29999999999999999,
+          0.20000000000000001,
+          0.12
+        ]
+      ],
+      "duration" : 1080,
+      "goodbye" : "Far enough for the coffee.",
+      "id" : "across-to-soder",
+      "kicker" : "Stockholm · after work",
+      "minutes" : 18,
+      "place" : "Stockholm",
+      "subtitle" : "Over the bridge and up into the heights, where the city stops being tidy and starts being interesting. The water on both sides with the light going brass, the climb up the old steps, the cliff path with the whole roofline across the harbor — and a coffee at the end that you've walked far enough for.",
+      "title" : "Across to Söder"
+    },
+    {
+      "beats" : [
+        {
+          "incline" : 1,
+          "speed" : 2,
+          "t" : 0
+        },
+        {
+          "incline" : 2,
+          "speed" : 2.5,
+          "t" : 60
+        },
+        {
+          "incline" : 3,
+          "speed" : 2.2000000000000002,
+          "t" : 240
+        },
+        {
+          "incline" : 3,
+          "speed" : 2,
+          "t" : 420
+        },
+        {
+          "incline" : 2,
+          "speed" : 2.3999999999999999,
+          "t" : 620
+        },
+        {
+          "incline" : 0,
+          "speed" : 3,
+          "t" : 720
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.8999999999999999,
+          "t" : 900
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.6000000000000001,
+          "t" : 1060
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.2000000000000002,
+          "t" : 1110
+        }
+      ],
+      "colors" : [
+        [
+          0.16,
+          0.22,
+          0.17999999999999999
+        ],
+        [
+          0.20000000000000001,
+          0.22,
+          0.23999999999999999
+        ],
+        [
+          0.070000000000000007,
+          0.10000000000000001,
+          0.089999999999999997
+        ],
+        [
+          0.16,
+          0.26000000000000001,
+          0.35999999999999999
+        ]
+      ],
+      "duration" : 1140,
+      "goodbye" : "Cairn reached. Thermos deployed.",
+      "id" : "the-ridge",
+      "kicker" : "Norway · Sunday",
+      "minutes" : 19,
+      "place" : "Norway",
+      "subtitle" : "Above the town there's a ridge, and above the ridge there's nothing, which is the point. The track climbs through the pines and out onto the bare rock, the wind arriving as the trees stop, the fjord below going all the way to its islands. A thermos at the cairn. The whole way down at the pace of someone who's had a thermos at a cairn.",
+      "title" : "The Ridge"
+    },
+    {
+      "beats" : [
+        {
+          "incline" : 0,
+          "speed" : 2,
+          "t" : 0
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.7999999999999998,
+          "t" : 60
+        },
+        {
+          "incline" : 1,
+          "speed" : 3,
+          "t" : 240
+        },
+        {
+          "incline" : 2,
+          "speed" : 2.8999999999999999,
+          "t" : 440
+        },
+        {
+          "incline" : 1,
+          "speed" : 3.1000000000000001,
+          "t" : 640
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.8999999999999999,
+          "t" : 840
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.5,
+          "t" : 1000
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.2000000000000002,
+          "t" : 1080
+        }
+      ],
+      "colors" : [
+        [
+          0.17999999999999999,
+          0.22,
+          0.22
+        ],
+        [
+          0.16,
+          0.16,
+          0.28000000000000003
+        ],
+        [
+          0.080000000000000002,
+          0.089999999999999997,
+          0.10000000000000001
+        ],
+        [
+          0.34000000000000002,
+          0.23999999999999999,
+          0.12
+        ]
+      ],
+      "duration" : 1140,
+      "goodbye" : "Evening returned, lightly used.",
+      "id" : "the-long-way-home",
+      "kicker" : "Anywhere",
+      "minutes" : 19,
+      "place" : "Anywhere",
+      "subtitle" : "The short way is nine minutes and you know it too well. The long way takes you past the school with the murals, the street with the good trees, the house with the piano you've never seen anyone play, and along the water if there's water — and it hands you back your evening at the door, lightly used.",
+      "title" : "The Long Way Home"
+    },
+    {
+      "beats" : [
+        {
+          "incline" : 0,
+          "speed" : 2,
+          "t" : 0
+        },
+        {
+          "incline" : 1,
+          "speed" : 3.1000000000000001,
+          "t" : 60
+        },
+        {
+          "incline" : 0,
+          "speed" : 3.2999999999999998,
+          "t" : 240
+        },
+        {
+          "incline" : 1,
+          "speed" : 3.3999999999999999,
+          "t" : 440
+        },
+        {
+          "incline" : 0,
+          "speed" : 3.5,
+          "t" : 640
+        },
+        {
+          "incline" : 2,
+          "speed" : 3.2999999999999998,
+          "t" : 840
+        },
+        {
+          "incline" : 0,
+          "speed" : 3.3999999999999999,
+          "t" : 1000
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.7999999999999998,
+          "t" : 1120
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.2000000000000002,
+          "t" : 1160
+        }
+      ],
+      "colors" : [
+        [
+          0.29999999999999999,
+          0.20999999999999999,
+          0.11
+        ],
+        [
+          0.20000000000000001,
+          0.17999999999999999,
+          0.23999999999999999
+        ],
+        [
+          0.11,
+          0.080000000000000002,
+          0.070000000000000007
+        ],
+        [
+          0.14000000000000001,
+          0.22,
+          0.35999999999999999
+        ]
+      ],
+      "duration" : 1200,
+      "goodbye" : "Twenty blocks. On the block.",
+      "id" : "twenty-blocks",
+      "kicker" : "New York · uptown",
+      "minutes" : 20,
+      "place" : "New York",
+      "subtitle" : "Twenty blocks is a mile, a mile is twenty minutes, and the subway is right there being ignored. Up the avenue with the city changing every five blocks — the delis, the doormen, the church that shows up out of nowhere — the cross-street light doing its strobe thing, and the door of where you're going arriving at exactly the block it promised.",
+      "title" : "Twenty Blocks"
+    },
+    {
+      "beats" : [
+        {
+          "incline" : 1,
+          "speed" : 2,
+          "t" : 0
+        },
+        {
+          "incline" : 2,
+          "speed" : 2.5,
+          "t" : 60
+        },
+        {
+          "incline" : 3,
+          "speed" : 2.2000000000000002,
+          "t" : 260
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.8999999999999999,
+          "t" : 460
+        },
+        {
+          "incline" : 3,
+          "speed" : 2.1000000000000001,
+          "t" : 580
+        },
+        {
+          "incline" : 1,
+          "speed" : 2.3999999999999999,
+          "t" : 760
+        },
+        {
+          "incline" : 0,
+          "speed" : 3,
+          "t" : 860
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.8999999999999999,
+          "t" : 1040
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.3999999999999999,
+          "t" : 1140
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.2000000000000002,
+          "t" : 1170
+        }
+      ],
+      "colors" : [
+        [
+          0.26000000000000001,
+          0.17999999999999999,
+          0.12
+        ],
+        [
+          0.14000000000000001,
+          0.22,
+          0.20000000000000001
+        ],
+        [
+          0.10000000000000001,
+          0.080000000000000002,
+          0.070000000000000007
+        ],
+        [
+          0.28000000000000003,
+          0.29999999999999999,
+          0.34000000000000002
+        ]
+      ],
+      "duration" : 1200,
+      "goodbye" : "La ville, d'en haut. Dimanche.",
+      "id" : "up-to-the-chalet",
+      "kicker" : "Montréal · Sunday",
+      "minutes" : 20,
+      "place" : "Montréal",
+      "subtitle" : "The mountain in the living room, taken properly: the gravel path switchbacking up under the maples, joggers in both directions, the stairs that appear when the path gives up. At the top the chalet's terrace hands you the whole city — the river, the bridges, your own street somewhere in it — and the way down is all momentum and Sunday.",
+      "title" : "Up to the Chalet"
+    },
+    {
+      "beats" : [
+        {
+          "incline" : 1,
+          "speed" : 2,
+          "t" : 0
+        },
+        {
+          "incline" : 2,
+          "speed" : 2.3999999999999999,
+          "t" : 60
+        },
+        {
+          "incline" : 0,
+          "speed" : 3,
+          "t" : 240
+        },
+        {
+          "incline" : 3,
+          "speed" : 2.2000000000000002,
+          "t" : 420
+        },
+        {
+          "incline" : 0,
+          "speed" : 3,
+          "t" : 600
+        },
+        {
+          "incline" : 3,
+          "speed" : 2.2000000000000002,
+          "t" : 760
+        },
+        {
+          "incline" : 1,
+          "speed" : 2.5,
+          "t" : 900
+        },
+        {
+          "incline" : 0,
+          "speed" : 3.1000000000000001,
+          "t" : 980
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.5,
+          "t" : 1120
+        },
+        {
+          "incline" : 0,
+          "speed" : 2.2000000000000002,
+          "t" : 1170
+        }
+      ],
+      "colors" : [
+        [
+          0.17999999999999999,
+          0.22,
+          0.16
+        ],
+        [
+          0.23999999999999999,
+          0.17999999999999999,
+          0.12
+        ],
+        [
+          0.080000000000000002,
+          0.10000000000000001,
+          0.080000000000000002
+        ],
+        [
+          0.35999999999999999,
+          0.29999999999999999,
+          0.16
+        ]
+      ],
+      "duration" : 1200,
+      "goodbye" : "Argument settled. The trail won.",
+      "id" : "the-trailhead",
+      "kicker" : "Colorado · after the last call",
+      "minutes" : 20,
+      "place" : "Colorado",
+      "subtitle" : "Twenty minutes from the office there's a lot with three Subarus in it and a trail that starts climbing before you've locked the car. Up through the ponderosas with the sap smell, the first switchback for the head and the second for the legs, the ridge where the plains open out — and back down with the whole afternoon's argument already settled.",
+      "title" : "The Trailhead"
+    }
+  ]
+}

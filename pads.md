@@ -26,6 +26,9 @@ description: Every walking pad and treadmill we know the Bluetooth protocol of �
 </tbody></table></div>
 <p style="max-width:66ch"><strong>How to check yours in one minute:</strong> turn the pad on, open your phone's Bluetooth settings or the app the box told you to install, and read the device name. <code>FS-…</code>, <code>JJ-BT…</code>, <code>KS-HD/AP/NG-…</code> or a Zwift badge means Mosey will find it. <code>PITPAT-…</code>, <code>RM-…</code> or an older <code>KS-…</code> means it won't. Or just install Mosey: if the pad speaks the standard it appears in the list during setup, and if it doesn't, nothing breaks.</p>
 
+<h2 style="margin-top:44px">Knowing you're on the belt</h2>
+<p style="max-width:66ch">One more thing the module decides. Mosey starts each walk at a crawl and lifts to the walk's own pace the moment the pad feels your steps — which it can only do on pads that count footfalls and say so over Bluetooth. The sPad500 does (verified). On a pad that doesn't, Mosey assumes you're on the belt and the walk starts at its own pace right away, as it did before. Either way the walk works; the door-holding is the extra.</p>
+
 <h2 style="margin-top:44px">A word on names</h2>
 <p style="max-width:66ch">Mosey is independent. It is not affiliated with, endorsed by or connected to any of the makers named on this page; their product names are their trademarks and appear here only to say which devices speak the standard. Compatibility is our best knowledge and can change with a firmware update. And a walking pad is a motorized machine: the <a href="{{ site.baseurl }}/terms/">terms</a> say how to use Mosey with one safely.</p>
 
