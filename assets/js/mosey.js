@@ -62,6 +62,24 @@
     return { speeds, inclines, minS, maxS, maxI };
   }
 
+  /** Round.walkerColor: HSB brightness 0.97, saturation clamped 0.42–0.62; returns [r,g,b] 0–255. */
+  function walkerColor(rgb) {
+    const r = rgb[0], g = rgb[1], b = rgb[2];
+    const max = Math.max(r, g, b), min = Math.min(r, g, b), d = max - min;
+    let h = 0;
+    if (d > 0) {
+      if (max === r) h = ((g - b) / d) % 6; else if (max === g) h = (b - r) / d + 2; else h = (r - g) / d + 4;
+      h = (h * 60 + 360) % 360;
+    }
+    const sat = max > 0 ? d / max : 0;
+    const S = Math.max(0.42, Math.min(0.62, sat)), V = 0.97;
+    const c = V * S, x = c * (1 - Math.abs((h / 60) % 2 - 1)), m = V - c;
+    let q;
+    if (h < 60) q = [c, x, 0]; else if (h < 120) q = [x, c, 0]; else if (h < 180) q = [0, c, x];
+    else if (h < 240) q = [0, x, c]; else if (h < 300) q = [x, 0, c]; else q = [c, 0, x];
+    return q.map((v) => Math.round((v + m) * 255));
+  }
+
   class Ring {
     /**
      * @param {HTMLCanvasElement} canvas
@@ -71,7 +89,11 @@
     constructor(canvas, round, opts) {
       this.canvas = canvas;
       this.ctx = canvas.getContext('2d');
-      this.opts = Object.assign({ duration: 1500, fraction: 0, loopSeconds: 0, still: false, walker: true, dpr: Math.min(2, global.devicePixelRatio || 1) }, opts || {});
+      this.opts = Object.assign({ duration: 1500, fraction: 0, loopSeconds: 0, still: false, walker: true, duet: null, dpr: Math.min(2, global.devicePixelRatio || 1) }, opts || {});
+      // Two on the ring (the app, 2026-09-04): the human's ink is the round's
+      // visitor colour lifted — bright, a little less saturated.
+      this.humanColor = walkerColor(round.colors && round.colors[3] ? round.colors[3] : [0.9, 0.8, 0.6]);
+      this.joinedLoop = -1;
       // The v3 book: every round carries its own duration; the option is the fallback.
       this.data = prepare(round, round.duration || this.opts.duration);
       this.t0 = performance.now() / 1000 + (round.id ? round.id.length * 1.7 : 0);
@@ -107,6 +129,22 @@
       const d = this.data;
       const still = o.still;
       const T = still ? 7.3 : time;
+      // The duet: the guide walks from the start; the human waits at twelve,
+      // then sweeps to catch up and keeps step — the bowl at the join.
+      let human = -1;
+      if (o.duet && o.loopSeconds > 0 && !still) {
+        const loopIndex = Math.floor(time / o.loopSeconds);
+        const tl = ((time % o.loopSeconds) + o.loopSeconds) % o.loopSeconds;
+        const wait = o.duet.waitSeconds, catchUp = o.duet.catchSeconds;
+        if (tl < wait) human = 0;
+        else if (tl < wait + catchUp) { const u = (tl - wait) / catchUp; human = fraction * (1 - Math.pow(1 - u, 3)); }
+        else human = fraction;
+        if (tl >= wait + catchUp && this.joinedLoop !== loopIndex) {
+          this.joinedLoop = loopIndex;
+          if (typeof o.duet.onJoin === 'function') o.duet.onJoin();
+        }
+      }
+      const HC = this.humanColor;
 
       const angle = (t) => -Math.PI / 2 + t * 2 * Math.PI;
       const point = (t, r) => [cx + r * Math.cos(angle(t)), cy + r * Math.sin(angle(t))];
@@ -152,43 +190,61 @@
         p.closePath();
         return p;
       }
-      function ink(br, opacity) {
+      const WHITE = [255, 255, 255];
+      const rgba = (c, al) => 'rgba(' + c[0] + ',' + c[1] + ',' + c[2] + ',' + al + ')';
+      function ink(br, opacity, color) {
         const g = ctx.createConicGradient ? ctx.createConicGradient((-90 + T * br.inkRate) * Math.PI / 180, cx, cy) : null;
-        if (!g) return 'rgba(255,255,255,' + (opacity * 0.7) + ')';
+        if (!g) return rgba(color, opacity * 0.7);
         for (let k = 0; k <= 48; k++) {
           const t = k / 48;
           const load = 0.55 + 0.45 * tremor(t, br.seed + 5.0, T * 0.09 * (br.seed % 1.7));
           const dry = load < 0.22 ? 0.25 : 1.0;
-          g.addColorStop(t, 'rgba(255,255,255,' + Math.max(0, Math.min(1, opacity * Math.max(0, load) * dry)) + ')');
+          g.addColorStop(t, rgba(color, Math.max(0, Math.min(1, opacity * Math.max(0, load) * dry))));
         }
         return g;
       }
-      function paint(a, b, opacity) {
+      // color: the ink; pick: which bristles (the guide's are the even ones,
+      // the human's the odd — interleaved across the lanes, as in the app).
+      function paint(a, b, opacity, color, pick, washScale) {
+        color = color || WHITE; washScale = washScale === undefined ? 1 : washScale;
         const body = outline(a, b);
         // The wash: no canvas filters (Safari), so widen the body with soft strokes instead.
         ctx.lineJoin = 'round';
         for (const [w, al] of [[R * 0.06, 0.04], [R * 0.035, 0.06], [R * 0.016, 0.10]]) {
-          ctx.lineWidth = w; ctx.strokeStyle = 'rgba(255,255,255,' + (opacity * al) + ')'; ctx.stroke(body);
+          ctx.lineWidth = w; ctx.strokeStyle = rgba(color, opacity * al * washScale); ctx.stroke(body);
         }
-        ctx.fillStyle = 'rgba(255,255,255,' + (opacity * 0.12) + ')'; ctx.fill(body);
-        for (const br of BRISTLES) { ctx.fillStyle = ink(br, opacity * 0.48); ctx.fill(strand(br, a, b)); }
+        ctx.fillStyle = rgba(color, opacity * 0.12 * washScale); ctx.fill(body);
+        BRISTLES.forEach((br, i) => { if (pick && !pick(i)) return; ctx.fillStyle = ink(br, opacity * 0.48, color); ctx.fill(strand(br, a, b)); });
       }
 
       paint(0, N, still ? 0.62 : (o.opacity || 0.22));
       const nowX = Math.min(N, Math.max(0, fraction * N));
-      if (!still) paint(0, nowX, 0.78);
+      const humanX = human < 0 ? -1 : Math.min(N, Math.max(0, human * N));
+      if (!still) {
+        if (humanX < 0) paint(0, nowX, 0.78);
+        else {
+          paint(0, nowX, 0.78, WHITE, (i) => i % 2 === 0);
+          paint(0, humanX, 0.85, HC, (i) => i % 2 === 1, 0.6);
+        }
+      }
 
-      if (o.walker && !still) {
-        const breath = (Math.sin(time * 2 * Math.PI / 3.4) + 1) / 2;
-        const [nx, ny] = point(nowX / N, radius(nowX));
-        const core = Math.max(2.8, R * 0.022) * (1 + breath * 0.18);
+      function walker(x, color, scale, breathPhase) {
+        const breath = (Math.sin(time * 2 * Math.PI / 3.4 + breathPhase) + 1) / 2;
+        const [nx, ny] = point(x / N, radius(x));
+        const core = Math.max(2.8, R * 0.022) * (1 + breath * 0.18) * scale;
         const halo = core * (1.6 + breath * 1.6);
-        const dot = (r, al) => { ctx.beginPath(); ctx.arc(nx, ny, r, 0, Math.PI * 2); ctx.fillStyle = 'rgba(255,255,255,' + al + ')'; ctx.fill(); };
+        const dot = (r, al) => { ctx.beginPath(); ctx.arc(nx, ny, r, 0, Math.PI * 2); ctx.fillStyle = rgba(color, al); ctx.fill(); };
         const glow = ctx.createRadialGradient(nx, ny, 0, nx, ny, halo * 2.2);
-        glow.addColorStop(0, 'rgba(255,255,255,' + (0.10 + breath * 0.16) + ')'); glow.addColorStop(1, 'rgba(255,255,255,0)');
+        glow.addColorStop(0, rgba(color, 0.10 + breath * 0.16)); glow.addColorStop(1, rgba(color, 0));
         ctx.beginPath(); ctx.arc(nx, ny, halo * 2.2, 0, Math.PI * 2); ctx.fillStyle = glow; ctx.fill();
         dot(halo, 0.10 + (1 - breath) * 0.16);
         dot(core, 0.95);
+      }
+      if (o.walker && !still) {
+        // The guide's core a little larger, the human drawn over it — together
+        // they read as one coloured heart in a white halo (2026-09-04).
+        walker(nowX, WHITE, humanX < 0 ? 1 : 1.35, 0);
+        if (humanX >= 0) walker(humanX, HC, 1, 0.6);
       }
     }
   }
@@ -250,5 +306,44 @@
     }
   }
 
-  global.Mosey = { Ring, Field, prepare };
+  // ---------- The joining bowl ----------
+  // Bell.swift on the web: the CC0 bowl (Freesound #193022) struck three
+  // times, the later strikes re-pitched into one of five small phrases,
+  // never the same twice running. Browsers need a gesture before sound:
+  // call unlock() from a click, then play() whenever the human joins.
+  class Bowl {
+    constructor(url) {
+      this.url = url; this.ctx = null; this.buffer = null; this.last = -1; this.enabled = false;
+      this.phrases = [
+        [[1, 0], [1.2599, 0.55], [1.4983, 1.10]],
+        [[1, 0], [1.3348, 0.55], [1.6818, 1.10]],
+        [[1, 0], [1.4983, 0.55], [2.0, 1.10]],
+        [[1, 0], [1.4983, 0.55], [1.2599, 1.10]],
+        [[1, 0], [1.1225, 0.55], [1.3348, 1.10]],
+      ];
+    }
+    unlock() {
+      const AC = global.AudioContext || global.webkitAudioContext;
+      if (!AC) return Promise.resolve(false);
+      if (!this.ctx) this.ctx = new AC();
+      const resume = this.ctx.state === 'suspended' ? this.ctx.resume() : Promise.resolve();
+      const load = this.buffer ? Promise.resolve() : fetch(this.url).then((r) => r.arrayBuffer()).then((ab) => this.ctx.decodeAudioData(ab)).then((b) => { this.buffer = b; });
+      return Promise.all([resume, load]).then(() => true).catch(() => false);
+    }
+    play() {
+      if (!this.enabled || !this.ctx || !this.buffer) return;
+      let i = Math.floor(Math.random() * this.phrases.length);
+      while (i === this.last) i = Math.floor(Math.random() * this.phrases.length);
+      this.last = i;
+      const master = this.ctx.createGain(); master.gain.value = 0.35; master.connect(this.ctx.destination);
+      const t0 = this.ctx.currentTime + 0.02;
+      this.phrases[i].forEach((strike, k) => {
+        const src = this.ctx.createBufferSource(); src.buffer = this.buffer; src.playbackRate.value = strike[0];
+        const g = this.ctx.createGain(); g.gain.value = k === 0 ? 1 : 0.85;
+        src.connect(g); g.connect(master); src.start(t0 + strike[1]);
+      });
+    }
+  }
+
+  global.Mosey = { Ring, Field, Bowl, prepare, walkerColor };
 })(window);
