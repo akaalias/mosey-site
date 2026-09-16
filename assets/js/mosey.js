@@ -96,7 +96,9 @@
       this.joinedLoop = -1;
       // The v3 book: every round carries its own duration; the option is the fallback.
       this.data = prepare(round, round.duration || this.opts.duration);
-      this.t0 = performance.now() / 1000 + (round.id ? round.id.length * 1.7 : 0);
+      // Rings on a page drift out of step with each other by a phase offset —
+      // except a duet, which must begin at the beginning: the guide setting off.
+      this.t0 = performance.now() / 1000 + (this.opts.duet ? 0 : (round.id ? round.id.length * 1.7 : 0));
       this.running = false;
       this._frame = this._frame.bind(this);
       this.resize();
