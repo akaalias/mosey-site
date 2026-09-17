@@ -4,11 +4,39 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{% if page.title %}{{ page.title }} · Mosey{% else %}Mosey — Walks that start themselves{% endif %}</title>
-<meta name="description" content="{{ page.description | default: site.description }}">
-<meta property="og:title" content="{{ page.title | default: 'Mosey — Walks that start themselves' }}">
-<meta property="og:description" content="{{ page.description | default: site.description }}">
-<meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/assets/img/briefing.jpg">
+{%- comment %} The link card: what a shared link shows. The picture is assets/img/og.jpg — the film's walk, from
+   spad500/tools/social_card.py; a page can bring its own with `image:` (and `image_alt:`) in its front matter. {% endcomment %}
+{%- assign share_title = 'Mosey — Walks that start themselves' %}{% if page.title %}{% assign share_title = page.title | append: ' · Mosey' %}{% endif %}
+{%- assign share_desc = page.description | default: site.description | strip_html | strip_newlines | escape %}
+{%- assign share_url = site.url | append: site.baseurl | append: page.url %}
+{%- assign share_image = site.url | append: site.baseurl | append: '/assets/img/og.jpg' %}
+{%- assign share_alt = 'A woman walks on a slim walking pad by a tall city window, talking to a video call on the laptop on the bookshelf in front of her. Beside the photograph: Mosey — Walks that start themselves.' %}
+{%- if page.image %}{% assign share_image = site.url | append: site.baseurl | append: page.image %}{% assign share_alt = page.image_alt | default: page.title %}{% endif %}
+<meta name="description" content="{{ share_desc }}">
+<link rel="canonical" href="{{ share_url }}">
+<meta property="og:site_name" content="Mosey">
+<meta property="og:type" content="{% if page.date %}article{% else %}website{% endif %}">
+<meta property="og:url" content="{{ share_url }}">
+<meta property="og:title" content="{{ share_title | escape }}">
+<meta property="og:description" content="{{ share_desc }}">
+<meta property="og:image" content="{{ share_image }}">
+{%- unless page.image %}
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+{%- endunless %}
+<meta property="og:image:alt" content="{{ share_alt | escape }}">
+{%- if page.date %}
+<meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
+{%- endif %}
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ share_title | escape }}">
+<meta name="twitter:description" content="{{ share_desc }}">
+<meta name="twitter:image" content="{{ share_image }}">
+<meta name="twitter:image:alt" content="{{ share_alt | escape }}">
+<meta name="theme-color" content="#2a2c37">
 <link rel="icon" href="{{ site.baseurl }}/assets/img/icon.png">
+<link rel="apple-touch-icon" href="{{ site.baseurl }}/assets/img/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;1,6..72,300;1,6..72,400&display=swap">
 <style>
