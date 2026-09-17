@@ -121,15 +121,11 @@ description: "The longest-lived people are nudged into moving every twenty minut
       var c = document.getElementById('hero-ring');
       var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
       // Two on the ring: the guide sets off; you wait at twelve for nine
-      // seconds, catch up over four, and walk together — the bowl at the
-      // join. Browsers allow sound only after the visitor has touched the
-      // page (a click, a key), so the first join may be silent; every
-      // join after that rings.
-      var bowl = new Mosey.Bowl('{{ site.baseurl }}/assets/audio/bowl-joining.m4a');
+      // seconds, catch up over four, and walk together. The bowl at the
+      // join is off on the homepage (Alexis, 2026-09-17): the film below
+      // has its own sound, and two sounds on one page is one too many.
       var ring = new Mosey.Ring(c, pick, { duration: pick.duration || data.duration, loopSeconds: 60,
-        duet: reduce ? null : { waitSeconds: 9, catchSeconds: 4, onJoin: function(){ bowl.play(); } } });
-      function unlock(){ bowl.unlock().then(function(ok){ if (ok) bowl.enabled = true; }); }
-      ['pointerdown','keydown'].forEach(function(ev){ document.addEventListener(ev, unlock, { once: true, passive: true }); });
+        duet: reduce ? null : { waitSeconds: 9, catchSeconds: 4 } });
       window.addEventListener('resize', function(){ ring.resize(); });
       var field = new Mosey.Field(document.getElementById('field'), pick.colors);
       if (reduce) { ring.draw(); field.draw(); } else { ring.start(); field.start(); }
