@@ -131,7 +131,7 @@ description: "The longest-lived people are nudged into moving every twenty minut
       // generator): the walk's light colours lead, nothing sinks to black.
       var mixc = function(a, b, f){ return [a[0]+(b[0]-a[0])*f, a[1]+(b[1]-a[1])*f, a[2]+(b[2]-a[2])*f]; };
       var W = [1,1,1], pc = pick.colors, L = pc[0], A = pc[1]||pc[0], B = pc[2]||pc[0], Vc = pc[3]||A;
-      var lifted = [ mixc(L, W, 0.22), mixc(mixc(A, L, 0.35), W, 0.10), mixc(mixc(A, B, 0.45), L, 0.15), mixc(Vc, W, 0.15) ];
+      var lifted = [ mixc(L, W, 0.26), mixc(mixc(A, L, 0.35), W, 0.14), mixc(mixc(A, L, 0.50), W, 0.12), mixc(Vc, W, 0.18) ];   // the base built from accent and light, never from the night-dark base
       var field = new Mosey.Field(document.getElementById('field'), lifted);
       if (reduce) { ring.draw(); field.draw(); } else { ring.start(); field.start(); }
       document.addEventListener('visibilitychange', function(){ if(document.hidden){ ring.stop(); field.stop(); } else if(!reduce){ ring.start(); field.start(); } });
