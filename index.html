@@ -36,6 +36,7 @@ description: "The longest-lived people are nudged into moving every twenty minut
   /* Below the film (2026-09-18, Alexis: "nice and tight"): the product with its ring, then the three questions a viewer asks, each answered in one row — the question in the serif, the answer beside it, the full page a click away. */
   .answers { margin-top:72px; border-top:1px solid var(--hair); }
   .answers .q { display:grid; grid-template-columns: 5fr 7fr; gap:40px; padding:36px 0; border-bottom:1px solid var(--hair); align-items:baseline; }
+  .answers .q:last-child { border-bottom:0; }   /* the footer draws the closing rule */
   .answers h3 { font-size:34px; line-height:1.12; margin:0; }
   .answers p { color:var(--ink-2); font-size:17px; max-width:52ch; margin:0 0 10px; }
   .answers a.more { font-size:15px; }
