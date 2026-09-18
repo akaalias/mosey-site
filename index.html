@@ -55,7 +55,7 @@ description: "The longest-lived people are nudged into moving every twenty minut
     <h2>Walks that start themselves.</h2>
     <p class="lede">Twenty minutes at the desk, then your walking pad starts on its own — three minutes to twenty, a different walk each time, at a pace it sets. Step on when you're ready; step off whenever you like. Nothing counts down at you, nothing keeps a streak.</p>
     <div class="cta">
-      {% if site.store_url %}
+      {% if site.store_url != "" %}
       <a class="btn" href="{{ site.store_url }}">Download on the Mac App Store</a>
       {% else %}
       <span class="btn soon" aria-disabled="true">Coming soon to the Mac App Store</span>
@@ -90,8 +90,8 @@ description: "The longest-lived people are nudged into moving every twenty minut
   <div class="q">
     <h3>What does it cost?</h3>
     <div>
-      <p>Nothing. No account, no subscription, nothing to unlock. Mosey 1.2 runs on macOS 15 or later{% if site.store_url %} and is on the Mac App Store{% else %}; it is on its way to the Mac App Store, and the link lands here the day it's out{% endif %}.</p>
-      {% if site.store_url %}<a class="more" href="{{ site.store_url }}">Download on the Mac App Store →</a>{% endif %}
+      <p>Nothing. No account, no subscription, nothing to unlock. Mosey 1.2 runs on macOS 15 or later{% if site.store_url != "" %} and is on the Mac App Store{% else %}; it is on its way to the Mac App Store, and the link lands here the day it's out{% endif %}.</p>
+      {% if site.store_url != "" %}<a class="more" href="{{ site.store_url }}">Download on the Mac App Store →</a>{% else %}<span class="more" style="color:var(--muted)">Coming soon to the Mac App Store</span>{% endif %}
     </div>
   </div>
 </section>

@@ -65,7 +65,8 @@
   .btn.quiet { background:none; border-color:transparent; color:var(--ink-2); }
   .btn.soon { cursor:default; color:var(--ink-2); border-style:dashed; background:none; }
   .btn.soon:hover { background:none; border-color:rgba(42,44,55,.55); }
-  nav .links a.btn.small { padding:8px 16px; color:var(--ink); border:1px solid rgba(42,44,55,.45); line-height:1; margin-left:6px; }
+  nav .links .btn.small { padding:8px 16px; color:var(--ink); border:1px solid rgba(42,44,55,.45); line-height:1; margin-left:6px; }
+  nav .links .btn.small.soon { color:var(--ink-2); border-style:dashed; background:none; }
   footer { max-width:1040px; margin:0 auto; padding:28px 24px 48px; border-top:1px solid var(--hair); display:flex; flex-wrap:wrap; gap:18px 28px; font-size:13px; color:var(--muted); }
   footer a { color:var(--ink-2); border:0; }
   @media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
@@ -100,7 +101,7 @@
     <a href="{{ site.baseurl }}/blog/">Blog</a>
     <a href="{{ site.baseurl }}/evolution/">Evolution</a>
     <a href="{{ site.baseurl }}/making-of/">Video</a>
-    {% if site.store_url %}<a class="btn small" href="{{ site.store_url }}">Download</a>{% endif %}
+    {% if site.store_url != "" %}<a class="btn small" href="{{ site.store_url }}">Download</a>{% else %}<span class="btn small soon" aria-disabled="true">Coming soon</span>{% endif %}
   </div>
 </nav>
 <main>
