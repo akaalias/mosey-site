@@ -13,6 +13,7 @@ description: "How Mosey's film was made, stage by stage — the plan, the script
   .mo-head p.aside { color:var(--ink); font-family:"Newsreader", "New York", ui-serif, Georgia, serif; font-style:italic; font-size:17px; line-height:1.5; margin:14px 0 0; padding-left:14px; border-left:2px solid var(--accent); }
   .stage { padding:64px 0 0; border-top:1px solid var(--hair); margin-top:64px; }
   .stage:first-of-type { border-top:0; margin-top:24px; }
+  figure.film:first-of-type { margin-top:8px; }
   .stage .head { max-width:66ch; margin-bottom:28px; }
   .stage h2 { font-size:36px; line-height:1.1; margin:12px 0 14px; }
   .stage .lede { color:var(--ink-2); margin:0; }
@@ -75,11 +76,13 @@ description: "How Mosey's film was made, stage by stage — the plan, the script
   @media (max-width: 820px) { .row.n3, .row.n4 { grid-template-columns:1fr 1fr; } .stage h2 { font-size:28px; } }
 </style>
 <div class="mo-head">
-  <div class="kicker">Behind the film</div>
+  <div class="kicker">The video</div>
   <h1>How the film was made.</h1>
   <p>Everything the film went through, in the order it happened, shown as the things themselves, with what each step cost.</p>
   <p class="aside">Made with AI. Not slop, though: fifty-one renders of the edit, thirty-nine rewrites of the piano, ninety commits. This page is that work.</p>
 </div>
+
+<figure class="film"><div class="card"><video src="{{ site.baseurl }}/assets/making-of/mosey-film-v4.0.mp4" controls playsinline preload="metadata"></video><div class="meta">the cut with the score laid on · tools/video_score.py --lay · €0</div></div><figcaption>The film as it is — v4.0, 1:11.6. Everything below is how it got here.</figcaption></figure>
 
 <section class="stage" id="board">
   <div class="head">
@@ -228,7 +231,6 @@ description: "How Mosey's film was made, stage by stage — the plan, the script
   </div>
   <figure><div class="row n2"><div class="cell"><div class="mk" data-mark="cross" data-seed="4452" data-full="{{ site.baseurl }}/assets/making-of/colour-fields-p1.jpg" style="--tilt:1.66deg"><img src="{{ site.baseurl }}/assets/making-of/colour-fields-p1.jpg" loading="lazy" alt=""><div class="meta">tools/colour_fields_pdf.py · €0</div></div></div><div class="cell"><div class="mk" data-full="{{ site.baseurl }}/assets/making-of/colour-fields-p2.jpg" style="--tilt:0.51deg"><img src="{{ site.baseurl }}/assets/making-of/colour-fields-p2.jpg" loading="lazy" alt=""><div class="meta">tools/colour_fields_pdf.py · €0</div></div></div></div><figcaption>The fields as they were (left), and Golden hour (right), from the exploration PDF.</figcaption></figure>
 <figure><div class="row n3"><div class="cell"><div class="mk" data-full="{{ site.baseurl }}/assets/making-of/slide-why-1.jpg" style="--tilt:-0.08deg"><img src="{{ site.baseurl }}/assets/making-of/slide-why-1.jpg" loading="lazy" alt=""><div class="meta">rendered from the app's own components · tools/appstore_screenshots_gen.swift · €0</div></div></div><div class="cell"><div class="mk" data-full="{{ site.baseurl }}/assets/making-of/slide-walks.jpg" style="--tilt:0.05deg"><img src="{{ site.baseurl }}/assets/making-of/slide-walks.jpg" loading="lazy" alt=""><div class="meta">rendered from the app's own components · tools/appstore_screenshots_gen.swift · €0</div></div></div><div class="cell"><div class="mk" data-full="{{ site.baseurl }}/assets/making-of/slide-end.jpg" style="--tilt:1.75deg"><img src="{{ site.baseurl }}/assets/making-of/slide-end.jpg" loading="lazy" alt=""><div class="meta">rendered from the app's own components · tools/appstore_screenshots_gen.swift · €0</div></div></div></div><figcaption>The cards in daylight.</figcaption></figure>
-<figure class="film"><div class="card"><video src="{{ site.baseurl }}/assets/making-of/mosey-film-v4.0.mp4" controls playsinline preload="metadata"></video><div class="meta">the cut with the score laid on · tools/video_score.py --lay · €0</div></div><figcaption>The film, v4.0 — 1:11.6. This is the one on the homepage.</figcaption></figure>
 </section>
 
 <section class="stage" id="bill">
