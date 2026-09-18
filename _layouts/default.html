@@ -87,6 +87,23 @@
   .walk-window .meter span { display:block; font-size:.85cqw; font-weight:600; letter-spacing:.3em; text-transform:uppercase; color:rgba(42,44,55,.5); margin-top:.3cqw; }
   .walk-window .meters { position:absolute; top:2.5cqw; right:2.9cqw; display:flex; gap:2.5cqw; }
   .walk-window .togo { position:absolute; bottom:2.5cqw; right:2.9cqw; }
+  /* On a phone the window stands upright (4:5): the ring by its width, the words large enough to read, the meters in the same corners. */
+  @media (max-width: 820px) {
+    nav { flex-wrap:wrap; gap:12px 18px; padding:18px 20px; }
+    nav .brand { flex-basis:100%; }
+    nav .links { margin-left:0; flex-wrap:wrap; gap:10px 18px; }
+    nav .links .btn.small { margin-left:0; }
+    .walk-window { aspect-ratio:4/5; }
+    .walk-window canvas.ring { height:auto; width:92%; }
+    .walk-window .stage { padding:0 9%; }
+    .walk-window .stage .kicker { font-size:2.6cqw; letter-spacing:.24em; }
+    .walk-window .stage h3 { font-size:9cqw; margin:2cqw 0 2.5cqw; }
+    .walk-window .stage p { font-size:3.7cqw; }
+    .walk-window .meter b { font-size:6cqw; }
+    .walk-window .meter span { font-size:2cqw; margin-top:1cqw; }
+    .walk-window .meters { top:4cqw; right:5cqw; gap:6cqw; }
+    .walk-window .togo { bottom:4cqw; right:5cqw; }
+  }
 
   .shot.film video { width:100%; display:block; }
 </style>
