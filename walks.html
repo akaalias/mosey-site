@@ -2,7 +2,7 @@
 layout: default
 title: The walks
 permalink: /walks/
-field: true
+field: false   # the living field is off on the site (Alexis, 2026-09-18): a still, light ground
 description: All fifty-two walks in Mosey, listed the way the app's contents page lists them — by how much time you have — each with its ring, its place and its reason.
 ---
 <style>
@@ -14,20 +14,18 @@ description: All fifty-two walks in Mosey, listed the way the app's contents pag
   .chapter { margin-bottom:22px; }
   .chapter h2 { font-size:22px; font-weight:300; margin:0 0 8px; }
   .row { display:flex; align-items:center; gap:14px; width:100%; padding:2px 0; background:none; border:0; color:var(--ink); text-align:left; cursor:pointer; font:inherit; }
-  .row canvas { width:40px; height:40px; flex:none; opacity:.8; }
-  .row .title { font-family:"New York", ui-serif, "Newsreader", Georgia, serif; font-size:17px; color:rgba(236,235,230,.86); white-space:nowrap; }
-  .row .leader { flex:1; height:1px; background:rgba(236,235,230,.14); margin:6px 4px 0; }
-  .row .place { font-size:9px; font-weight:600; letter-spacing:.2em; text-transform:uppercase; color:rgba(236,235,230,.45); white-space:nowrap; }
-  .row .min { width:26px; text-align:right; font-size:17px; font-weight:300; color:rgba(236,235,230,.85); }
-  .row:hover canvas, .row[aria-expanded="true"] canvas { opacity:1; }
+  .row .title { font-family:"Newsreader", "New York", ui-serif, Georgia, serif; font-size:17px; color:rgba(42,44,55,.86); white-space:nowrap; }
+  .row .leader { flex:1; height:1px; background:rgba(42,44,55,.14); margin:6px 4px 0; }
+  .row .place { font-size:9px; font-weight:600; letter-spacing:.2em; text-transform:uppercase; color:rgba(42,44,55,.45); white-space:nowrap; }
+  .row .min { width:26px; text-align:right; font-size:17px; font-weight:300; color:rgba(42,44,55,.85); }
   .row:hover .title, .row[aria-expanded="true"] .title { color:var(--ink); }
-  .row:hover .leader { background:rgba(236,235,230,.28); }
-  .row:hover .place { color:rgba(236,235,230,.7); }
-  .story { display:none; margin:6px 0 16px 54px; max-width:52ch; }
+  .row:hover .leader { background:rgba(42,44,55,.28); }
+  .row:hover .place { color:rgba(42,44,55,.7); }
+  .story { display:none; margin:6px 0 16px; max-width:52ch; }
   .story[data-open="1"] { display:block; }
   .story .kicker { margin-bottom:6px; }
   .story p { color:var(--ink-2); font-size:15px; line-height:1.55; margin:0; }
-  .story .goodbye { margin-top:8px; font-family:"New York", ui-serif, "Newsreader", Georgia, serif; font-style:italic; font-size:15px; color:rgba(236,235,230,.7); }
+  .story .goodbye { margin-top:8px; font-family:"Newsreader", "New York", ui-serif, Georgia, serif; font-style:italic; font-size:15px; color:rgba(42,44,55,.7); }
   @media (max-width: 900px) { .contents { grid-template-columns:1fr; } }
 </style>
 <div class="walks-head">
@@ -44,7 +42,6 @@ description: All fifty-two walks in Mosey, listed the way the app's contents pag
       var root = document.getElementById('contents');
       var bands = data.bands || [{ title: 'All the strolls', min: 0, max: 999 }];
       var cols = [document.createElement('div'), document.createElement('div')];
-      var rings = [];
       bands.forEach(function(band, bi){
         var inBand = data.rounds.filter(function(r){ return r.minutes >= band.min && r.minutes <= band.max; });
         if (!inBand.length) return;
@@ -53,8 +50,7 @@ description: All fifty-two walks in Mosey, listed the way the app's contents pag
         inBand.forEach(function(r){
           var btn = document.createElement('button'); btn.className = 'row'; btn.type = 'button'; btn.id = r.id;
           btn.setAttribute('aria-expanded', 'false');
-          btn.innerHTML = '<canvas width="80" height="80" aria-hidden="true"></canvas>'
-            + '<span class="title">' + r.title + '</span><span class="leader"></span>'
+          btn.innerHTML = '<span class="title">' + r.title + '</span><span class="leader"></span>'
             + '<span class="place">' + (r.place || 'Anywhere') + '</span><span class="min">' + r.minutes + '</span>';
           var story = document.createElement('div'); story.className = 'story';
           story.innerHTML = '<div class="kicker">' + (r.kicker || 'Anywhere') + ' · ' + r.minutes + ' min</div><p>' + r.subtitle + '</p><div class="goodbye">' + r.goodbye + '</div>';
@@ -64,20 +60,10 @@ description: All fifty-two walks in Mosey, listed the way the app's contents pag
             btn.setAttribute('aria-expanded', open ? 'false' : 'true');
           });
           ch.appendChild(btn); ch.appendChild(story);
-          rings.push({ canvas: btn.querySelector('canvas'), round: r });
         });
         cols[bi < 2 ? 0 : 1].appendChild(ch);
       });
       root.appendChild(cols[0]); root.appendChild(cols[1]);
-      // Stills only: the ring at rest, no animation (Alexis, 2026-09-16).
-      rings.forEach(function(x){
-        var ring = new Mosey.Ring(x.canvas, x.round, { duration: x.round.duration || data.duration, dpr: 2, still: true, walker: false });
-        ring.draw();
-      });
-      var mailbox = data.rounds.find(function(r){ return r.id === 'the-mailbox'; }) || data.rounds[0];
-      var field = new Mosey.Field(document.getElementById('field'), mailbox.colors);
-      var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-      if (reduce) field.draw(); else field.start();
       if (location.hash) { var t = document.getElementById(location.hash.slice(1)); if (t) { t.click(); t.scrollIntoView(); } }
     });
   }

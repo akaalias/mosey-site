@@ -1,40 +1,40 @@
 ---
 layout: default
-field: true
+field: false   # the living field is off on the site (Alexis, 2026-09-18): a still, light ground
 description: "The longest-lived people are nudged into moving every twenty minutes. Mosey builds that nudge into your workday. Your walking pad starts on its own."
 ---
 <style>
   .finding { padding:64px 0 8px; text-align:center; }
   .finding h1 { font-size:76px; line-height:1.1; max-width:20ch; margin:0 auto; text-wrap:balance; }
   .finding h1 .fn { font-size:.34em; line-height:0; vertical-align:.9em; margin-left:.14em; font-family:inherit; font-weight:300; }
-  .hero { display:grid; grid-template-columns: 1.05fr .95fr; gap:40px; align-items:center; padding:40px 0 40px; }
+  .hero { padding:56px 0 0; }
+  .hero .text { max-width:60ch; margin:0 auto; text-align:center; }   /* centred like the finding above it (Alexis, 2026-09-18) */
   .hero h2 { font-size:48px; line-height:1.04; margin:14px 0 18px; }
-  .hero p.lede { font-size:19px; color:var(--ink-2); max-width:44ch; margin:0 0 18px; }
-  .hero p.lede + p.lede { margin-bottom:26px; }
+  .hero p.lede { font-size:19px; color:var(--ink-2); max-width:52ch; margin:0 auto 18px; }
   a.fn { font-size:11px; vertical-align:super; margin-left:3px; border:0; color:var(--accent); }
   .source { font-size:13px; color:var(--muted); max-width:66ch; margin:40px 0 0; padding-top:14px; border-top:1px solid var(--hair); }
   .finding .source { margin:18px auto 0; padding-top:0; border-top:0; text-align:center; max-width:80ch; }
-  .hero .cta { display:flex; gap:14px; align-items:center; flex-wrap:wrap; }
-  .hero .cta .free { font-size:13px; color:var(--muted); }
-  .hero .ring { position:relative; aspect-ratio:1; }
-  .hero .ring canvas { width:100%; height:100%; display:block; }
-  .shot { margin:24px 0 0; border-radius:10px; overflow:hidden; border:1px solid var(--hair); box-shadow:0 30px 80px rgba(0,0,0,.45); }
-  .shot img { display:block; width:100%; }
-  .section { padding:72px 0 0; display:grid; grid-template-columns: 1fr 1fr; gap:48px; align-items:center; }
-  .section.flip > .text { order:2; }
-  .section h2 { font-size:40px; line-height:1.08; margin:12px 0 14px; }
-  .section p { color:var(--ink-2); max-width:48ch; margin:0 0 12px; }
-  .section .shot { margin:0; }
-  .pads { padding:72px 0 0; }
-  .pads .row { display:grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap:0 32px; border-top:1px solid var(--hair); margin-top:18px; }
-  .pads .cell { padding:18px 0; border-bottom:1px solid var(--hair); }
-  .pads .cell b { display:block; font-family:"New York", ui-serif, "Newsreader", Georgia, serif; font-weight:300; font-size:26px; margin-bottom:6px; }
-  .pads .cell span { font-size:14px; color:var(--ink-2); }
-  .price { padding:72px 0 0; display:grid; grid-template-columns: 1fr 1fr; gap:48px; }
-  .price .tier { padding:26px 0; border-top:1px solid var(--hair); }
-  .price .tier b { display:block; font-family:"New York", ui-serif, "Newsreader", Georgia, serif; font-weight:300; font-size:34px; margin:6px 0 8px; }
-  .price .tier p { color:var(--ink-2); margin:0; }
-  @media (max-width: 820px) { .hero, .section, .price { grid-template-columns:1fr; } .finding h1 { font-size:42px; } .hero h2 { font-size:34px; } .section.flip > .text { order:0; } .hero .ring { max-width:380px; margin:0 auto; } }
+  .hero .cta { display:flex; gap:14px; align-items:center; justify-content:center; flex-wrap:wrap; }
+  .hero .cta .free { font-size:13px; color:var(--muted); flex-basis:100%; }
+  /* The ring inside a small app-like window (Alexis, 2026-09-18): rounded, on the walk's colour field, so the white ribbon reads on the light page. */
+  /* The app's window (2026-09-18): eight walks, each the walk screen at the app's own proportions — the ring at its real size, the walk's words inside it, the meters in the corners, on the walk's colour field — paged sideways like the book, with the app's chevrons and dots. Only the ring on the page animates. */
+  .hero .book { position:relative; margin-top:40px; }
+  .hero .strip { display:flex; gap:24px; overflow-x:auto; scroll-snap-type:x mandatory; scrollbar-width:none; border-radius:14px; }
+  .hero .strip.paging { scroll-snap-type:none; }   /* the snap lets go while a page turn is eased by hand */
+  .hero .strip::-webkit-scrollbar { display:none; }
+  .hero .strip .walk-window { flex:0 0 100%; scroll-snap-align:start; }
+  .hero .page { position:absolute; top:50%; transform:translateY(-50%); width:44px; height:44px; border:0; border-radius:999px; background:rgba(232,238,245,.85); color:var(--ink); font-size:22px; line-height:44px; text-align:center; cursor:pointer; box-shadow:0 6px 20px rgba(42,44,55,.18); }
+  .hero .page.prev { left:-22px; } .hero .page.next { right:-22px; }
+  .hero .dots { display:flex; justify-content:center; gap:10px; margin-top:18px; }
+  .hero .dots i { width:6px; height:6px; border-radius:50%; background:rgba(42,44,55,.28); cursor:pointer; }
+  .hero .dots i.on { background:rgba(42,44,55,.9); }
+  /* Below the film (2026-09-18, Alexis: "nice and tight"): the product with its ring, then the three questions a viewer asks, each answered in one row — the question in the serif, the answer beside it, the full page a click away. */
+  .answers { margin-top:72px; border-top:1px solid var(--hair); }
+  .answers .q { display:grid; grid-template-columns: 5fr 7fr; gap:40px; padding:36px 0; border-bottom:1px solid var(--hair); align-items:baseline; }
+  .answers h3 { font-size:34px; line-height:1.12; margin:0; }
+  .answers p { color:var(--ink-2); font-size:17px; max-width:52ch; margin:0 0 10px; }
+  .answers a.more { font-size:15px; }
+  @media (max-width: 820px) { .answers .q { grid-template-columns:1fr; } .finding h1 { font-size:42px; } .hero h2 { font-size:34px; } .hero .window { aspect-ratio:4/5; } .hero .window .stage { padding:0 10%; } .hero .window .stage h3 { font-size:30px; } .hero .window .stage p { font-size:13px; } .hero .page { display:none; } }
 </style>
 
 <section class="finding">
@@ -44,97 +44,94 @@ description: "The longest-lived people are nudged into moving every twenty minut
 <div class="shot film"><video src="{{ site.baseurl }}/assets/video/mosey-film.mp4" poster="{{ site.baseurl }}/assets/video/mosey-film-poster.jpg" autoplay muted loop playsinline controls preload="metadata" aria-label="Mosey, the film: the world's longest-lived people don't exercise, they get up and move every twenty minutes; a walking pad that starts on its own, a walk taken with the meeting, and the same walk at every hour of the day."></video></div>
 
 <section class="hero">
-  <div>
+  <div class="text">
     <div class="kicker">For your walking pad · macOS</div>
     <h2>Walks that start themselves.</h2>
-    <p class="lede">In the Blue Zones, movement is built into the day, not scheduled. Mosey builds that nudge into your workday: your walking pad starts on its own — an invitation to a walk that has already begun.</p>
+    <p class="lede">Twenty minutes at the desk, then your walking pad starts on its own — three minutes to twenty, a different walk each time, at a pace it sets. Step on when you're ready; step off whenever you like. Nothing counts down at you, nothing keeps a streak.</p>
     <div class="cta">
       {% if site.store_url %}
       <a class="btn" href="{{ site.store_url }}">Download on the Mac App Store</a>
-      <span class="free">Free. No account, nothing to unlock.</span>
       {% else %}
       <span class="btn soon" aria-disabled="true">Coming soon to the Mac App Store</span>
       {% endif %}
       <a class="btn quiet" href="{{ site.baseurl }}/blog/walks-that-start-themselves/">Read why →</a>
+      <span class="free">Free. No account, nothing to unlock.</span>
     </div>
   </div>
-  <div class="ring">
-    <canvas id="hero-ring" width="640" height="640" role="img" aria-label="The ring: a walk drawn as a single brushed loop. The white dot is the guide, walking the round from the start; the coloured dot is you, waiting at twelve, then catching the guide up and walking with it."></canvas>
+  <div class="book">
+    <div class="strip" id="book" role="region" aria-label="Eight of the fifty-two walks, each as Mosey shows it during the walk: the walk's name and its reason inside the ring, which draws the walk as a single brushed loop — radius is pace, thickness is the hill, light is how far you've come. Pace and climb top right, minutes to go bottom right."></div>
+    <button class="page prev" type="button" aria-label="Previous walk">‹</button>
+    <button class="page next" type="button" aria-label="Next walk">›</button>
+    <div class="dots" id="book-dots" aria-hidden="true"></div>
   </div>
 </section>
 
-<section class="section">
-  <div class="text">
-    <div class="kicker">The Nudge</div>
-    <h2>Twenty minutes at the desk, then a walk. No pressure, ever.</h2>
-    <p>You don't schedule a walk. You arm a rhythm. Every twenty minutes the belt starts and holds the door at a crawl; step on when you're ready, and the moment the pad feels your steps the walk takes its own pace and its own hills. Three minutes or twenty, then it eases down, stands by for twenty, and picks the next one.</p>
-    <p>The day opens short — the mailbox, the corner shop — and every walk you join makes the next ones a little longer. Skip one and nothing is lost. Step off mid-walk and nothing is wrong; the rest just started early. Nothing counts down at you, nothing turns red, nothing keeps a streak.</p>
+<section class="answers" id="store">
+  <div class="q">
+    <h3>Will it work with my walking pad?</h3>
+    <div>
+      <p>Very likely. Mosey talks to pads over Bluetooth the standard way, so it works with the Sportstech sPad500 we walk on every day and with twenty-odd others from KingSmith, Urevo, Mobvoi and WELLFIT. No pad yet? A demo pad is built in, so you can look around first.</p>
+      <a class="more" href="{{ site.baseurl }}/pads/">Check your pad →</a>
+    </div>
   </div>
-  <div class="shot"><img src="{{ site.baseurl }}/assets/img/walk.jpg" alt="A walk in progress: The Lock inside its ring, two dots on the line — the guide and you — pace and climb top right, seven minutes to go bottom right."></div>
-</section>
-
-<section class="section flip">
-  <div class="text">
-    <div class="kicker">The Round Book</div>
-    <h2>Fifty-two walks with a reason.</h2>
-    <p>Not workouts. The mailbox at three minutes. The coffee run up the hill at five. The lock on the canal at lunch. The trailhead twenty minutes from the office. Ten places and Anywhere, three to twenty minutes each — the length is the first thing you see.</p>
-    <p>Every walk choreographs pace <em>and</em> climb — the pad tilts where the story climbs. The ring draws it: radius is your pace, thickness is the hill, light is how far you've come. Two dots walk it: the guide, and you.</p>
+  <div class="q">
+    <h3>What are the walks?</h3>
+    <div>
+      <p>Fifty-two of them, three to twenty minutes, each with a reason: the mailbox, the coffee run up the hill, the trailhead twenty minutes from the office. Every walk sets its own pace and climb, and the ring draws it as you go — radius is your pace, thickness is the hill.</p>
+      <a class="more" href="{{ site.baseurl }}/walks/">Read the Round Book →</a>
+    </div>
   </div>
-  <div class="shot"><img src="{{ site.baseurl }}/assets/img/index.jpg" alt="The contents page: all fifty-two strolls by length, each with its ring, its place and its minutes."></div>
-</section>
-
-<section class="pads">
-  <div class="kicker">Which pads</div>
-  <h2 class="serif" style="font-size:40px;margin:12px 0 4px">Any pad that speaks Bluetooth FTMS.</h2>
-  <p style="color:var(--ink-2);max-width:60ch;margin:8px 0 0">Mosey has no pad-specific code: it looks for the standard Fitness Machine Service and drives whatever answers. Verified on the Sportstech sPad500; documented on KingSmith's Z1, R3 and X218, Urevo's SpaceWalk 3S, Mobvoi, WELLFIT and every pad that ships with the FitShow app. KingSmith's older models, DeerRun and Sperax run their own protocols and won't.</p>
-  <div class="row">
-    <div class="cell"><b>Verified</b><span>Sportstech sPad500 — speed, incline, and the pad's own step count, which is how Mosey knows you're on the belt. Walked every day.</span></div>
-    <div class="cell"><b>Should work</b><span>Twenty-odd pads with FTMS documented by Zwift, Kinomap or the QZ project. Without a step count the walk starts at once, as it did before.</span></div>
-    <div class="cell"><b>No pad yet?</b><span>Mosey ships a demo pad so you can see every screen before you buy one.</span></div>
-  </div>
-  {% include pads-table.html short=1 %}
-  <p style="color:var(--ink-2);max-width:60ch;margin:18px 0 0">These are the pads that work. Type any name to search the full list, including the ones that won't — or <a href="{{ site.baseurl }}/pads/">read the whole page</a>, with how to tell what's inside a pad sold under another name.</p>
-</section>
-
-<section class="price" id="store">
-  <div>
-    <div class="kicker">Price</div>
-    <div class="tier"><span class="kicker">Free</span><b>All of it.</b><p>The Nudge, all fifty-two walks, the index and the menu bar. No account, no subscription, nothing to unlock. If a paid book of new walks ever comes, this one stays free.</p></div>
-  </div>
-  <div>
-    <div class="kicker">&nbsp;</div>
-    {% if site.store_url %}
-    <div class="tier"><span class="kicker">Out now</span><b>Mac App Store</b><p>Mosey 1.2 is on the store. <a href="{{ site.store_url }}">Download it</a> — macOS 15 or later, any Bluetooth FTMS pad, or the demo pad to look around first.</p></div>
-    {% else %}
-    <div class="tier"><span class="kicker">Coming</span><b>Mac App Store</b><p>Mosey 1.2 has passed App Review. The link lands here the day it's out.</p></div>
-    {% endif %}
+  <div class="q">
+    <h3>What does it cost?</h3>
+    <div>
+      <p>Nothing. No account, no subscription, nothing to unlock. Mosey 1.2 runs on macOS 15 or later{% if site.store_url %} and is on the Mac App Store{% else %}; it is on its way to the Mac App Store, and the link lands here the day it's out{% endif %}.</p>
+      {% if site.store_url %}<a class="more" href="{{ site.store_url }}">Download on the Mac App Store →</a>{% endif %}
+    </div>
   </div>
 </section>
-
 
 <script>
 (function(){
   function go(){
     if(!window.Mosey){ return setTimeout(go, 40); }
     fetch('{{ site.baseurl }}/assets/data/rounds.json').then(r=>r.json()).then(function(data){
-      var pick = data.rounds.find(function(r){ return r.id==='the-trailhead'; }) || data.rounds[0];
-      var c = document.getElementById('hero-ring');
+      // Eight walks across the book's places and lengths, the Embarcadero first (its bay blue sits with the page).
+      var ids = ['the-embarcadero', 'the-mailbox', 'the-corner-shop', 'the-coffee-run', 'the-bakery', 'the-sento', 'the-lake-path', 'the-trailhead'];
       var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-      // Two on the ring: the guide sets off; you wait at twelve for nine
-      // seconds, catch up over four, and walk together. The bowl at the
-      // join is off on the homepage (Alexis, 2026-09-17): the film below
-      // has its own sound, and two sounds on one page is one too many.
-      var ring = new Mosey.Ring(c, pick, { duration: pick.duration || data.duration, loopSeconds: 60,
-        duet: reduce ? null : { waitSeconds: 9, catchSeconds: 4 } });
-      window.addEventListener('resize', function(){ ring.resize(); });
-      // The field lifted the way the film's slides are (slideColors in the
-      // generator): the walk's light colours lead, nothing sinks to black.
-      var mixc = function(a, b, f){ return [a[0]+(b[0]-a[0])*f, a[1]+(b[1]-a[1])*f, a[2]+(b[2]-a[2])*f]; };
-      var W = [1,1,1], pc = pick.colors, L = pc[0], A = pc[1]||pc[0], B = pc[2]||pc[0], Vc = pc[3]||A;
-      var lifted = [ mixc(L, W, 0.26), mixc(mixc(A, L, 0.35), W, 0.14), mixc(mixc(A, L, 0.50), W, 0.12), mixc(Vc, W, 0.18) ];   // the base built from accent and light, never from the night-dark base
-      var field = new Mosey.Field(document.getElementById('field'), lifted);
-      if (reduce) { ring.draw(); field.draw(); } else { ring.start(); field.start(); }
-      document.addEventListener('visibilitychange', function(){ if(document.hidden){ ring.stop(); field.stop(); } else if(!reduce){ ring.start(); field.start(); } });
+      var strip = document.getElementById('book'), dots = document.getElementById('book-dots');
+      var windows = [];
+      ids.forEach(function(id, i){
+        var r = data.rounds.find(function(x){ return x.id === id; }); if (!r) return;
+        var win = Mosey.WalkWindow(r, { duration: r.duration || data.duration, reduce: reduce });
+        strip.appendChild(win.el);
+        var dot = document.createElement('i'); dot.addEventListener('click', function(){ go(i); }); dots.appendChild(dot);
+        win.mount(); win.dot = dot;
+        windows.push(win);
+      });
+      var current = 0;
+      function show(i) { windows.forEach(function(x, k){ if (k === i) x.start(); else x.stop(); x.dot.classList.toggle('on', k === i); }); current = i; }
+      // A page turn eased by hand (Chrome cancels its own smooth scroll inside a snapping strip), the snap let go meanwhile.
+      var turning = null;
+      function go(i) {
+        i = (i + windows.length) % windows.length; show(i);
+        var from = strip.scrollLeft, to = windows[i].el.offsetLeft - strip.offsetLeft;
+        if (reduce) { strip.scrollLeft = to; return; }
+        if (turning) cancelAnimationFrame(turning);
+        strip.classList.add('paging');
+        var t0 = performance.now(), dur = 420;
+        (function step(now) {
+          var u = Math.min(1, (now - t0) / dur), e = 1 - Math.pow(1 - u, 3);
+          strip.scrollLeft = from + (to - from) * e;
+          if (u < 1) turning = requestAnimationFrame(step); else { turning = null; strip.classList.remove('paging'); }
+        })(t0);
+      }
+      document.querySelector('.page.prev').addEventListener('click', function(){ go(current - 1); });
+      document.querySelector('.page.next').addEventListener('click', function(){ go(current + 1); });
+      var settle; strip.addEventListener('scroll', function(){ if (turning) return; clearTimeout(settle); settle = setTimeout(function(){
+        var i = Math.round(strip.scrollLeft / (windows[0].el.offsetWidth + 24)); if (i !== current) show(Math.max(0, Math.min(windows.length - 1, i))); }, 80); });
+      window.addEventListener('resize', function(){ windows.forEach(function(x){ x.resize(); }); });
+      show(0);
+      document.addEventListener('visibilitychange', function(){ if (document.hidden) windows[current].stop(); else if (!reduce) windows[current].start(); });
     });
   }
   go();

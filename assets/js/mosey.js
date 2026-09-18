@@ -347,5 +347,47 @@
     }
   }
 
-  global.Mosey = { Ring, Field, Bowl, prepare, walkerColor };
+
+  /** The walk window: the app's walk screen for one round — the field drawn once, the ring live while
+   *  `start()`ed, the meters read off the round's beats at the ring's own point in its 60-second loop. */
+  function WalkWindow(round, opts) {
+    opts = Object.assign({ duration: round.duration || 1500, reduce: false, duet: true }, opts || {});
+    const el = document.createElement('div'); el.className = 'walk-window';
+    el.innerHTML = '<canvas class="field" aria-hidden="true"></canvas>'
+      + '<div class="meters" aria-hidden="true"><div class="meter"><b class="kmh">2.0</b><span>km/h</span></div><div class="meter"><b class="climb">0</b><span>climb level</span></div></div>'
+      + '<div class="meter togo" aria-hidden="true"><b class="left">' + round.minutes + '</b><span>min to go</span></div>'
+      + '<div class="stage" aria-hidden="true"><div class="kicker"></div><h3></h3><p></p></div>'
+      + '<canvas class="ring" width="640" height="640" aria-hidden="true"></canvas>';
+    el.querySelector('.kicker').textContent = ((round.kicker || 'Anywhere') + ' · ' + round.minutes + ' min').toUpperCase();
+    el.querySelector('h3').textContent = round.title;
+    el.querySelector('p').textContent = round.subtitle;
+    el.setAttribute('role', 'img');
+    el.setAttribute('aria-label', round.title + ' as Mosey shows it during the walk: its name and its reason inside the ring — radius is pace, thickness is the hill, light is how far you have come — pace and climb top right, minutes to go bottom right.');
+    const reduce = opts.reduce, dur = opts.duration;
+    let field = null, ring = null, timer = null;
+    function beatAt(sec, key) { let v = 0; (round.beats || []).forEach((b) => { if (b.t <= sec) v = b[key]; }); return v; }
+    function readouts() {
+      const f = reduce || !ring ? 0 : ((((performance.now() / 1000) - ring.t0) / 60) % 1 + 1) % 1;
+      const sec = f * dur;
+      el.querySelector('.kmh').textContent = beatAt(sec, 'speed').toFixed(1);
+      el.querySelector('.climb').textContent = beatAt(sec, 'incline');
+      el.querySelector('.left').textContent = Math.max(1, Math.ceil((dur - sec) / 60));
+    }
+    // Built lazily: the canvases need their laid-out size, so the window is mounted first, then `mount()`ed.
+    function mount() {
+      if (field) return;
+      field = new Field(el.querySelector('.field'), round.colors); field.draw();
+      ring = new Ring(el.querySelector('.ring'), round, { duration: dur, loopSeconds: 60, duet: (opts.duet && !reduce) ? { waitSeconds: 9, catchSeconds: 4 } : null });
+      ring.draw(); readouts();
+    }
+    return {
+      el,
+      mount,
+      start() { mount(); if (reduce) { ring.draw(); readouts(); return; } ring.start(); readouts(); if (!timer) timer = setInterval(readouts, 500); },
+      stop() { if (ring) ring.stop(); if (timer) { clearInterval(timer); timer = null; } },
+      resize() { if (field) { field.resize(); field.draw(); } if (ring) { ring.resize(); ring.draw(); } },
+    };
+  }
+
+  global.Mosey = { Ring, Field, Bowl, WalkWindow, prepare, walkerColor };
 })(window);

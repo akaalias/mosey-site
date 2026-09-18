@@ -34,13 +34,13 @@
 <meta name="twitter:description" content="{{ share_desc }}">
 <meta name="twitter:image" content="{{ share_image }}">
 <meta name="twitter:image:alt" content="{{ share_alt | escape }}">
-<meta name="theme-color" content="#2a2c37">
+<meta name="theme-color" content="#e8eef5">
 <link rel="icon" href="{{ site.baseurl }}/assets/img/icon.png">
 <link rel="apple-touch-icon" href="{{ site.baseurl }}/assets/img/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;1,6..72,300;1,6..72,400&display=swap">
 <style>
-  :root { --ground:#2a2c37; --ground-2:#33364a; --ink:#ecebe6; --ink-2:#b9bbc3; --muted:#858894; --hair:rgba(236,235,230,.14); --accent:#c8905a; --accent-soft:rgba(200,144,90,.14); }
+  :root { --ground:#e8eef5; --ground-2:#dbe4ee; --ink:#2a2c37; --ink-2:#4e5060; --muted:#7c7e8a; --hair:rgba(42,44,55,.14); --accent:#a06834; --accent-soft:rgba(160,104,52,.14); }   /* 2026-09-18 (Alexis): a very light blue ground, nothing animated; the old ground as ink */
   * { box-sizing: border-box; }
   body { margin:0; background:var(--ground); color:var(--ink); font-family:-apple-system,"SF Pro Text","Helvetica Neue",Helvetica,Arial,sans-serif; font-size:17px; line-height:1.6; -webkit-font-smoothing:antialiased; }
   a { color:var(--accent); text-decoration:none; border-bottom:1px solid var(--hair); }
@@ -61,17 +61,31 @@
   .prose ul { color:var(--ink-2); padding-left:1.2em; }
   .prose li { margin-bottom:6px; }
   .prose img { max-width:100%; border-radius:8px; }
-  .btn { display:inline-block; padding:11px 26px; border-radius:999px; border:1px solid rgba(236,235,230,.55); background:rgba(236,235,230,.14); color:var(--ink); font-size:14px; font-weight:500; }
-  .btn:hover { background:rgba(236,235,230,.24); border-color:rgba(236,235,230,.8); }
+  .btn { display:inline-block; padding:11px 26px; border-radius:999px; border:1px solid rgba(42,44,55,.55); background:rgba(42,44,55,.14); color:var(--ink); font-size:14px; font-weight:500; }
+  .btn:hover { background:rgba(42,44,55,.24); border-color:rgba(42,44,55,.8); }
   .btn.quiet { background:none; border-color:transparent; color:var(--ink-2); }
   .btn.soon { cursor:default; color:var(--ink-2); border-style:dashed; background:none; }
-  .btn.soon:hover { background:none; border-color:rgba(236,235,230,.55); }
-  nav .links a.btn.small { padding:7px 16px; color:var(--ink); border:1px solid rgba(236,235,230,.45); }
+  .btn.soon:hover { background:none; border-color:rgba(42,44,55,.55); }
+  nav .links a.btn.small { padding:7px 16px; color:var(--ink); border:1px solid rgba(42,44,55,.45); }
   footer { max-width:1040px; margin:0 auto; padding:28px 24px 48px; border-top:1px solid var(--hair); display:flex; flex-wrap:wrap; gap:18px 28px; font-size:13px; color:var(--muted); }
   footer a { color:var(--ink-2); border:0; }
   @media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
   .field { position:fixed; inset:0; width:100%; height:100%; z-index:-2; }
-  .scrim { position:fixed; inset:0; z-index:-1; background:linear-gradient(to bottom, rgba(42,44,55,.30) 0%, rgba(42,44,55,.10) 30%, rgba(42,44,55,.22) 60%, rgba(42,44,55,.34) 100%); pointer-events:none; }
+  .scrim { position:fixed; inset:0; z-index:-1; background:linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 45%, rgba(255,255,255,.30) 100%); pointer-events:none; }
+
+  /* The walk window (2026-09-18): the app's walk screen at the app's proportions — the walk's colour field (a still), the ring at its real size with the kicker, the title and the reason inside it, km/h and climb top right, minutes to go bottom right. Sizes are in cqw so the same window works at page width and at a column's. */
+  .walk-window { position:relative; container-type:inline-size; aspect-ratio:16/10; border-radius:14px; overflow:hidden; box-shadow:0 30px 80px rgba(42,44,55,.22); color:var(--ink); }
+  .walk-window canvas.field { position:absolute; inset:0; width:100%; height:100%; }
+  .walk-window canvas.ring { position:absolute; left:50%; top:50%; height:84%; aspect-ratio:1; transform:translate(-50%,-50%); }
+  .walk-window .stage { position:absolute; inset:0; display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; padding:0 20%; pointer-events:none; }
+  .walk-window .stage .kicker { color:rgba(42,44,55,.6); font-size:1.05cqw; letter-spacing:.32em; white-space:nowrap; }
+  .walk-window .stage h3 { font-family:"Newsreader", "New York", ui-serif, Georgia, serif; font-size:4.3cqw; line-height:1.05; margin:1.1cqw 0 1.3cqw; font-weight:300; }
+  .walk-window .stage p { font-size:1.55cqw; line-height:1.5; color:rgba(42,44,55,.8); margin:0; max-width:44ch; }
+  .walk-window .meter { text-align:right; pointer-events:none; }
+  .walk-window .meter b { display:block; font-weight:300; font-size:2.7cqw; line-height:1; color:rgba(42,44,55,.85); }
+  .walk-window .meter span { display:block; font-size:.85cqw; font-weight:600; letter-spacing:.3em; text-transform:uppercase; color:rgba(42,44,55,.5); margin-top:.3cqw; }
+  .walk-window .meters { position:absolute; top:2.5cqw; right:2.9cqw; display:flex; gap:2.5cqw; }
+  .walk-window .togo { position:absolute; bottom:2.5cqw; right:2.9cqw; }
 
   .shot.film video { width:100%; display:block; }
 </style>
@@ -82,9 +96,10 @@
 <nav>
   <a class="brand" href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/assets/img/icon.png" alt="">Mosey</a>
   <div class="links">
-    <a href="{{ site.baseurl }}/walks/">The Round Book</a>
+    <a href="{{ site.baseurl }}/walks/">Walks</a>
     <a href="{{ site.baseurl }}/pads/">Compatibility</a>
     <a href="{{ site.baseurl }}/blog/">Blog</a>
+    <a href="{{ site.baseurl }}/evolution/">Changelog</a>
     <a href="{{ site.baseurl }}/support/">Support</a>
     {% if site.store_url %}<a class="btn small" href="{{ site.store_url }}">Download</a>{% endif %}
   </div>
