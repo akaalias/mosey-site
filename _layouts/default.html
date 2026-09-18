@@ -60,6 +60,7 @@
   .prose ul { color:var(--ink-2); padding-left:1.2em; }
   .prose li { margin-bottom:6px; }
   .prose img { max-width:100%; border-radius:8px; }
+  .btn svg.dl { vertical-align:-2px; margin-right:7px; }
   .btn { display:inline-block; padding:11px 26px; border-radius:999px; border:1px solid rgba(42,44,55,.55); background:rgba(42,44,55,.14); color:var(--ink); font-size:14px; font-weight:500; }
   .btn:hover { background:rgba(42,44,55,.24); border-color:rgba(42,44,55,.8); }
   .btn.quiet { background:none; border-color:transparent; color:var(--ink-2); }
@@ -101,7 +102,7 @@
     <a href="{{ site.baseurl }}/blog/">Blog</a>
     <a href="{{ site.baseurl }}/evolution/">Evolution</a>
     <a href="{{ site.baseurl }}/making-of/">Video</a>
-    {% if site.store_url != "" %}<a class="btn small" href="{{ site.store_url }}">Download</a>{% else %}<span class="btn small soon" aria-disabled="true">Coming soon</span>{% endif %}
+    {% if site.store_url != "" %}<a class="btn small" href="{{ site.store_url }}"><svg class="dl" width="14" height="14" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 2v8M4.5 6.5 8 10l3.5-3.5M3 13h10" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>Download</a>{% else %}<span class="btn small soon" aria-disabled="true"><svg class="dl" width="14" height="14" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 2v8M4.5 6.5 8 10l3.5-3.5M3 13h10" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>Coming soon</span>{% endif %}
   </div>
 </nav>
 <main>
