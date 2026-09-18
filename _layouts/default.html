@@ -47,10 +47,9 @@
   a:hover, a:focus-visible { border-bottom-color:var(--accent); outline:none; }
   .serif, h1, h2, h3 { font-family:"Newsreader", "New York", ui-serif, Georgia, serif; font-weight:300; margin:0; text-wrap:balance; }
   .kicker { font-size:11px; font-weight:600; letter-spacing:.32em; text-transform:uppercase; color:var(--muted); }
-  nav { max-width:1040px; margin:0 auto; padding:22px 24px; display:flex; align-items:center; gap:28px; }
-  nav .brand { display:flex; align-items:center; gap:12px; border:0; color:var(--ink); font-family:"Newsreader", "New York", ui-serif, Georgia, serif; font-size:22px; }
-  nav .brand img { width:28px; height:28px; border-radius:7px; }
-  nav .links { margin-left:auto; display:flex; gap:22px; font-size:14px; }
+  nav { max-width:1040px; margin:0 auto; padding:22px 24px; display:flex; align-items:center; gap:28px; }   /* one centre line: the wordmark, the links, the button */
+  nav .brand { border:0; color:var(--ink); font-family:"Newsreader", "New York", ui-serif, Georgia, serif; font-size:24px; line-height:1; }
+  nav .links { margin-left:auto; display:flex; align-items:center; gap:22px; font-size:14px; line-height:1; }
   nav .links a { border:0; color:var(--ink-2); }
   nav .links a:hover { color:var(--ink); }
   main { max-width:1040px; margin:0 auto; padding:0 24px 96px; }
@@ -66,7 +65,7 @@
   .btn.quiet { background:none; border-color:transparent; color:var(--ink-2); }
   .btn.soon { cursor:default; color:var(--ink-2); border-style:dashed; background:none; }
   .btn.soon:hover { background:none; border-color:rgba(42,44,55,.55); }
-  nav .links a.btn.small { padding:7px 16px; color:var(--ink); border:1px solid rgba(42,44,55,.45); }
+  nav .links a.btn.small { padding:8px 16px; color:var(--ink); border:1px solid rgba(42,44,55,.45); line-height:1; margin-left:6px; }
   footer { max-width:1040px; margin:0 auto; padding:28px 24px 48px; border-top:1px solid var(--hair); display:flex; flex-wrap:wrap; gap:18px 28px; font-size:13px; color:var(--muted); }
   footer a { color:var(--ink-2); border:0; }
   @media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
@@ -94,7 +93,7 @@
 <body>
 {% if page.field %}<canvas class="field" id="field" aria-hidden="true"></canvas><div class="scrim" aria-hidden="true"></div>{% endif %}
 <nav>
-  <a class="brand" href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/assets/img/icon.png" alt="">Mosey</a>
+  <a class="brand" href="{{ site.baseurl }}/">Mosey</a>
   <div class="links">
     <a href="{{ site.baseurl }}/walks/">Walks</a>
     <a href="{{ site.baseurl }}/pads/">Compatibility</a>
