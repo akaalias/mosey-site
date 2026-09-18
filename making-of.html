@@ -26,7 +26,10 @@ description: "How Mosey's film was made, stage by stage — the plan, the script
   .mk svg.marker { position:absolute; left:-12%; top:-12%; width:124%; height:124%; overflow:visible; pointer-events:none; mix-blend-mode:multiply; }
   .meta { font-size:11px; letter-spacing:.04em; color:var(--muted); margin:14px 2px 0; }
   .row { gap:26px; }
-  figure.wide { padding:0 10px; }
+  /* Wide prints (sheets, filmstrips) take the whole window, not the column. */
+  figure.wide { width:100vw; margin-left:calc(50% - 50vw); padding:0 28px; }
+  figure.wide figcaption, figure.wide .meta { max-width:1040px; margin-left:auto; margin-right:auto; }
+  figure.wide figcaption { padding:0 4px; } figure.wide .meta { padding:0 6px; }
   /* The lightbox: any asset full size; images zoom with the wheel and drag to pan. */
   .lb { position:fixed; inset:0; z-index:50; display:none; background:rgba(42,44,55,.92); align-items:center; justify-content:center; cursor:zoom-out; }
   .lb[data-open="1"] { display:flex; }
