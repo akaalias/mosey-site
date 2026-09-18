@@ -259,7 +259,17 @@ description: "How Mosey's film was made, stage by stage — the plan, the script
     var ink = '#1f3a93', sw = 3;   // one marker: Sharpie blue, one nib, on every print
     var opts = { roughness: u(2.0, 3.0), bowing: u(1.5, 3), stroke: ink, strokeWidth: sw, fill: 'none', seed: seed, curveStepCount: 12 };
     var g = document.createElementNS('http://www.w3.org/2000/svg', 'g'); g.setAttribute('opacity', '0.7'); g.setAttribute('stroke-linecap', 'round'); g.setAttribute('stroke-linejoin', 'round');
-    if (keep) {
+    var wide = W / H > 2.4;
+    if (wide && keep) {
+      // a wide print: a box drawn round it by hand, the corners not quite meeting
+      var m = u(8, 16);
+      g.appendChild(rc.rectangle(-m + u(-4, 4), -m + u(-4, 4), W + 2 * m + u(-6, 6), H + 2 * m + u(-6, 6), Object.assign({}, opts, { roughness: u(1.6, 2.4), bowing: u(1, 2) })));
+    } else if (wide) {
+      // a wide print: struck through the middle, twice, not quite level
+      var y1 = H * u(0.4, 0.6), y2 = H * u(0.4, 0.6);
+      g.appendChild(rc.line(W * u(-0.02, 0.05), y1, W * u(0.95, 1.03), y1 + H * u(-0.15, 0.15), opts));
+      g.appendChild(rc.line(W * u(0.97, 1.03), y2, W * u(-0.03, 0.04), y2 + H * u(-0.15, 0.15), Object.assign({}, opts, { seed: seed + 7 })));
+    } else if (keep) {
       // a loose loop: off-centre, wider than tall or the other way, tilted, overshooting its start
       var cx = W / 2 + u(-0.08, 0.08) * W, cy = H / 2 + u(-0.08, 0.08) * H, rx = W * u(0.46, 0.58), ry = H * u(0.5, 0.64), rot = u(-0.3, 0.3);
       var pts = [], start = u(0, 6.28), n = 28;
