@@ -1,0 +1,86 @@
+---
+layout: default
+title: Backlog
+permalink: /backlog/
+description: "What's on Mosey's board: the tickets, iced, next, in hand and done."
+---
+
+<style>
+  .bl-head { padding:28px 0 10px; max-width:70ch; }
+  .bl-head h1 { font-size:46px; line-height:1.08; margin:14px 0 14px; }
+  .bl-head p { color:var(--ink-2); margin:0 0 10px; }
+  .bl-cols { display:grid; grid-template-columns:repeat(4, minmax(0,1fr)); gap:18px; margin-top:26px; align-items:start; }
+  .bl-col h2 { font-family:"Newsreader", "New York", ui-serif, Georgia, serif; font-weight:400; font-size:22px; margin:0; }
+  .bl-col .bl-sub { display:block; font-size:12px; color:var(--muted); margin:2px 0 12px; }
+  .bl-col .bl-sub b { color:var(--ink-2); font-weight:500; }
+  .bl-list { list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:8px; }
+  .bl-card { display:block; padding:11px 13px 10px; border-radius:10px; background:rgba(255,255,255,.55); border:1px solid var(--hair); }
+  .bl-col.done .bl-card { background:rgba(255,255,255,.3); }
+  .bl-num { display:inline-block; font-size:11px; color:var(--muted); margin-right:6px; vertical-align:1px; }
+  .bl-title { font-family:"Newsreader", "New York", ui-serif, Georgia, serif; font-size:15.5px; line-height:1.3; color:var(--ink); text-wrap:pretty; }
+  .bl-col.done .bl-title { color:var(--ink-2); }
+  .bl-kick { display:block; margin-top:6px; font-size:10px; font-weight:600; letter-spacing:.24em; text-transform:uppercase; color:var(--muted); }
+  .bl-foot { max-width:66ch; margin:30px 0 0; padding-top:14px; border-top:1px solid var(--hair); font-size:13px; color:var(--muted); }
+  @media (max-width: 900px) { .bl-cols { grid-template-columns:repeat(2, minmax(0,1fr)); } }
+  @media (max-width: 560px) { .bl-cols { grid-template-columns:1fr; } .bl-head h1 { font-size:34px; } }
+</style>
+
+<div class='bl-head'><div class='kicker'>Mosey · Backlog</div><h1>What's on the board.</h1><p>The tickets as they stand: what's iced, what's next, what's in hand, what's done. Every one is a real ticket in the project's tracker; this page is a print of them.</p></div>
+<div class='bl-cols'>
+<section class='bl-col icebox'><h2>Icebox</h2><span class='bl-sub'><b>13</b> · later, or on hold</span><ul class='bl-list'>
+<li class='bl-card'><span class='bl-num'>#5</span><span class='bl-title'>Protocols: FitShow proprietary fallback (for FitShow modules that don&#x27;t expose FTMS)</span><span class='bl-kick'>protocols · later</span></li>
+<li class='bl-card'><span class='bl-num'>#16</span><span class='bl-title'>Marketing: research the most effective organic approach on X/Twitter and TikTok (assume iOS, KingSmith support and localization exist)</span><span class='bl-kick'>marketing · later</span></li>
+<li class='bl-card'><span class='bl-num'>#34</span><span class='bl-title'>Story: &quot;sitting is the new smoking&quot; — the sedentary-time research on the Research page and in a post</span><span class='bl-kick'>messaging · later</span></li>
+<li class='bl-card'><span class='bl-num'>#35</span><span class='bl-title'>Android: the Android version</span><span class='bl-kick'>Android · later</span></li>
+<li class='bl-card'><span class='bl-num'>#38</span><span class='bl-title'>The orb: a more magic presence than the breath</span><span class='bl-kick'>feature · later</span></li>
+<li class='bl-card'><span class='bl-num'>#40</span><span class='bl-title'>Walk together: invite up to three friends, get told when one is on a stroll, and join them live — their orb and yours on the same ring</span><span class='bl-kick'>feature · later</span></li>
+<li class='bl-card'><span class='bl-num'>#7</span><span class='bl-title'>Localization: infrastructure — String Catalog, per-storefront metadata, per-language site, localized screenshot harness</span><span class='bl-kick'>localization · on hold</span></li>
+<li class='bl-card'><span class='bl-num'>#8</span><span class='bl-title'>Localization: German (de-DE) — first: Sportstech&#x27;s home market; Alexis proofreads</span><span class='bl-kick'>localization · on hold</span></li>
+<li class='bl-card'><span class='bl-num'>#9</span><span class='bl-title'>Localization: French (fr-FR)</span><span class='bl-kick'>localization · on hold</span></li>
+<li class='bl-card'><span class='bl-num'>#10</span><span class='bl-title'>Localization: Spanish (es-ES / es-MX)</span><span class='bl-kick'>localization · on hold</span></li>
+<li class='bl-card'><span class='bl-num'>#11</span><span class='bl-title'>Localization: Portuguese (pt-BR primary, pt-PT)</span><span class='bl-kick'>localization · on hold</span></li>
+<li class='bl-card'><span class='bl-num'>#12</span><span class='bl-title'>Localization: Japanese (ja) — needs a CJK serif and native review</span><span class='bl-kick'>localization · on hold</span></li>
+<li class='bl-card'><span class='bl-num'>#13</span><span class='bl-title'>Localization: Chinese, Simplified (zh-Hans) — needs a CJK serif and native review</span><span class='bl-kick'>localization · on hold</span></li>
+</ul></section>
+<section class='bl-col todo'><h2>To do</h2><span class='bl-sub'><b>12</b> · next, in order</span><ul class='bl-list'>
+<li class='bl-card'><span class='bl-num'>#1</span><span class='bl-title'>Protocols: a second backend behind PadManager (the seam for KingSmith, Gymax, FitShow)</span><span class='bl-kick'>protocols · first</span></li>
+<li class='bl-card'><span class='bl-num'>#2</span><span class='bl-title'>Protocols: KingSmith v1 — WalkingPad A1, A1 Pro, C1, C2, R1, R1 Pro</span><span class='bl-kick'>protocols · first</span></li>
+<li class='bl-card'><span class='bl-num'>#3</span><span class='bl-title'>Protocols: KingSmith v2 — WalkingPad R2, X21, K12 Pro, MXG, G1C</span><span class='bl-kick'>protocols · first</span></li>
+<li class='bl-card'><span class='bl-num'>#6</span><span class='bl-title'>Protocols: hardware and testers — a used WalkingPad A1, and an external TestFlight group from the pads page</span><span class='bl-kick'>protocols · first</span></li>
+<li class='bl-card'><span class='bl-num'>#14</span><span class='bl-title'>Messaging &amp; ASO, English: one voice across app, store, screenshots, site, blog — iterate until it fits</span><span class='bl-kick'>messaging · first</span></li>
+<li class='bl-card'><span class='bl-num'>#30</span><span class='bl-title'>Story: a top-level &quot;Research&quot; page — the Blue Zones and Buettner&#x27;s findings for someone who has never heard of them, and how Mosey applies them</span><span class='bl-kick'>messaging · first</span></li>
+<li class='bl-card'><span class='bl-num'>#47</span><span class='bl-title'>The video: one live-action master, cut for the homepage, the App Preview, TikTok/Shorts, and the first email to a buyer</span><span class='bl-kick'>messaging · first</span></li>
+<li class='bl-card'><span class='bl-num'>#48</span><span class='bl-title'>Pads without a step counter never leave the waiting pace: presence must be assumed where it can&#x27;t be sensed</span><span class='bl-kick'>protocols · bug · first</span></li>
+<li class='bl-card'><span class='bl-num'>#4</span><span class='bl-title'>Protocols: Gymax / Goplus</span><span class='bl-kick'>protocols · next</span></li>
+<li class='bl-card'><span class='bl-num'>#15</span><span class='bl-title'>iOS: the iPhone version</span><span class='bl-kick'>iOS · next</span></li>
+<li class='bl-card'><span class='bl-num'>#33</span><span class='bl-title'>Story: an FAQ — a section on the homepage, later a standalone page</span><span class='bl-kick'>messaging · next</span></li>
+<li class='bl-card'><span class='bl-num'>#54</span><span class='bl-title'>How it works: the film&#x27;s clips inside the app (and an App Preview from it)</span><span class='bl-kick'></span></li>
+</ul></section>
+<section class='bl-col doing'><h2>Doing</h2><span class='bl-sub'><b>2</b> · in hand</span><ul class='bl-list'>
+<li class='bl-card'><span class='bl-num'>#53</span><span class='bl-title'>The video, before the shoot: an AI stand-in with the same script as the live-action film (#47)</span><span class='bl-kick'>messaging · next</span></li>
+<li class='bl-card'><span class='bl-num'>#63</span><span class='bl-title'>Site: a Backlog page in the footer — the tickets in four columns, icebox · todo · doing · done, drawn from GitHub Issues by a script</span><span class='bl-kick'>messaging · next</span></li>
+</ul></section>
+<section class='bl-col done'><h2>Done</h2><span class='bl-sub'><b>20</b> · shipped, newest first</span><ul class='bl-list'>
+<li class='bl-card'><span class='bl-num'>#62</span><span class='bl-title'>Evolution page: the days since daylight (the making of, the demo pad left on, settings) and the arrows — the understanding behind seven trunk nodes</span><span class='bl-kick'>messaging · 21 Sep</span></li>
+<li class='bl-card'><span class='bl-num'>#61</span><span class='bl-title'>The film&#x27;s release chain written down, and the rule: recover the recipe before re-rendering a released artefact</span><span class='bl-kick'>docs · 21 Sep</span></li>
+<li class='bl-card'><span class='bl-num'>#60</span><span class='bl-title'>The link card: og.jpg from the film&#x27;s walk, so a shared link shows the pad and the person</span><span class='bl-kick'>messaging · 21 Sep</span></li>
+<li class='bl-card'><span class='bl-num'>#59</span><span class='bl-title'>Newsreader everywhere: the serif bundled in the app, Font.serif() as the one serif call, the generators and the site on the same face</span><span class='bl-kick'>feature · 21 Sep</span></li>
+<li class='bl-card'><span class='bl-num'>#58</span><span class='bl-title'>The site in daylight: light-blue ground, the film at the top, the book of eight walks paged sideways, the three questions, nav and footer, &#x27;Coming soon&#x27;</span><span class='bl-kick'>messaging · 21 Sep</span></li>
+<li class='bl-card'><span class='bl-num'>#57</span><span class='bl-title'>Golden hour: the colour fields in daylight — app, film v4.0, icon</span><span class='bl-kick'>feature · 21 Sep</span></li>
+<li class='bl-card'><span class='bl-num'>#56</span><span class='bl-title'>Settings window (⌘,): General · Pads · About — live/demo toggle, a list of pads with add (via the onboarding steps) and forget, app info</span><span class='bl-kick'>feature · 21 Sep</span></li>
+<li class='bl-card'><span class='bl-num'>#55</span><span class='bl-title'>Behind the scenes: how the film was made (a scroll-through page on the site)</span><span class='bl-kick'>18 Sep</span></li>
+<li class='bl-card'><span class='bl-num'>#52</span><span class='bl-title'>Site: the evolution graph at the full width of the browser</span><span class='bl-kick'>messaging · 16 Sep</span></li>
+<li class='bl-card'><span class='bl-num'>#51</span><span class='bl-title'>Site: the top navigation&#x27;s labels read weird — &#x27;How it happened&#x27; first</span><span class='bl-kick'>messaging · 16 Sep</span></li>
+<li class='bl-card'><span class='bl-num'>#50</span><span class='bl-title'>Site: the walks page as the app&#x27;s contents page — bands, rows, rings as stills; no live animation</span><span class='bl-kick'>messaging · 16 Sep</span></li>
+<li class='bl-card'><span class='bl-num'>#49</span><span class='bl-title'>Site hero: the guide and the human on the ring — the guide sets off, the human catches up, the joining bowl sounds</span><span class='bl-kick'>messaging · 16 Sep</span></li>
+<li class='bl-card'><span class='bl-num'>#42</span><span class='bl-title'>Style guide: the components we have so far, in one document (typography, buttons, meters, the ring, the stage)</span><span class='bl-kick'>docs · 10 Sep</span></li>
+<li class='bl-card'><span class='bl-num'>#46</span><span class='bl-title'>The site: a &#x27;how Mosey happened&#x27; timeline page — the project&#x27;s evolution drawn as one branching graph, from the lab notebook</span><span class='bl-kick'>messaging · feature · 7 Sep</span></li>
+<li class='bl-card'><span class='bl-num'>#45</span><span class='bl-title'>The Nudge listens: pick the next stroll from how much you walked the last one (a ladder over the book&#x27;s bands)</span><span class='bl-kick'>feature · 7 Sep</span></li>
+<li class='bl-card'><span class='bl-num'>#44</span><span class='bl-title'>The Round Book&#x27;s grid: barren next to the slideshow — too many per row, broken titles, an × nobody can see</span><span class='bl-kick'>feature · 5 Sep</span></li>
+<li class='bl-card'><span class='bl-num'>#43</span><span class='bl-title'>Polish and finalize the button design</span><span class='bl-kick'>feature · 5 Sep</span></li>
+<li class='bl-card'><span class='bl-num'>#41</span><span class='bl-title'>The Nudge&#x27;s Begin: the big breathing circle looks weird and lazy — use the standard glass capsule button</span><span class='bl-kick'>feature · 5 Sep</span></li>
+<li class='bl-card'><span class='bl-num'>#39</span><span class='bl-title'>The belt waits at 1.0 km/h, flat, until you&#x27;ve joined the walk — the stroll&#x27;s speed and incline only with a walker on the belt</span><span class='bl-kick'>feature · 5 Sep</span></li>
+<li class='bl-card'><span class='bl-num'>#32</span><span class='bl-title'>Round Book v3: strolls of 3 to 20 minutes, twenty-minute rests — the rhythm the finding actually describes</span><span class='bl-kick'>4 Sep</span></li>
+</ul></section>
+</div>
+<p class='bl-foot'>Drawn from the project's issue tracker by a script and refreshed about once a week; last printed 21 September 2026. Mosey is built by Alexis Rondeau with Claude.</p>
