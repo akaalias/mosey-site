@@ -20,7 +20,10 @@ description: "Three months of a walking-pad app, drawn as one branching graph: w
     background:linear-gradient(to right, rgba(42,44,55,.10), transparent 40px), linear-gradient(to left, rgba(42,44,55,.10), transparent 40px); }
   .evo-figure::-webkit-scrollbar { height:8px; }
   .evo-figure::-webkit-scrollbar-thumb { background:var(--hair); border-radius:4px; }
-  .evo-figure svg { display:block; }
+  .evo-figure svg { display:block; flex:none; }
+  /* Room after "today", in the last era's shade, so the newest dot can glide to the centre of the window instead of the right edge. */
+  .evo-figure { display:flex; }
+  .evo-figure::after { content:""; flex:0 0 max(0px, calc(50vw - 256px)); background:rgba(42,44,55,.055); }
   .evo-figure svg text { paint-order:stroke; stroke:var(--ground); stroke-width:3px; stroke-linejoin:round; }
   .evo-read { max-width:66ch; margin:26px 0 0; color:var(--ink-2); }
   .evo-read b { color:var(--ink); font-weight:500; }
