@@ -59,6 +59,12 @@ figure.card { margin:0; }
 .empty { color:var(--muted); font-size:12px; }
 .flow { position:relative; height:130px; margin:0 32px; }
 .conv .flow { margin:0; }
+.letter { max-width:62ch; margin:10px 0 56px; font-family:"Newsreader", "New York", ui-serif, Georgia, serif; font-size:18px; line-height:1.55; color:var(--ink); }
+.letter p { margin:0 0 18px; }
+.letter h2 { font-family:inherit; font-weight:400; font-size:22px; margin:30px 0 10px; }
+.letter .sig { margin-top:26px; }
+.letter .sig.serif { font-style:italic; font-size:26px; }
+.letter .also { font-family:-apple-system,"SF Pro Text","Helvetica Neue",Helvetica,Arial,sans-serif; font-size:14px; margin-top:34px; }
 .conv .row { padding-left:0; padding-right:0; }
 .conv .call { padding-left:24px; }
 .conv .resp { padding-right:24px; }
@@ -90,7 +96,23 @@ a { color:inherit; }
 @media (max-width: 900px) { .row { grid-template-columns:1fr; } .resp { border-left:0; border-top:1px dashed var(--hair); padding-left:0; } .call { padding-right:0; } }
 </style>
 
-<div class='conv'><div class='evo-head' style='padding:28px 0 10px;max-width:70ch'><div class='kicker'>The film</div><h1 style='font-size:46px;line-height:1.08;margin:14px 0 14px'>The conversation.</h1></div>
+<div class='conv'><div class='evo-head' style='padding:28px 0 10px;max-width:70ch'><div class='kicker'>Mosey · The film</div><h1 style='font-size:46px;line-height:1.08;margin:14px 0 14px'>How the film was made.</h1></div><div class='letter'><p>Hey there! Alexis here. I&#x27;m the author of Mosey and director of the little film. As you may (or not) have guessed, the film was created with AI. If you&#x27;re (like me) skeptical at this point, please read on.</p>
+<p>On this page, I want to show you exactly HOW I created it with AI so that you have a chance deciding for yourself if it&#x27;s &quot;slop or not.&quot;</p>
+<h2>Why is this important?</h2>
+<p>Well, it&#x27;s important to me. I&#x27;m personally getting more and more sensitive and frustrated with content because a.) I can&#x27;t tell the difference between human-made and AI-generated anymore and b.) I can&#x27;t tell if the person behind the artifact (blog-post, twitter message, promo video like this one) actually even cared about making it.</p>
+<p>In fact, this page here is a kind of &quot;prototype&quot; of how I wish digital, AI-created content emerged. Was it a sloppy, careless one-shot of &quot;Hey Claude. Make a cool video. Make no mistakes&quot; or did the person behind the keyboard (in this case myself) actually put in the legwork?</p>
+<p>I believe that giving you full access to my honest, imperfect, human side of the &quot;creation&quot; (warts and all), you and I get a fair chance to meet at eye-level on all of this.</p>
+<h2>How does this page work?</h2>
+<p>So, the page you&#x27;re seeing is the full transcript of the &quot;conversation&quot; that I had with Claude Code to create an &quot;explainer&quot;/promo kind of film that I could put on the frontpage to explain what this whole Mosey.app is about and why someone should get it.</p>
+<p>On the left side, you see my actual text inputs (or prompts although I would not call them that) which I sent to Claude Code. On the right side you&#x27;ll see the assets (pictures, video clips and audio files) that Claude Code created in response.</p>
+<p>When there was a intermediate deliverable (called &quot;Cuts&quot;) where I felt like we had reached a milestone, you&#x27;ll see them in row on their own. They&#x27;re small highlights on the way to the final cut.</p>
+<p>What I&#x27;ve left out: I&#x27;ve left out Claude Code&#x27;s textual parts of the responses because they were mostly blathery fill-in wordsalat padding around the assets (which is what I cared for the most)</p>
+<p>What I&#x27;ve left IN: In this version I&#x27;m leaving in ALL of it. ESPECIALLY the warts. You&#x27;ll see my cursing and insulting and threatening Claude Code in ALL CAPS. Basically, you&#x27;ll see me at my worst. This is incredibly embarassing to share but I feel like it&#x27;s the most honest, too. It&#x27;s how this sausage was made.</p>
+<p>Your task now is to scroll down, read what I wrote and decide for yourself.</p>
+<p>Thank you and with best wishes,</p>
+<p>Alexis</p>
+<p class='sig serif'>Alexis</p>
+<p class='also'><a href='{{ site.baseurl }}/making-of/'>The making-of, stage by stage →</a></p></div>
 <section class='row aside' id='row1'><div class='call'><div class='when'><a class='num' id='m1' href='#m1'>#1</a>Alexis wrote at 17 September 12:43</div><div class='msg'><span class='oq'>“</span>Okay, let&#x27;s think of what&#x27;s more likely for a home office setup:
 
 1. My own setup: I have a non-height-adjustable table and chair and the walking pad is next to my table. Meaning, when I step onto the pad, I take my laptop with and place it on top of the shelf that is next to my pad. This allows me to partake in a meeting while walking with minimal change. 
