@@ -96,6 +96,10 @@ figure.card { margin:0; }
 .cutrow { padding:18px 32px 22px; background:rgba(31,32,40,.035); border:1px solid var(--hair); }
 .cutrow .card { max-width:680px; margin:0 auto; }
 .cutrow.filmrow .card { max-width:960px; }
+.finrow { text-align:center; padding:56px 24px 60px; }
+.finrow .fin { font-family:"Newsreader", "New York", ui-serif, Georgia, serif; font-size:64px; line-height:1; margin:0 0 22px; color:var(--ink); }
+.finrow .home { margin:0 0 10px; font-size:15px; }
+.finrow .count { margin:0; font-size:12px; color:var(--muted); }
 .filmhead { max-width:960px; margin:0 auto 14px; font-size:30px; scroll-margin-top:24px; }
 .filmhead a { color:inherit; border:0; }
 .cutrow.filmrow { scroll-margin-top:24px; }
@@ -776,7 +780,8 @@ It&#x27;s FLICKERING for each frame of the countdown! YOU CANT DO THIS.<span cla
 <section class='cutrow'><div class='group'>cut · after #130</div><figure class='card' data-w='267' style='--cw:267px'><video src='{{ site.baseurl }}/assets/conversation/8a647bab-mosey-film-v4.1.mp4' controls preload='none' poster='{{ site.baseurl }}/assets/conversation/posters/8a647bab-mosey-film-v4.1.jpg'></video><figcaption><b>mosey-film-v4.1.mp4</b><span>the cut with the score laid on · tools/video_score.py --lay · €0 · 1280×720 · 71.6 s · 6.6 MB</span></figcaption></figure></section>
 <div class='flow' data-x0='50' data-x1='50'><svg></svg></div>
 <section class='cutrow'><div class='group'>cut · after #130</div><figure class='card' data-w='267' style='--cw:267px'><video src='{{ site.baseurl }}/assets/conversation/8a647bab-mosey-film.mp4' controls preload='none' poster='{{ site.baseurl }}/assets/conversation/posters/8a647bab-mosey-film.jpg'></video><figcaption><b>mosey-film.mp4</b><span>the cut with the score laid on · tools/video_score.py --lay · €0 · 1920×1080 · 71.6 s · 24.6 MB</span></figcaption></figure></section>
-<p class='evo-foot' style='max-width:66ch;margin:40px 0 0;padding-top:14px;border-top:1px solid var(--hair);font-size:13px;color:var(--muted)'>130 messages · 534 artefacts.</p></div><script>
+<div class='flow' data-x0='75' data-x1='50'><svg></svg></div>
+<section class='cutrow finrow'><p class='fin'>Fin.</p><p class='home'><a href='{{ site.baseurl }}/'>Back to the homepage</a></p><p class='count'>130 messages · 534 artefacts</p></section></div><script>
 (function(){
   var STEP = 30, PAD = 12;
   function layout(st){
